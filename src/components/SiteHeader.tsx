@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { PlusIcon } from "./icons";
+import { GetStartedDialog } from "./GetStartedDialog";
 import { cn } from "@/lib/utils";
 
 const NAV = [
@@ -15,10 +16,24 @@ const NAV = [
 
 export function SiteHeader() {
   const [scrolled, setScrolled] = useState(false);
+  const [hidden, setHidden] = useState(false);
   const [open, setOpen] = useState(false);
+  const [formOpen, setFormOpen] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 80);
+    let lastY = window.scrollY;
+    const onScroll = () => {
+      const y = window.scrollY;
+      setScrolled(y > 80);
+      if (y < 80) {
+        setHidden(false);
+      } else if (y > lastY + 4) {
+        setHidden(true);
+      } else if (y < lastY - 4) {
+        setHidden(false);
+      }
+      lastY = y;
+    };
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
@@ -34,7 +49,12 @@ export function SiteHeader() {
   }, [open]);
 
   return (
-    <header className="pointer-events-none fixed inset-x-0 top-0 z-50">
+    <header
+      className={cn(
+        "pointer-events-none fixed inset-x-0 top-0 z-50 transition-transform duration-300 ease-out",
+        hidden && !open ? "-translate-y-full" : "translate-y-0"
+      )}
+    >
       <nav
         className={cn(
           "group pointer-events-auto w-full transition-all duration-500",
@@ -50,24 +70,39 @@ export function SiteHeader() {
             </span>
           </Link>
 
-          <button
-            aria-label={open ? "Close menu" : "Open menu"}
-            aria-expanded={open}
-            onClick={() => setOpen((v) => !v)}
-            className={cn(
-              "flex size-9 items-center justify-center rounded-full transition-colors",
-              scrolled || open
-                ? "bg-almost-black text-copula-white"
-                : "bg-copula-white text-copula-orange"
-            )}
-          >
-            <PlusIcon
+          <div className="flex items-center gap-3">
+            <button
+              type="button"
+              onClick={() => setFormOpen(true)}
               className={cn(
-                "size-3 transition-transform duration-300",
-                open && "rotate-45"
+                "inline-flex items-center justify-center rounded-full border-2 px-5 py-2 text-sm font-semibold uppercase tracking-wider transition-all duration-300 hover:scale-110 hover:bg-almost-black hover:text-copula-white hover:border-almost-black",
+                scrolled || open
+                  ? "border-almost-black text-almost-black"
+                  : "border-copula-white text-copula-white"
               )}
-            />
-          </button>
+            >
+              Get Started
+            </button>
+
+            <button
+              aria-label={open ? "Close menu" : "Open menu"}
+              aria-expanded={open}
+              onClick={() => setOpen((v) => !v)}
+              className={cn(
+                "flex size-9 items-center justify-center rounded-full transition-colors",
+                scrolled || open
+                  ? "bg-almost-black text-copula-white"
+                  : "bg-copula-white text-copula-orange"
+              )}
+            >
+              <PlusIcon
+                className={cn(
+                  "size-3 transition-transform duration-300",
+                  open && "rotate-45"
+                )}
+              />
+            </button>
+          </div>
         </div>
 
         <div
@@ -113,6 +148,8 @@ export function SiteHeader() {
           AI Systems For Modern Businesses
         </p>
       </div>
+
+      <GetStartedDialog open={formOpen} onClose={() => setFormOpen(false)} />
     </header>
   );
 }
