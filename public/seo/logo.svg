@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="TheClientPilot Logo">
+  <rect width="512" height="512" rx="96" fill="#0A0A0A"/>
+  <text x="50%" y="54%" text-anchor="middle" dominant-baseline="middle"
+        font-family="'Bebas Neue', 'Arial Narrow', Impact, sans-serif"
+        font-weight="700" font-size="220" letter-spacing="6" fill="#FFFFFF">TCP</text>
+  <text x="50%" y="78%" text-anchor="middle" dominant-baseline="middle"
+        font-family="'Mulish', Arial, sans-serif"
+        font-weight="600" font-size="34" letter-spacing="4" fill="#FFFFFF">THECLIENTPILOT</text>
+</svg>
