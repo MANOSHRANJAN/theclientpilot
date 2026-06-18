@@ -1,0 +1,638 @@
+{
+  "images": [
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FPerformance%2520%2526%2520growth%2520icon.webp&w=1920&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FPerformance%2520%2526%2520growth%2520icon.webp&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FPerformance%2520%2526%2520growth%2520icon.webp&w=1920&q=75 2x",
+      "alt": "Performance & Growth",
+      "w": 1080,
+      "h": 1080,
+      "cls": "absolute top-0 left-0 size-full object-cover object-center",
+      "parent": "DIV.relative my-3 block aspect-square size-full h-auto max-w-37.25 lg:hidden"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FPerformance%2520%2526%2520growth%2520icon.webp&w=1920&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FPerformance%2520%2526%2520growth%2520icon.webp&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FPerformance%2520%2526%2520growth%2520icon.webp&w=1920&q=75 2x",
+      "alt": "Performance & Growth",
+      "w": 1080,
+      "h": 1080,
+      "cls": "absolute top-0 left-0 size-full object-cover object-center",
+      "parent": "DIV.relative block aspect-square size-full h-auto max-w-94 hidden lg:block"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FClients%2520Image%2520Container-1.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FClients%2520Image%2520Container-1.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FClients%2520Image%2520Container-1.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FClients%2520Image%2520Container-1.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FClients%2520Image%2520Container-1.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FClients%2520Image%2520Container-1.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FClients%2520Image%2520Container-1.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FClients%2520Image%2520Container-1.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FClients%2520Image%2520Container-1.webp&w=3840&q=75 3840w",
+      "alt": "Clients Score Image",
+      "w": 375,
+      "h": 375,
+      "cls": "absolute size-full object-cover object-center",
+      "parent": "DIV.absolute top-27 right-0 z-10 size-36.5 md:top-1/2 md:right-25 lg:size-62.5"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 1",
+      "w": 600,
+      "h": 375,
+      "cls": "h-full w-auto object-contain",
+      "parent": "DIV.h-full w-auto"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 2",
+      "w": 600,
+      "h": 375,
+      "cls": "h-full w-auto object-contain",
+      "parent": "DIV.h-full w-auto"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 3",
+      "w": 384,
+      "h": 240,
+      "cls": "h-full w-auto object-contain",
+      "parent": "DIV.h-full w-auto"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 4",
+      "w": 600,
+      "h": 375,
+      "cls": "h-full w-auto object-contain",
+      "parent": "DIV.h-full w-auto"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 5",
+      "w": 600,
+      "h": 375,
+      "cls": "h-full w-auto object-contain",
+      "parent": "DIV.h-full w-auto"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 6",
+      "w": 600,
+      "h": 375,
+      "cls": "h-full w-auto object-contain",
+      "parent": "DIV.h-full w-auto"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 7",
+      "w": 600,
+      "h": 375,
+      "cls": "h-full w-auto object-contain",
+      "parent": "DIV.h-full w-auto"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 8",
+      "w": 600,
+      "h": 375,
+      "cls": "h-full w-auto object-contain",
+      "parent": "DIV.h-full w-auto"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 9",
+      "w": 600,
+      "h": 375,
+      "cls": "h-full w-auto object-contain",
+      "parent": "DIV.h-full w-auto"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 10",
+      "w": 600,
+      "h": 375,
+      "cls": "h-full w-auto object-contain",
+      "parent": "DIV.h-full w-auto"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 11",
+      "w": 600,
+      "h": 375,
+      "cls": "h-full w-auto object-contain",
+      "parent": "DIV.h-full w-auto"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 12",
+      "w": 600,
+      "h": 375,
+      "cls": "h-full w-auto object-contain",
+      "parent": "DIV.h-full w-auto"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 13",
+      "w": 384,
+      "h": 240,
+      "cls": "h-full w-auto object-contain",
+      "parent": "DIV.h-full w-auto"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 14",
+      "w": 600,
+      "h": 375,
+      "cls": "h-full w-auto object-contain",
+      "parent": "DIV.h-full w-auto"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 15",
+      "w": 600,
+      "h": 375,
+      "cls": "h-full w-auto object-contain",
+      "parent": "DIV.h-full w-auto"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 16",
+      "w": 600,
+      "h": 375,
+      "cls": "h-full w-auto object-contain",
+      "parent": "DIV.h-full w-auto"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 17",
+      "w": 600,
+      "h": 375,
+      "cls": "h-full w-auto object-contain",
+      "parent": "DIV.h-full w-auto"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 18",
+      "w": 600,
+      "h": 375,
+      "cls": "h-full w-auto object-contain",
+      "parent": "DIV.h-full w-auto"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 19",
+      "w": 600,
+      "h": 375,
+      "cls": "h-full w-auto object-contain",
+      "parent": "DIV.h-full w-auto"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 20",
+      "w": 600,
+      "h": 375,
+      "cls": "h-full w-auto object-contain",
+      "parent": "DIV.h-full w-auto"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-edina.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-edina.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-edina.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-edina.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-edina.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-edina.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-edina.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-edina.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-edina.webp&w=3840&q=75 3840w",
+      "alt": "Decoration Image 1",
+      "w": 810,
+      "h": 810,
+      "cls": "size-full object-cover object-center",
+      "parent": "DIV.wavy-box bg-copula-orange absolute size-full"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-iva.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-iva.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-iva.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-iva.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-iva.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-iva.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-iva.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-iva.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-iva.webp&w=3840&q=75 3840w",
+      "alt": "Decoration Image 2",
+      "w": 810,
+      "h": 810,
+      "cls": "size-full object-cover object-center",
+      "parent": "DIV.wavy-box bg-copula-orange absolute size-full"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-katja.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-katja.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-katja.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-katja.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-katja.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-katja.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-katja.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-katja.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-katja.webp&w=3840&q=75 3840w",
+      "alt": "Decoration Image 3",
+      "w": 810,
+      "h": 810,
+      "cls": "size-full object-cover object-center",
+      "parent": "DIV.wavy-box bg-copula-orange absolute size-full"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=3840&q=75 3840w",
+      "alt": "A century of change: the evolution of marketing and what comes next",
+      "w": 359,
+      "h": 269,
+      "cls": "absolute top-0 left-0 size-full object-cover object-center",
+      "parent": "A.group wavy-box relative block aspect-square w-full max-w-84 text-copula-white bg-copula-blue"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=3840&q=75 3840w",
+      "alt": "INTRODUCING COPULA - The Bond Behind Brand Success",
+      "w": 359,
+      "h": 269,
+      "cls": "absolute top-0 left-0 size-full object-cover object-center",
+      "parent": "A.group wavy-box relative block aspect-square w-full max-w-84 text-copula-white bg-copula-blue"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=3840&q=75 3840w",
+      "alt": "Reciprocity in marketing - what is it",
+      "w": 359,
+      "h": 269,
+      "cls": "absolute top-0 left-0 size-full object-cover object-center",
+      "parent": "A.group wavy-box relative block aspect-square w-full max-w-84 text-copula-white bg-copula-blue"
+    }
+  ],
+  "videos": [],
+  "sections": [
+    {
+      "tag": "SECTION",
+      "cls": "bg-copula-orange text-copula-white flex h-svh min-h-163 w-full items-end px-(--padding-x) py-(--padding-x)",
+      "top": 0,
+      "h": 900,
+      "text": "Your all-in-one agencyLet's bondLet's bond",
+      "childCount": 1
+    },
+    {
+      "tag": "SECTION",
+      "cls": "relative h-[400vh] md:h-[500vh]",
+      "top": 900,
+      "h": 4500,
+      "text": "Our manifestoThe bond behind brand successWe bring strategy, creativity, and agile approach together to help brands connect with people, and turn that connection into real results.",
+      "childCount": 1
+    },
+    {
+      "tag": "SECTION",
+      "cls": "relative px-(--padding-x) py-5",
+      "top": 5400,
+      "h": 651,
+      "text": "SERVICESPerformance & GrowthWe track, measure, and optimize to ensure lasting results. Digital advertising strategyAnalytics & reportingCampaign tracking & optimizationConversion rate optimization (CRO)SEOEmail marketingWeb design & developmentCREATI",
+      "childCount": 2
+    },
+    {
+      "tag": "SECTION",
+      "cls": "flex w-full flex-col items-center justify-center gap-6 px-(--padding-x) py-14",
+      "top": 6051,
+      "h": 310,
+      "text": "Ready when you are. Reach out and see what happens when the right minds connectLet's bondContact us",
+      "childCount": 1
+    },
+    {
+      "tag": "SECTION",
+      "cls": "relative p-(--padding-x)",
+      "top": 6361,
+      "h": 819,
+      "text": "Featured WorkLeerdammerMinoresDM BIHHoldina",
+      "childCount": 2
+    },
+    {
+      "tag": "SECTION",
+      "cls": "relative overflow-hidden py-5",
+      "top": 7180,
+      "h": 941,
+      "text": "Our clientsWhen the Cnnection is real, it shows",
+      "childCount": 2
+    },
+    {
+      "tag": "SECTION",
+      "cls": "relative",
+      "top": 8121,
+      "h": 5400,
+      "text": "About usNice to bond with youWe'rethinkers,makers,anddoers,coffeelovers(mostlyall),foodobssessed,curiousbynature,strategicbychoice.Weexplore,question,andconnectuntiltheanswerfits.Everyprojectisajourney,andwe'reherefortheride.BOND MORE WITH US",
+      "childCount": 1
+    },
+    {
+      "tag": "SECTION",
+      "cls": "bg-copula-blue relative pt-4 pb-6 md:py-10",
+      "top": 13521,
+      "h": 936,
+      "text": "LATEST NEWSWe create, but we also reflect. Explore what we’ve been thinking about lately.READ BLOGBlogMarketingA century of change: the evolution of marketing and what comes nextREAD BLOGBlogMarketingINTRODUCING COPULA: The Bond Behind Brand SuccessR",
+      "childCount": 4
+    },
+    {
+      "tag": "FOOTER",
+      "cls": "text-copula-white bg-almost-black w-full overflow-hidden px-5 py-10 md:px-(--padding-x) md:pb-6",
+      "top": 14458,
+      "h": 720,
+      "text": "[koh-poo-la] noun ● latinThe word copula derives from the Latin word copulare meaning a \"link\", \"bond\", \"connection\" or \"tie\" that connects two different things. AboutBlogWorkContactLet's bondLet's bondDeveloped and designed by Builtt, 2026. All righ",
+      "childCount": 2
+    }
+  ],
+  "svgs": [
+    {
+      "i": 0,
+      "vb": "0 0 104 34",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 104 34\" fill=\"currentColor\" class=\"text-copula-white group-data-[theme=dark]:text-dark-grey pointer-events-none h-6.25\"><path d=\"M19.8008 11.9757C19.8582 11.8437 19.9027 11.7384 19.9308 11.6611C19.8842 11.7642 19.842 11.8694 19.8008 11.9757Z\" fill=\"currentColor\"></path><path d=\"M20.4898 11.8641H20.4909C20.4909 11.8641 20.4864 11.8731 20.4841 11.8787C20.4864 11.8742 20.4875 11.8686 20.4898 11.8641Z\" fill=\"currentColor\"></path><path d=\"M37.7509 13.8298C37.2329 10.3792 34.6427 7.47178 31.2972 6.5957C27.8639 5.73142 24.552 6.42392 22.2101 8.49388C21.2304 9.36031 20.4685 10.42 19.9494 11.616C19.9472 11.6182 19.9472 11.6203 19.9461 11.6225C19.9396 11.6353 19.9353 11.6482 19.9299 11.6611C19.9017 11.7384 19.8573 11.8436 19.7998 11.9757C18.974 13.8395 15.2427 20.7988 10.8623 21.5214C8.61241 21.8928 6.87951 21.5117 5.70907 20.3908C3.74751 18.5109 3.19047 15.6862 4.21785 12.8346C4.21893 12.8303 4.2211 12.8249 4.22219 12.8206C4.71095 11.3498 5.93232 10.1645 7.49508 9.64697C8.85192 9.18208 10.3767 9.1488 11.4843 9.56322L11.5309 9.57933C11.8311 9.68777 12.3903 9.88961 12.8975 9.50525C12.9029 9.50095 12.9083 9.49558 12.9138 9.49129C13.3148 9.16",
+      "parent": "A.shrink-0"
+    },
+    {
+      "i": 1,
+      "vb": "0 0 11 11",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 11 11\" fill=\"currentColor\" class=\"text-copula-orange group-data-[theme=dark]:text-copula-white size-2.5\"><path d=\"M10.8677 5.89808H6.51148V10.2543H5.05939V5.89808H0.703125V4.44599H5.05939V0.0897217H6.51148V4.44599H10.8677V5.89808Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "BUTTON.group-data-[theme=dark]:bg-dark-grey bg-copula-white absolute top-0 left-[100%] "
+    },
+    {
+      "i": 2,
+      "vb": "0 0 11 11",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 11 11\" fill=\"currentColor\" class=\"size-2.5 text-copula-orange\"><path d=\"M10.8677 5.89808H6.51148V10.2543H5.05939V5.89808H0.703125V4.44599H5.05939V0.0897217H6.51148V4.44599H10.8677V5.89808Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "BUTTON.flex size-8 items-center justify-center rounded-full md:hidden bg-copula-white"
+    },
+    {
+      "i": 3,
+      "vb": "0 0 118 119",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 118 119\" fill=\"none\" class=\"text-copula-blue size-29.5 animate-spin [animation-duration:10s]\"><path d=\"M0 70.2418H33.8241L9.90981 94.164L24.5755 108.842L48.4969 84.9194V118.755H69.2407V84.9194L93.155 108.842L107.828 94.164L83.9134 70.2418H117.73V49.4913H83.9134L107.828 25.5691L93.155 10.8915L69.2407 34.8137V0.978394H48.4969V34.8137L24.5755 10.8915L9.90981 25.5691L33.8241 49.4913H0V70.2418Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "DIV.flex gap-x-5"
+    },
+    {
+      "i": 4,
+      "vb": "0 0 125 125",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 125 125\" fill=\"currentColor\" class=\"absolute top-0 left-0 z-0 h-auto w-full transition-all duration-1000 group-hover:scale-105 group-hover:rotate-45\"><path d=\"M11.4576 83.9274C9.91978 102.544 22.9721 115.601 41.583 114.063C53.6527 128.312 72.1136 128.312 84.1908 114.063C102.802 115.601 115.854 102.544 114.316 83.9274C128.561 71.8537 128.561 53.3868 114.316 41.3056C115.854 22.6886 102.802 9.63195 84.1908 11.1702C72.1211 -3.07953 53.6602 -3.07953 41.583 11.1702C22.9721 9.63195 9.91978 22.6886 11.4576 41.3056C-2.78753 53.3793 -2.78753 71.8462 11.4576 83.9274Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "A.group relative inline-flex aspect-square min-h-32 w-max min-w-32 items-center ju"
+    },
+    {
+      "i": 5,
+      "vb": "0 0 25 25",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 25 25\" fill=\"none\" class=\"size-6 animate-spin [animation-duration:10s]\"><path d=\"M13.6377 16.1337C17.3373 27.5222 7.47315 27.5222 11.1713 16.1337C7.47166 27.5222 -0.5069 21.7222 9.177 14.6841C-0.5069 21.7222 -3.55565 12.3376 8.41444 12.3376C-3.55565 12.3376 -0.5069 2.95291 9.177 9.99102C-0.5069 2.95291 7.47315 -2.84713 11.1713 8.54138C7.47166 -2.84713 17.3358 -2.84713 13.6377 8.54138C17.3373 -2.84713 25.3173 2.95291 15.6319 9.99102C25.3158 2.95291 28.3646 12.3376 16.3945 12.3376C28.3646 12.3376 25.3158 21.7222 15.6319 14.6841C25.3158 21.7222 17.3358 27.5222 13.6377 16.1337Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "DIV.text-copula-white absolute top-0 left-0 flex items-center gap-1 p-(--padding-x)"
+    },
+    {
+      "i": 6,
+      "vb": "0 0 1441 259",
+      "w": null,
+      "h": null,
+      "inner": "<svg class=\"absolute top-1/2 left-1/2 h-auto w-[200%] -translate-x-1/2 -translate-y-1/2 md:w-full\" id=\"Path\" viewBox=\"0 0 1441 259\" xmlns=\"http://www.w3.org/2000/svg\" style=\"opacity: 1; transform: none;\"><defs><path id=\"MyPath\" d=\"M0.339844 163.94C224.22 39.5598 496.45 39.5598 720.34 163.94C944.22 288.32 1216.45 288.32 1440.34 163.94\"></path></defs><text><textPath class=\"text-copula-white font-headline w-full text-[80px] uppercase md:text-[100px]\" id=\"Text\" fill=\"currentColor\" href=\"#MyPath\" startOffset=\"-80%\">The bond behind brand success</textPath></text></svg>",
+      "parent": "DIV.absolute inset-0 flex w-full flex-col items-center justify-center overflow-hidde"
+    },
+    {
+      "i": 7,
+      "vb": "0 0 25 25",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 25 25\" fill=\"none\" class=\"size-6 animate-spin [animation-duration:10s]\"><path d=\"M13.6377 16.1337C17.3373 27.5222 7.47315 27.5222 11.1713 16.1337C7.47166 27.5222 -0.5069 21.7222 9.177 14.6841C-0.5069 21.7222 -3.55565 12.3376 8.41444 12.3376C-3.55565 12.3376 -0.5069 2.95291 9.177 9.99102C-0.5069 2.95291 7.47315 -2.84713 11.1713 8.54138C7.47166 -2.84713 17.3358 -2.84713 13.6377 8.54138C17.3373 -2.84713 25.3173 2.95291 15.6319 9.99102C25.3158 2.95291 28.3646 12.3376 16.3945 12.3376C28.3646 12.3376 25.3158 21.7222 15.6319 14.6841C25.3158 21.7222 17.3358 27.5222 13.6377 16.1337Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "DIV.text-text-black flex items-center gap-1"
+    },
+    {
+      "i": 8,
+      "vb": "0 0 125 125",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 125 125\" fill=\"currentColor\" class=\"absolute top-0 left-0 z-0 h-auto w-full transition-all duration-1000 group-hover:scale-105 group-hover:rotate-45\"><path d=\"M11.4576 83.9274C9.91978 102.544 22.9721 115.601 41.583 114.063C53.6527 128.312 72.1136 128.312 84.1908 114.063C102.802 115.601 115.854 102.544 114.316 83.9274C128.561 71.8537 128.561 53.3868 114.316 41.3056C115.854 22.6886 102.802 9.63195 84.1908 11.1702C72.1211 -3.07953 53.6602 -3.07953 41.583 11.1702C22.9721 9.63195 9.91978 22.6886 11.4576 41.3056C-2.78753 53.3793 -2.78753 71.8462 11.4576 83.9274Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "A.group relative inline-flex aspect-square min-h-32 w-max min-w-32 items-center ju"
+    },
+    {
+      "i": 9,
+      "vb": "0 0 25 25",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 25 25\" fill=\"none\" class=\"size-6 animate-spin [animation-duration:10s]\"><path d=\"M13.6377 16.1337C17.3373 27.5222 7.47315 27.5222 11.1713 16.1337C7.47166 27.5222 -0.5069 21.7222 9.177 14.6841C-0.5069 21.7222 -3.55565 12.3376 8.41444 12.3376C-3.55565 12.3376 -0.5069 2.95291 9.177 9.99102C-0.5069 2.95291 7.47315 -2.84713 11.1713 8.54138C7.47166 -2.84713 17.3358 -2.84713 13.6377 8.54138C17.3373 -2.84713 25.3173 2.95291 15.6319 9.99102C25.3158 2.95291 28.3646 12.3376 16.3945 12.3376C28.3646 12.3376 25.3158 21.7222 15.6319 14.6841C25.3158 21.7222 17.3358 27.5222 13.6377 16.1337Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "DIV.text-text-black mb-5 flex items-center gap-1"
+    },
+    {
+      "i": 10,
+      "vb": "0 0 47 49",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 47 49\" fill=\"currentColor\" class=\"text-dark-grey size-6 shrink-0 opacity-0 transition-all duration-300 group-hover:opacity-100 group-data-[state=open]:-rotate-180 group-data-[state=open]:opacity-100 md:size-12\"><path d=\"M23.6164 48L43.6133 28.0031L43.6133 16.0031L27.6195 31.9969L27.6195 6.99109e-07L19.6133 1.04907e-06L19.6133 31.9969L3.61953 16.0031L3.61953 28.0031L23.6164 48Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "BUTTON.group data-[state=open]:text-dark-grey flex w-full items-center justify-between "
+    },
+    {
+      "i": 11,
+      "vb": "0 0 47 49",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 47 49\" fill=\"currentColor\" class=\"text-dark-grey size-6 shrink-0 opacity-0 transition-all duration-300 group-hover:opacity-100 group-data-[state=open]:rotate-180 group-data-[state=open]:opacity-100 md:size-12\"><path d=\"M23.6164 48L43.6133 28.0031L43.6133 16.0031L27.6195 31.9969L27.6195 6.99109e-07L19.6133 1.04907e-06L19.6133 31.9969L3.61953 16.0031L3.61953 28.0031L23.6164 48Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "BUTTON.group data-[state=open]:text-dark-grey flex w-full items-center justify-between "
+    },
+    {
+      "i": 12,
+      "vb": "0 0 47 49",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 47 49\" fill=\"currentColor\" class=\"text-dark-grey size-6 shrink-0 opacity-0 transition-all duration-300 group-hover:opacity-100 group-data-[state=open]:-rotate-180 group-data-[state=open]:opacity-100 md:size-12\"><path d=\"M23.6164 48L43.6133 28.0031L43.6133 16.0031L27.6195 31.9969L27.6195 6.99109e-07L19.6133 1.04907e-06L19.6133 31.9969L3.61953 16.0031L3.61953 28.0031L23.6164 48Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "BUTTON.group data-[state=open]:text-dark-grey flex w-full items-center justify-between "
+    },
+    {
+      "i": 13,
+      "vb": "0 0 47 49",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 47 49\" fill=\"currentColor\" class=\"text-dark-grey size-6 shrink-0 opacity-0 transition-all duration-300 group-hover:opacity-100 group-data-[state=open]:rotate-180 group-data-[state=open]:opacity-100 md:size-12\"><path d=\"M23.6164 48L43.6133 28.0031L43.6133 16.0031L27.6195 31.9969L27.6195 6.99109e-07L19.6133 1.04907e-06L19.6133 31.9969L3.61953 16.0031L3.61953 28.0031L23.6164 48Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "BUTTON.group data-[state=open]:text-dark-grey flex w-full items-center justify-between "
+    },
+    {
+      "i": 14,
+      "vb": "0 0 47 49",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 47 49\" fill=\"currentColor\" class=\"text-dark-grey size-6 shrink-0 opacity-0 transition-all duration-300 group-hover:opacity-100 group-data-[state=open]:-rotate-180 group-data-[state=open]:opacity-100 md:size-12\"><path d=\"M23.6164 48L43.6133 28.0031L43.6133 16.0031L27.6195 31.9969L27.6195 6.99109e-07L19.6133 1.04907e-06L19.6133 31.9969L3.61953 16.0031L3.61953 28.0031L23.6164 48Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "BUTTON.group data-[state=open]:text-dark-grey flex w-full items-center justify-between "
+    },
+    {
+      "i": 15,
+      "vb": "0 0 47 49",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 47 49\" fill=\"currentColor\" class=\"text-dark-grey size-6 shrink-0 opacity-0 transition-all duration-300 group-hover:opacity-100 group-data-[state=open]:rotate-180 group-data-[state=open]:opacity-100 md:size-12\"><path d=\"M23.6164 48L43.6133 28.0031L43.6133 16.0031L27.6195 31.9969L27.6195 6.99109e-07L19.6133 1.04907e-06L19.6133 31.9969L3.61953 16.0031L3.61953 28.0031L23.6164 48Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "BUTTON.group data-[state=open]:text-dark-grey flex w-full items-center justify-between "
+    },
+    {
+      "i": 16,
+      "vb": "0 0 47 49",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 47 49\" fill=\"currentColor\" class=\"text-dark-grey size-6 shrink-0 opacity-0 transition-all duration-300 group-hover:opacity-100 group-data-[state=open]:-rotate-180 group-data-[state=open]:opacity-100 md:size-12\"><path d=\"M23.6164 48L43.6133 28.0031L43.6133 16.0031L27.6195 31.9969L27.6195 6.99109e-07L19.6133 1.04907e-06L19.6133 31.9969L3.61953 16.0031L3.61953 28.0031L23.6164 48Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "BUTTON.group data-[state=open]:text-dark-grey flex w-full items-center justify-between "
+    },
+    {
+      "i": 17,
+      "vb": "0 0 47 49",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 47 49\" fill=\"currentColor\" class=\"text-dark-grey size-6 shrink-0 opacity-0 transition-all duration-300 group-hover:opacity-100 group-data-[state=open]:rotate-180 group-data-[state=open]:opacity-100 md:size-12\"><path d=\"M23.6164 48L43.6133 28.0031L43.6133 16.0031L27.6195 31.9969L27.6195 6.99109e-07L19.6133 1.04907e-06L19.6133 31.9969L3.61953 16.0031L3.61953 28.0031L23.6164 48Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "BUTTON.group data-[state=open]:text-dark-grey flex w-full items-center justify-between "
+    },
+    {
+      "i": 18,
+      "vb": "0 0 25 25",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 25 25\" fill=\"none\" class=\"size-6 animate-spin [animation-duration:10s]\"><path d=\"M13.6377 16.1337C17.3373 27.5222 7.47315 27.5222 11.1713 16.1337C7.47166 27.5222 -0.5069 21.7222 9.177 14.6841C-0.5069 21.7222 -3.55565 12.3376 8.41444 12.3376C-3.55565 12.3376 -0.5069 2.95291 9.177 9.99102C-0.5069 2.95291 7.47315 -2.84713 11.1713 8.54138C7.47166 -2.84713 17.3358 -2.84713 13.6377 8.54138C17.3373 -2.84713 25.3173 2.95291 15.6319 9.99102C25.3158 2.95291 28.3646 12.3376 16.3945 12.3376C28.3646 12.3376 25.3158 21.7222 15.6319 14.6841C25.3158 21.7222 17.3358 27.5222 13.6377 16.1337Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "DIV.text-text-black flex items-center gap-1"
+    },
+    {
+      "i": 19,
+      "vb": "0 0 623 147",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 623 147\" fill=\"currentColor\" class=\"text-copula-orange -mb-2.5 h-auto w-full md:-mb-5\"><path d=\"M0 0 C9.21800366 6.41252428 12.21230241 17.32440234 14.49609375 27.8671875 C17.11184046 49.49428917 12.6764537 68.66921968 0.875 87 C2.28968311 87.96125903 3.7068364 88.91888325 5.125 89.875 C5.91390625 90.40867187 6.7028125 90.94234375 7.515625 91.4921875 C12.88281027 94.92220987 17.89191448 96.65422661 24.30078125 95.6015625 C30.65658007 93.92118023 35.63591863 90.91032885 40.875 87 C40.35550781 86.16339844 39.83601563 85.32679687 39.30078125 84.46484375 C28.14999526 66.03540696 23.8197098 45.77676448 28.125 24.4375 C30.52784706 14.84846381 33.30895446 4.97418546 42.25 -0.4375 C47.54850581 -1.5728941 51.25623819 -1.82525112 56.0625 0.625 C66.43697574 9.3856684 69.47342775 21.65566401 70.71484375 34.76953125 C71.97863117 52.37008288 67.60214934 67.83969486 58.875 83 C58.19758826 84.32790646 57.52672841 85.65930156 56.875 87 C63.06717393 92.34464175 69.2314646 96.11956643 77.640625 95.94140625 C84.12374891 95.06310594 90.24090995 92.78283862 94.875 88 C94.875 83.45269001 94.03497257 82.29390711 91.625 78.5625 C82.06874621 62.77727107 8",
+      "parent": "SPAN.inline-block w-70 md:w-155"
+    },
+    {
+      "i": 20,
+      "vb": "0 0 25 25",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 25 25\" fill=\"none\" class=\"size-6 animate-spin [animation-duration:10s]\"><path d=\"M13.6377 16.1337C17.3373 27.5222 7.47315 27.5222 11.1713 16.1337C7.47166 27.5222 -0.5069 21.7222 9.177 14.6841C-0.5069 21.7222 -3.55565 12.3376 8.41444 12.3376C-3.55565 12.3376 -0.5069 2.95291 9.177 9.99102C-0.5069 2.95291 7.47315 -2.84713 11.1713 8.54138C7.47166 -2.84713 17.3358 -2.84713 13.6377 8.54138C17.3373 -2.84713 25.3173 2.95291 15.6319 9.99102C25.3158 2.95291 28.3646 12.3376 16.3945 12.3376C28.3646 12.3376 25.3158 21.7222 15.6319 14.6841C25.3158 21.7222 17.3358 27.5222 13.6377 16.1337Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "DIV.text-copula-white absolute top-0 left-0 z-10 flex items-center gap-1 p-(--paddin"
+    },
+    {
+      "i": 21,
+      "vb": "0 0 189 188",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 189 188\" fill=\"currentColor\" class=\"text-copula-orange h-full w-auto\"><path d=\"M94.5195 187.999C42.6096 187.999 0.550781 145.904 0.550781 93.9996C0.550781 42.0953 42.6323 -0.000244141 94.5195 -0.000244141C146.407 -0.000244141 188.489 42.0953 188.489 93.9996C188.489 145.904 146.407 187.999 94.5195 187.999Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "DIV.absolute top-0 left-1/2 h-[300vh] -translate-x-1/2"
+    },
+    {
+      "i": 22,
+      "vb": "0 0 189 188",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 189 188\" fill=\"currentColor\" class=\"text-copula-orange h-full w-auto\"><path d=\"M94.5195 187.999C42.6096 187.999 0.550781 145.904 0.550781 93.9996C0.550781 42.0953 42.6323 -0.000244141 94.5195 -0.000244141C146.407 -0.000244141 188.489 42.0953 188.489 93.9996C188.489 145.904 146.407 187.999 94.5195 187.999Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "DIV.absolute bottom-0 left-1/2 h-[300vh] -translate-x-1/2"
+    },
+    {
+      "i": 23,
+      "vb": "0 0 25 25",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 25 25\" fill=\"none\" class=\"size-6 animate-spin [animation-duration:10s]\"><path d=\"M13.6377 16.1337C17.3373 27.5222 7.47315 27.5222 11.1713 16.1337C7.47166 27.5222 -0.5069 21.7222 9.177 14.6841C-0.5069 21.7222 -3.55565 12.3376 8.41444 12.3376C-3.55565 12.3376 -0.5069 2.95291 9.177 9.99102C-0.5069 2.95291 7.47315 -2.84713 11.1713 8.54138C7.47166 -2.84713 17.3358 -2.84713 13.6377 8.54138C17.3373 -2.84713 25.3173 2.95291 15.6319 9.99102C25.3158 2.95291 28.3646 12.3376 16.3945 12.3376C28.3646 12.3376 25.3158 21.7222 15.6319 14.6841C25.3158 21.7222 17.3358 27.5222 13.6377 16.1337Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "DIV.text-copula-white mb-12 flex items-center gap-1 p-(--padding-x) pt-0 md:mb-20 md"
+    },
+    {
+      "i": 24,
+      "vb": "0 0 125 125",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 125 125\" fill=\"currentColor\" class=\"text-copula-orange size-full\"><path d=\"M11.4576 83.9274C9.91978 102.544 22.9721 115.601 41.583 114.063C53.6527 128.312 72.1136 128.312 84.1908 114.063C102.802 115.601 115.854 102.544 114.316 83.9274C128.561 71.8537 128.561 53.3868 114.316 41.3056C115.854 22.6886 102.802 9.63195 84.1908 11.1702C72.1211 -3.07953 53.6602 -3.07953 41.583 11.1702C22.9721 9.63195 9.91978 22.6886 11.4576 41.3056C-2.78753 53.3793 -2.78753 71.8462 11.4576 83.9274Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "DIV.absolute top-1/2 left-1/2 z-20 hidden size-31 -translate-x-1/2 -translate-y-1/2 "
+    },
+    {
+      "i": 25,
+      "vb": "0 0 7 7",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 7 7\" fill=\"currentColor\" class=\"size-2\"><circle cx=\"3.97656\" cy=\"3.2179\" r=\"3\" fill=\"currentColor\"></circle></svg>",
+      "parent": "SPAN.smallBody flex flex-wrap items-center gap-1 md:justify-center md:gap-2 text-copu"
+    },
+    {
+      "i": 26,
+      "vb": "0 0 125 125",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 125 125\" fill=\"currentColor\" class=\"text-copula-orange size-full\"><path d=\"M11.4576 83.9274C9.91978 102.544 22.9721 115.601 41.583 114.063C53.6527 128.312 72.1136 128.312 84.1908 114.063C102.802 115.601 115.854 102.544 114.316 83.9274C128.561 71.8537 128.561 53.3868 114.316 41.3056C115.854 22.6886 102.802 9.63195 84.1908 11.1702C72.1211 -3.07953 53.6602 -3.07953 41.583 11.1702C22.9721 9.63195 9.91978 22.6886 11.4576 41.3056C-2.78753 53.3793 -2.78753 71.8462 11.4576 83.9274Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "DIV.absolute top-1/2 left-1/2 z-20 hidden size-31 -translate-x-1/2 -translate-y-1/2 "
+    },
+    {
+      "i": 27,
+      "vb": "0 0 7 7",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 7 7\" fill=\"currentColor\" class=\"size-2\"><circle cx=\"3.97656\" cy=\"3.2179\" r=\"3\" fill=\"currentColor\"></circle></svg>",
+      "parent": "SPAN.smallBody flex flex-wrap items-center gap-1 md:justify-center md:gap-2 text-copu"
+    },
+    {
+      "i": 28,
+      "vb": "0 0 125 125",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 125 125\" fill=\"currentColor\" class=\"text-copula-orange size-full\"><path d=\"M11.4576 83.9274C9.91978 102.544 22.9721 115.601 41.583 114.063C53.6527 128.312 72.1136 128.312 84.1908 114.063C102.802 115.601 115.854 102.544 114.316 83.9274C128.561 71.8537 128.561 53.3868 114.316 41.3056C115.854 22.6886 102.802 9.63195 84.1908 11.1702C72.1211 -3.07953 53.6602 -3.07953 41.583 11.1702C22.9721 9.63195 9.91978 22.6886 11.4576 41.3056C-2.78753 53.3793 -2.78753 71.8462 11.4576 83.9274Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "DIV.absolute top-1/2 left-1/2 z-20 hidden size-31 -translate-x-1/2 -translate-y-1/2 "
+    },
+    {
+      "i": 29,
+      "vb": "0 0 7 7",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 7 7\" fill=\"currentColor\" class=\"size-2\"><circle cx=\"3.97656\" cy=\"3.2179\" r=\"3\" fill=\"currentColor\"></circle></svg>",
+      "parent": "SPAN.smallBody flex flex-wrap items-center gap-1 md:justify-center md:gap-2 text-copu"
+    },
+    {
+      "i": 30,
+      "vb": "0 0 104 34",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 104 34\" fill=\"currentColor\" class=\"pointer-events-none h-auto w-42.5 max-w-full text-(--color) md:w-82.5\"><path d=\"M19.8008 11.9757C19.8582 11.8437 19.9027 11.7384 19.9308 11.6611C19.8842 11.7642 19.842 11.8694 19.8008 11.9757Z\" fill=\"currentColor\"></path><path d=\"M20.4898 11.8641H20.4909C20.4909 11.8641 20.4864 11.8731 20.4841 11.8787C20.4864 11.8742 20.4875 11.8686 20.4898 11.8641Z\" fill=\"currentColor\"></path><path d=\"M37.7509 13.8298C37.2329 10.3792 34.6427 7.47178 31.2972 6.5957C27.8639 5.73142 24.552 6.42392 22.2101 8.49388C21.2304 9.36031 20.4685 10.42 19.9494 11.616C19.9472 11.6182 19.9472 11.6203 19.9461 11.6225C19.9396 11.6353 19.9353 11.6482 19.9299 11.6611C19.9017 11.7384 19.8573 11.8436 19.7998 11.9757C18.974 13.8395 15.2427 20.7988 10.8623 21.5214C8.61241 21.8928 6.87951 21.5117 5.70907 20.3908C3.74751 18.5109 3.19047 15.6862 4.21785 12.8346C4.21893 12.8303 4.2211 12.8249 4.22219 12.8206C4.71095 11.3498 5.93232 10.1645 7.49508 9.64697C8.85192 9.18208 10.3767 9.1488 11.4843 9.56322L11.5309 9.57933C11.8311 9.68777 12.3903 9.88961 12.8975 9.50525C12.9029 9.50095 12.9083 9.49558 12.9138 9.49129C13.3148 9.16276 13.7894 8.",
+      "parent": "A.mb-6 shrink-0"
+    },
+    {
+      "i": 31,
+      "vb": "0 0 125 125",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 125 125\" fill=\"currentColor\" class=\"absolute top-0 left-0 z-0 h-auto w-full transition-all duration-1000 group-hover:scale-105 group-hover:rotate-45\"><path d=\"M11.4576 83.9274C9.91978 102.544 22.9721 115.601 41.583 114.063C53.6527 128.312 72.1136 128.312 84.1908 114.063C102.802 115.601 115.854 102.544 114.316 83.9274C128.561 71.8537 128.561 53.3868 114.316 41.3056C115.854 22.6886 102.802 9.63195 84.1908 11.1702C72.1211 -3.07953 53.6602 -3.07953 41.583 11.1702C22.9721 9.63195 9.91978 22.6886 11.4576 41.3056C-2.78753 53.3793 -2.78753 71.8462 11.4576 83.9274Z\" fill=\"currentColor\"></path></svg>",
+      "parent": "A.group relative inline-flex aspect-square min-h-32 w-max min-w-32 items-center ju"
+    },
+    {
+      "i": 32,
+      "vb": "0 0 448 512",
+      "w": "1em",
+      "h": "1em",
+      "inner": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 448 512\" class=\"size-6\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z\"></path></svg>",
+      "parent": "A.underline duration-300 ease-in-out hover:opacity-50"
+    },
+    {
+      "i": 33,
+      "vb": "0 0 448 512",
+      "w": "1em",
+      "h": "1em",
+      "inner": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 448 512\" class=\"size-6\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z\"></path></svg>",
+      "parent": "A.underline duration-300 ease-in-out hover:opacity-50"
+    },
+    {
+      "i": 34,
+      "vb": "0 0 448 512",
+      "w": "1em",
+      "h": "1em",
+      "inner": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 448 512\" class=\"size-6\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M194.4 211.7a53.3 53.3 0 1 0 59.3 88.7 53.3 53.3 0 1 0 -59.3-88.7zm142.3-68.4c-5.2-5.2-11.5-9.3-18.4-12c-18.1-7.1-57.6-6.8-83.1-6.5c-4.1 0-7.9 .1-11.2 .1c-3.3 0-7.2 0-11.4-.1c-25.5-.3-64.8-.7-82.9 6.5c-6.9 2.7-13.1 6.8-18.4 12s-9.3 11.5-12 18.4c-7.1 18.1-6.7 57.7-6.5 83.2c0 4.1 .1 7.9 .1 11.1s0 7-.1 11.1c-.2 25.5-.6 65.1 6.5 83.2c2.7 6.9 6.8 13.1 12 18.4s11.5 9.3 18.4 12c18.1 7.1 57.6 6.8 83.1 6.5c4.1 0 7.9-.1 11.2-.1c3.3 0 7.2 0 11.4 .1c25.5 .3 64.8 .7 82.9-6.5c6.9-2.7 13.1-6.8 18.4-12s9.3-11.5 12-18.4c7.2-18 6.8-57.4 6.5-83c0-4.2-.1-8.1-.1-11.4s0-7.1 .1-11.4c.3-25.5 .7-64.9-6.5-83l0 0c-2.7-6.9-6.8-13.1-12-18.4zm-67.1 44.5A82 82 0 1 1 178.4 324.2a82 82 0 1 1 91.1-136.4zm29.2-1.3c-3.1-2.1-5.6-5.1-7.1-8.6s-1.8-7.3-1.1-11.1s2.6-7.1 5.2-9.8s6.1-4.5 9.8-5.2s7.6-.4 11.1 1.1s6.5 3.9 8.6 7s3.2 6.8 3.2 10.6c0 2.5-.5 5-1.4 7.3s-2.4 4.4-4.1 6.2s-3.9 3.2-6.2 4.2s-4.8 1.5-7.3 1.5l0 0c-3.8 0-7.5-1.1-10.6-3.2zM448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM357 389c-18.7 1",
+      "parent": "A.underline duration-300 ease-in-out hover:opacity-50"
+    },
+    {
+      "i": 35,
+      "vb": "0 0 1024 1024",
+      "w": "1em",
+      "h": "1em",
+      "inner": "<svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 1024 1024\" fill-rule=\"evenodd\" class=\"size-7\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M800 112.962C800 50.575 749.425 0 687.038 0H112.962C50.575 0 0 50.575 0 112.962v574.076C0 749.426 50.575 800 112.962 800h574.076C749.425 800 800 749.426 800 687.038zM662.759 348.916c-51.615.577-99.71-15.027-141.938-43.927v202.874c0 90.166-61.72 167.62-148.996 187.848-119.068 27.165-219.864-58.954-232.577-161.835-13.294-102.884 52.322-193.051 152.892-213.281 19.651-4.045 49.209-4.045 64.458-.577v108.661c-4.692-1.153-9.086-2.31-13.709-2.888-39.304-6.937-77.371 12.715-92.977 48.55-15.605 35.838-5.16 77.451 26.629 101.73 26.586 20.806 56.085 23.694 86.14 9.822 30.057-13.291 46.21-37.567 49.676-70.512.578-4.622.546-9.826.546-15.028V110.206c0-10.981.086-10.502 11.068-10.502h86.12c6.36 0 8.673.915 9.25 8.433 4.621 67.047 55.526 124.147 120.838 132.818 6.937 1.155 14.369 1.613 22.58 2.19z\" transform=\"translate(112 112)\"></path></svg>",
+      "parent": "A.underline duration-300 ease-in-out hover:opacity-50"
+    },
+    {
+      "i": 36,
+      "vb": "0 0 512.006 512.006",
+      "w": null,
+      "h": null,
+      "inner": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512.006 512.006\" class=\"fill-copula-orange size-11 sm:size-13.5\"><path d=\"M504.712 142.493a15.01 15.01 0 0 0-16.413-10.833c-19.26 2.542-37.604-8.367-44.612-26.538-2.851-7.389-10.956-11.288-18.507-8.907a60.7 60.7 0 0 1-18.282 2.796c-40.867 0-70.314-39.513-58.342-78.806 2.764-9.075-3.495-18.408-12.931-19.304-93.093-8.838-175.123 48.42-203.352 131.45C55.429 158.518 0 231.409 0 317.007c0 107.521 87.456 194.996 194.953 194.996 85.556 0 158.414-55.412 184.593-132.238 95.129-32.108 153.824-134.713 125.166-237.272M194.953 482.004C103.998 482.004 30 407.987 30 317.007s73.998-164.996 164.953-164.996 164.953 74.017 164.953 164.996-73.998 164.997-164.953 164.997m193.075-137.997c17.781-127.828-91.605-237.92-219.959-220.133 26.946-56.128 84.563-93.584 148.14-93.859-3.375 36.933 16.427 70.97 46.675 87.724-5.524 9.941 1.663 22.272 13.115 22.272 7.398 0 13.531-5.361 14.761-12.407 10.05 1.777 20.566 1.894 30.821.224 12.297 20.027 33.565 32.743 56.98 34.085 15.246 74.487-23.09 149.897-90.533 182.094\"></path><circle cx=\"106\" cy=\"271.008\" r=\"15\"></circle><circle cx=\"226\" cy=\"436.005\" r=\"15\"></circle><circle cx=\"425\" cy=\"251.009\" r=\"15\"></circle><circ",
+      "parent": "DIV.bg-copula-white border-dark-grey fixed bottom-0 isolate z-50 w-full border p-6 p"
+    }
+  ]
+}

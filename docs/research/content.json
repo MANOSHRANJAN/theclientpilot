@@ -1,0 +1,489 @@
+{
+  "nav": [
+    {
+      "text": "About",
+      "href": "/about"
+    },
+    {
+      "text": "Blog",
+      "href": "/blog"
+    },
+    {
+      "text": "Work",
+      "href": "/#work"
+    },
+    {
+      "text": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "headerBadgeText": "New name, same Degordian DNA",
+  "sections": [
+    {
+      "idx": 0,
+      "cls": "bg-copula-orange text-copula-white flex h-svh min-h-163 w-full items-end px-(--padding-x) py-(--padding-x)",
+      "headline_top": "Your branding",
+      "headline_bottom": "agency",
+      "cta": {
+        "text": "Let's bondLet's bond",
+        "href": "/contact"
+      },
+      "allText": "Your branding agencyLet's bondLet's bond",
+      "accordionTitles": [],
+      "images": [],
+      "videos": [],
+      "anchors": [
+        {
+          "text": "Let's bondLet's bond",
+          "href": "/contact"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Your branding",
+          "cls": "display flex flex-col leading-[85px]! md:leading-[100px]! xl:leading-[145px]! 2x"
+        },
+        {
+          "tag": "h1",
+          "text": "agency",
+          "cls": "display leading-[85px]! md:leading-[100px]! xl:leading-[145px]! 2xl:leading-[85%"
+        }
+      ]
+    },
+    {
+      "idx": 1,
+      "cls": "relative h-[400vh] md:h-[500vh]",
+      "allText": "Our manifestoThe bond behind brand successWe bring strategy, creativity, and agile approach together to help brands connect with people, and turn that connection into real results.",
+      "accordionTitles": [],
+      "images": [],
+      "videos": [],
+      "anchors": [],
+      "headings": [
+        {
+          "tag": "p",
+          "text": "Our manifesto",
+          "cls": "h3 uppercase"
+        },
+        {
+          "tag": "h2",
+          "text": "We bring strategy, creativity, and agile approach together to help brands connect with people, and turn that connection into real results.",
+          "cls": "h1 absolute top-1/2 left-1/2 h-40 w-full max-w-310 -translate-x-1/2 -translate-y"
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "cls": "relative px-(--padding-x) py-5",
+      "allText": "SERVICESPerformance & GrowthWe track, measure, and optimize to ensure lasting results. Digital advertising strategyAnalytics & reportingCampaign tracking & optimizationConversion rate optimization (CRO)SEOEmail marketingWeb design & developmentCREATIVE SOLUTIONSDigital Presence",
+      "accordionTitles": [
+        "Performance & GrowthWe track, measure, and optimize to ensure lasting results. Digital advertising strategyAnalytics & reportingCampaign tracking & optimizationConversion rate optimization (CRO)SEOEmail marketingWeb design & development",
+        "Performance & GrowthWe track, measure, and optimize to ensure lasting results. Digital advertising strategyAnalytics & reportingCampaign tracking & optimizationConversion rate optimization (CRO)SEOEmail marketingWeb design & development",
+        "Performance & Growth",
+        "We track, measure, and optimize to ensure lasting results. Digital advertising strategyAnalytics & reportingCampaign tracking & optimizationConversion rate optimization (CRO)SEOEmail marketingWeb design & development",
+        "CREATIVE SOLUTIONS",
+        "CREATIVE SOLUTIONS",
+        "CREATIVE SOLUTIONS",
+        "Digital Presence",
+        "Digital Presence",
+        "Digital Presence"
+      ],
+      "images": [
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FPerformance%2520%2526%2520growth%2520icon.webp&w=1920&q=75",
+          "alt": "Performance & Growth"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FPerformance%2520%2526%2520growth%2520icon.webp&w=1920&q=75",
+          "alt": "Performance & Growth"
+        }
+      ],
+      "videos": [],
+      "anchors": [],
+      "headings": [
+        {
+          "tag": "p",
+          "text": "SERVICES",
+          "cls": "h3 uppercase"
+        },
+        {
+          "tag": "h2",
+          "text": "Performance & Growth",
+          "cls": "h1 text-light-grey group-aria-expanded:text-copula-orange group-hover:text-copul"
+        },
+        {
+          "tag": "h2",
+          "text": "CREATIVE SOLUTIONS",
+          "cls": "h1 text-light-grey group-aria-expanded:text-copula-orange group-hover:text-copul"
+        },
+        {
+          "tag": "h2",
+          "text": "Digital Presence",
+          "cls": "h1 text-light-grey group-aria-expanded:text-copula-orange group-hover:text-copul"
+        }
+      ]
+    },
+    {
+      "idx": 3,
+      "cls": "flex w-full flex-col items-center justify-center gap-6 px-(--padding-x) py-14",
+      "allText": "Ready when you are. Reach out and see what happens when the right minds connectLet's bondContact us",
+      "accordionTitles": [],
+      "images": [],
+      "videos": [],
+      "anchors": [
+        {
+          "text": "Let's bondContact us",
+          "href": "/contact"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "p",
+          "text": "Ready when you are. Reach out and see what happens when the right minds connect",
+          "cls": "h2 text-copula-white max-md:text-center md:pl-12"
+        }
+      ]
+    },
+    {
+      "idx": 4,
+      "cls": "relative p-(--padding-x)",
+      "allText": "Featured WorkLeerdammerMinoresDM BIHHoldina",
+      "accordionTitles": [
+        "Leerdammer",
+        "Leerdammer",
+        "Leerdammer",
+        "Minores",
+        "Minores",
+        "Minores",
+        "DM BIH",
+        "DM BIH",
+        "DM BIH",
+        "Holdina",
+        "Holdina",
+        "Holdina"
+      ],
+      "images": [],
+      "videos": [],
+      "anchors": [],
+      "headings": [
+        {
+          "tag": "p",
+          "text": "Featured Work",
+          "cls": "h3 uppercase"
+        },
+        {
+          "tag": "h2",
+          "text": "Leerdammer",
+          "cls": "display text-light-grey group-hover:text-dark-grey group-data-[state=open]:text-"
+        },
+        {
+          "tag": "h2",
+          "text": "Minores",
+          "cls": "display text-light-grey group-hover:text-dark-grey group-data-[state=open]:text-"
+        },
+        {
+          "tag": "h2",
+          "text": "DM BIH",
+          "cls": "display text-light-grey group-hover:text-dark-grey group-data-[state=open]:text-"
+        },
+        {
+          "tag": "h2",
+          "text": "Holdina",
+          "cls": "display text-light-grey group-hover:text-dark-grey group-data-[state=open]:text-"
+        }
+      ]
+    },
+    {
+      "idx": 5,
+      "cls": "relative overflow-hidden py-5",
+      "allText": "Our clientsWhen the Cnnection is real, it shows",
+      "accordionTitles": [],
+      "images": [
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FClients%2520Image%2520Container-1.webp&w=3840&q=75",
+          "alt": "Clients Score Image"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=3840&q=75",
+          "alt": "Client Logo 1"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=3840&q=75",
+          "alt": "Client Logo 2"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=3840&q=75",
+          "alt": "Client Logo 3"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=3840&q=75",
+          "alt": "Client Logo 4"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=3840&q=75",
+          "alt": "Client Logo 5"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=3840&q=75",
+          "alt": "Client Logo 6"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=3840&q=75",
+          "alt": "Client Logo 7"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=3840&q=75",
+          "alt": "Client Logo 8"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=3840&q=75",
+          "alt": "Client Logo 9"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=3840&q=75",
+          "alt": "Client Logo 10"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=3840&q=75",
+          "alt": "Client Logo 11"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=3840&q=75",
+          "alt": "Client Logo 12"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=3840&q=75",
+          "alt": "Client Logo 13"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=3840&q=75",
+          "alt": "Client Logo 14"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=3840&q=75",
+          "alt": "Client Logo 15"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=3840&q=75",
+          "alt": "Client Logo 16"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=3840&q=75",
+          "alt": "Client Logo 17"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=3840&q=75",
+          "alt": "Client Logo 18"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=3840&q=75",
+          "alt": "Client Logo 19"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=3840&q=75",
+          "alt": "Client Logo 20"
+        }
+      ],
+      "videos": [],
+      "anchors": [],
+      "headings": [
+        {
+          "tag": "p",
+          "text": "Our clients",
+          "cls": "h3 uppercase"
+        },
+        {
+          "tag": "p",
+          "text": "When the Cnnection is real, it shows",
+          "cls": "display text-dark-grey whitespace-pre-line"
+        }
+      ]
+    },
+    {
+      "idx": 6,
+      "cls": "relative",
+      "allText": "About usNice to bond with youWe'rethinkers,makers,anddoers,coffeelovers(mostlyall),foodobssessed,curiousbynature,strategicbychoice.Weexplore,question,andconnectuntiltheanswerfits.Everyprojectisajourney,andwe'reherefortheride.BOND MORE WITH US",
+      "accordionTitles": [],
+      "images": [
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-edina.webp&w=3840&q=75",
+          "alt": "Decoration Image 1"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-iva.webp&w=3840&q=75",
+          "alt": "Decoration Image 2"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-katja.webp&w=3840&q=75",
+          "alt": "Decoration Image 3"
+        }
+      ],
+      "videos": [],
+      "anchors": [
+        {
+          "text": "BOND MORE WITH US",
+          "href": "/about"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "p",
+          "text": "About us",
+          "cls": "h3 uppercase"
+        },
+        {
+          "tag": "h2",
+          "text": "Nice to bond with you",
+          "cls": "display text-copula-white text-center leading-[80%]! whitespace-pre-line"
+        }
+      ]
+    },
+    {
+      "idx": 7,
+      "cls": "bg-copula-blue relative pt-4 pb-6 md:py-10",
+      "allText": "LATEST NEWSWe create, but we also reflect. Explore what we’ve been thinking about lately.READ BLOGBlogMarketingA century of change: the evolution of marketing and what comes nextREAD BLOGBlogMarketingINTRODUCING COPULA: The Bond Behind Brand SuccessREAD BLOGBlogMarketingReciprocity in marketing: what is itSee more",
+      "accordionTitles": [],
+      "images": [
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=3840&q=75",
+          "alt": "A century of change: the evolution of marketing and what comes next"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=3840&q=75",
+          "alt": "INTRODUCING COPULA - The Bond Behind Brand Success"
+        },
+        {
+          "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=3840&q=75",
+          "alt": "Reciprocity in marketing - what is it"
+        }
+      ],
+      "videos": [],
+      "anchors": [
+        {
+          "text": "READ BLOG",
+          "href": "/blog/a-century-of-change-the-evolution-of-marketing-and-what-comes-next"
+        },
+        {
+          "text": "A century of change: the evolution of marketing and what comes next",
+          "href": "/blog/a-century-of-change-the-evolution-of-marketing-and-what-comes-next"
+        },
+        {
+          "text": "READ BLOG",
+          "href": "/blog/introducing-copula-the-bond-behind-brand-success"
+        },
+        {
+          "text": "INTRODUCING COPULA: The Bond Behind Brand Success",
+          "href": "/blog/introducing-copula-the-bond-behind-brand-success"
+        },
+        {
+          "text": "READ BLOG",
+          "href": "/blog/reciprocity-in-marketing-what-is-it"
+        },
+        {
+          "text": "Reciprocity in marketing: what is it",
+          "href": "/blog/reciprocity-in-marketing-what-is-it"
+        },
+        {
+          "text": "See more",
+          "href": "/blog"
+        }
+      ],
+      "headings": [
+        {
+          "tag": "p",
+          "text": "LATEST NEWS",
+          "cls": "h3 uppercase"
+        },
+        {
+          "tag": "h2",
+          "text": "We create, but we also reflect. Explore what we’ve been thinking about lately.",
+          "cls": "text-copula-white text-center"
+        },
+        {
+          "tag": "h3",
+          "text": "A century of change: the evolution of marketing and what comes next",
+          "cls": "font-body! text-[16px]/[125%]! font-bold! normal-case! md:text-center md:text-[2"
+        },
+        {
+          "tag": "h3",
+          "text": "INTRODUCING COPULA: The Bond Behind Brand Success",
+          "cls": "font-body! text-[16px]/[125%]! font-bold! normal-case! md:text-center md:text-[2"
+        },
+        {
+          "tag": "h3",
+          "text": "Reciprocity in marketing: what is it",
+          "cls": "font-body! text-[16px]/[125%]! font-bold! normal-case! md:text-center md:text-[2"
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "text": "[koh-poo-la] noun ● latinThe word copula derives from the Latin word copulare meaning a \"link\", \"bond\", \"connection\" or \"tie\" that connects two different things. AboutBlogWorkContactLet's bondLet's bondDeveloped and designed by Builtt, 2026. All rights reserved by Copula.Terms and ConditionsPrivacy PolicyCookie policy",
+    "anchors": [
+      {
+        "text": "",
+        "href": "/"
+      },
+      {
+        "text": "About",
+        "href": "/about"
+      },
+      {
+        "text": "Blog",
+        "href": "/blog"
+      },
+      {
+        "text": "Work",
+        "href": "/#work"
+      },
+      {
+        "text": "Contact",
+        "href": "/contact"
+      },
+      {
+        "text": "Let's bondLet's bond",
+        "href": "/contact"
+      },
+      {
+        "text": "Builtt",
+        "href": "https://builtt.io/"
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/copula.agency/"
+      },
+      {
+        "text": "",
+        "href": "https://www.linkedin.com/company/copula-agency/"
+      },
+      {
+        "text": "",
+        "href": "https://www.instagram.com/copula.agency/"
+      },
+      {
+        "text": "",
+        "href": "https://www.tiktok.com/@copula_agency"
+      },
+      {
+        "text": "Terms and Conditions",
+        "href": "/terms-and-conditions"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "/privacy-policy"
+      }
+    ],
+    "socialBlock": "AboutBlogWorkContactLet's bondLet's bond"
+  },
+  "cookie": {
+    "text": "We Care About Your PrivacyWe store and/or access information on a device, such as unique IDs in cookies to process personal data. You may accept or manage your choices by clicking below, including your right to object where legitimate interest is used, or at any time in the privacy policy page. These choices will be signaled to our partners and will not affect browsing data.Accept allCustomizeEssential only",
+    "buttons": [
+      "Accept all",
+      "Customize",
+      "Essential only"
+    ]
+  },
+  "featuredWorkExpanded": null,
+  "servicesExpanded": null,
+  "videosFromNetwork": []
+}

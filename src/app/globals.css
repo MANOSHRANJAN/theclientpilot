@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+@theme {
+  --font-body: "Mulish", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Bebas Neue", "Mulish", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Mulish", ui-sans-serif, system-ui, sans-serif;
+
+  --color-copula-orange: rgb(252, 81, 0);
+  --color-copula-white: rgb(244, 239, 233);
+  --color-copula-blue: rgb(5, 1, 222);
+  --color-light-blue: rgb(174, 184, 255);
+  --color-almost-black: rgb(31, 31, 31);
+  --color-dark-grey: rgb(70, 70, 69);
+  --color-text-black: rgb(0, 0, 0);
+  --color-light-tan: rgb(192, 182, 172);
+
+  --spacing-13: 3.25rem;
+  --spacing-19: 4.75rem;
+  --spacing-27: 6.75rem;
+  --spacing-29\.5: 7.375rem;
+  --spacing-30: 7.5rem;
+  --spacing-32\.5: 8.125rem;
+  --spacing-36\.5: 9.125rem;
+  --spacing-37\.5: 9.375rem;
+  --spacing-38: 9.5rem;
+  --spacing-42\.5: 10.625rem;
+  --spacing-62\.5: 15.625rem;
+  --spacing-65: 16.25rem;
+  --spacing-70: 17.5rem;
+  --spacing-82\.5: 20.625rem;
+  --spacing-84: 21rem;
+  --spacing-91: 22.75rem;
+  --spacing-94: 23.5rem;
+  --spacing-132: 33rem;
+  --spacing-155: 38.75rem;
+  --spacing-163: 40.75rem;
+  --spacing-181: 45.25rem;
+  --spacing-200: 50rem;
+  --spacing-202: 50.5rem;
+  --spacing-292\.5: 73.125rem;
+  --spacing-305: 76.25rem;
+  --spacing-310: 77.5rem;
+}
+
+:root {
+  --padding-x: clamp(20px, 4vw, 80px);
+  --nav-height: 25rem;
+  --color: var(--color-text-black);
+}
+
+@layer base {
+  html {
+    max-width: 1920px;
+    margin-inline: auto;
+    background: var(--color-copula-white);
+  }
+  html, body {
+    background: var(--color-copula-white);
+    color: var(--color-text-black);
+    font-family: var(--font-body);
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  ::selection {
+    background: var(--color-copula-orange);
+    color: var(--color-copula-white);
+  }
+}
+
+@layer components {
+  .display,
+  .h1,
+  .h2,
+  .h3,
+  .h4 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: -0.005em;
+    line-height: 1;
+  }
+  .display { font-size: clamp(60px, 12vw, 170px); line-height: 0.85; }
+  .h1 { font-size: clamp(40px, 6vw, 68px); line-height: 0.95; }
+  .h2 { font-size: clamp(32px, 4vw, 52px); line-height: 1; }
+  .h3 { font-size: clamp(16px, 1.4vw, 19px); letter-spacing: 0.04em; line-height: 1.2; }
+  .h4 { font-size: clamp(15px, 1.2vw, 18px); letter-spacing: 0.04em; line-height: 1.2; }
+  .smallBody { font-size: 14px; line-height: 1.4; font-weight: 500; }
+
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+}
+
+/* Wavy mask used on About cards & blog cards */
+.wavy-box {
+  -webkit-mask-image: radial-gradient(circle at 50% 50%, black 99%, transparent 100%);
+  mask-image: radial-gradient(circle at 50% 50%, black 99%, transparent 100%);
+  border-radius: 32px 16px 32px 16px / 22px 32px 22px 32px;
+  overflow: hidden;
+}
+
+@keyframes spin-slow {
+  to { transform: rotate(360deg); }
+}
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite;
+}
+
+@keyframes letter-jump {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-25%); }
+}
+.letter-jump > span {
+  display: inline-block;
+  animation: letter-jump 1.4s ease-in-out infinite;
+}
+
+@keyframes curve-letter-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+.curve-letter {
+  animation: curve-letter-in 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+@keyframes hero-word-in {
+  0%   { transform: translateY(105%); opacity: 0; }
+  60%  { opacity: 1; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+.hero-word > span {
+  display: inline-block;
+  animation: hero-word-in 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 35s linear infinite;
+}
+
+@keyframes accordion-down {
+  from { height: 0; opacity: 0; }
+  to { height: var(--radix-collapsible-content-height); opacity: 1; }
+}
+@keyframes accordion-up {
+  from { height: var(--radix-collapsible-content-height); opacity: 1; }
+  to { height: 0; opacity: 0; }
+}
+@keyframes scroll-text {
+  0% { offset-distance: 0%; }
+  100% { offset-distance: 100%; }
+}

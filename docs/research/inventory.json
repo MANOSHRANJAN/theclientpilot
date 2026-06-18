@@ -1,0 +1,847 @@
+{
+  "meta": {
+    "title": "Copula Agency powered by Degordian",
+    "description": "We bring strategy, creativity, and agile approach together to help brands connect with people, and turn that connection into real results.",
+    "og": [
+      {
+        "p": "og:title",
+        "c": "Copula Agency powered by Degordian"
+      },
+      {
+        "p": "og:description",
+        "c": "We bring strategy, creativity, and agile approach together to help brands connect with people, and turn that connection into real results."
+      },
+      {
+        "p": "og:url",
+        "c": "https://copula.agency/home"
+      },
+      {
+        "p": "og:site_name",
+        "c": "Copula"
+      },
+      {
+        "p": "og:image",
+        "c": "https://copula.fra1.cdn.digitaloceanspaces.com/media/open-graph.webp"
+      },
+      {
+        "p": "og:image:width",
+        "c": "1200"
+      },
+      {
+        "p": "og:image:height",
+        "c": "630"
+      },
+      {
+        "p": "og:image:alt",
+        "c": "Copula - Open Graph Image"
+      },
+      {
+        "p": "og:type",
+        "c": "website"
+      },
+      {
+        "p": "og:title",
+        "c": "Copula Agency powered by Degordian"
+      },
+      {
+        "p": "og:description",
+        "c": "We bring strategy, creativity, and agile approach together to help brands connect with people, and turn that connection into real results."
+      },
+      {
+        "p": "og:url",
+        "c": "https://copula.agency/home"
+      },
+      {
+        "p": "og:site_name",
+        "c": "Copula"
+      },
+      {
+        "p": "og:image",
+        "c": "https://copula.fra1.cdn.digitaloceanspaces.com/media/open-graph.webp"
+      },
+      {
+        "p": "og:image:width",
+        "c": "1200"
+      },
+      {
+        "p": "og:image:height",
+        "c": "630"
+      },
+      {
+        "p": "og:image:alt",
+        "c": "Copula - Open Graph Image"
+      },
+      {
+        "p": "og:type",
+        "c": "website"
+      }
+    ]
+  },
+  "favicons": [
+    {
+      "rel": "icon",
+      "href": "https://copula.agency/icon.ico?26c5107b25d7936d",
+      "sizes": "32x32"
+    },
+    {
+      "rel": "icon",
+      "href": "https://copula.agency/icon.ico?26c5107b25d7936d",
+      "sizes": "32x32"
+    }
+  ],
+  "fontsFromLinks": [
+    "https://copula.agency/_next/static/media/3be83a346553616c-s.p.woff2",
+    "https://copula.agency/_next/static/media/6c25f6e897d845a3-s.p.woff2"
+  ],
+  "fontStylesUsed": [
+    [
+      "Mulish, \"Mulish Fallback\"|16px|400",
+      343
+    ],
+    [
+      "\"Bebas Neue\", \"Bebas Neue Fallback\"|68px|400",
+      243
+    ],
+    [
+      "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"|16px|400",
+      68
+    ],
+    [
+      "Mulish, \"Mulish Fallback\"|14px|500",
+      25
+    ],
+    [
+      "\"Bebas Neue\", \"Bebas Neue Fallback\"|170px|400",
+      25
+    ],
+    [
+      "\"Bebas Neue\", \"Bebas Neue Fallback\"|26px|400",
+      8
+    ],
+    [
+      "\"Bebas Neue\", \"Bebas Neue Fallback\"|19px|400",
+      3
+    ],
+    [
+      "Mulish, \"Mulish Fallback\"|24px|400",
+      3
+    ],
+    [
+      "\"Bebas Neue\", \"Bebas Neue Fallback\"|18px|400",
+      3
+    ],
+    [
+      "Mulish, \"Mulish Fallback\"|20px|700",
+      3
+    ],
+    [
+      "Mulish, \"Mulish Fallback\"|15px|600",
+      3
+    ],
+    [
+      "\"Bebas Neue\", \"Bebas Neue Fallback\"|52px|400",
+      2
+    ],
+    [
+      "Mulish, \"Mulish Fallback\"|14px|700",
+      1
+    ],
+    [
+      "\"Bebas Neue\", \"Bebas Neue Fallback\"|100px|400",
+      1
+    ],
+    [
+      "Mulish, \"Mulish Fallback\"|22px|500",
+      1
+    ]
+  ],
+  "colorsUsed": [
+    [
+      "rgba(0, 0, 0, 0)",
+      731
+    ],
+    [
+      "rgb(244, 239, 233)",
+      385
+    ],
+    [
+      "rgb(0, 0, 0)",
+      226
+    ],
+    [
+      "rgb(252, 81, 0)",
+      30
+    ],
+    [
+      "rgb(70, 70, 69)",
+      29
+    ],
+    [
+      "rgb(31, 31, 31)",
+      28
+    ],
+    [
+      "rgb(5, 1, 222)",
+      24
+    ],
+    [
+      "rgb(192, 182, 172)",
+      6
+    ],
+    [
+      "rgb(255, 255, 255)",
+      3
+    ],
+    [
+      "rgb(36, 36, 36)",
+      1
+    ],
+    [
+      "rgb(174, 184, 255)",
+      1
+    ]
+  ],
+  "images": [
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FPerformance%2520%2526%2520growth%2520icon.webp&w=1920&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FPerformance%2520%2526%2520growth%2520icon.webp&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FPerformance%2520%2526%2520growth%2520icon.webp&w=1920&q=75 2x",
+      "alt": "Performance & Growth",
+      "w": 0,
+      "h": 0,
+      "cls": "absolute top-0 left-0 size-full object-cover object-center"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FPerformance%2520%2526%2520growth%2520icon.webp&w=1920&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FPerformance%2520%2526%2520growth%2520icon.webp&w=1080&q=75 1x, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FPerformance%2520%2526%2520growth%2520icon.webp&w=1920&q=75 2x",
+      "alt": "Performance & Growth",
+      "w": 0,
+      "h": 0,
+      "cls": "absolute top-0 left-0 size-full object-cover object-center"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FClients%2520Image%2520Container-1.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FClients%2520Image%2520Container-1.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FClients%2520Image%2520Container-1.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FClients%2520Image%2520Container-1.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FClients%2520Image%2520Container-1.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FClients%2520Image%2520Container-1.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FClients%2520Image%2520Container-1.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FClients%2520Image%2520Container-1.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FClients%2520Image%2520Container-1.webp&w=3840&q=75 3840w",
+      "alt": "Clients Score Image",
+      "w": 0,
+      "h": 0,
+      "cls": "absolute size-full object-cover object-center"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 1",
+      "w": 0,
+      "h": 0,
+      "cls": "h-full w-auto object-contain"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 2",
+      "w": 0,
+      "h": 0,
+      "cls": "h-full w-auto object-contain"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 3",
+      "w": 0,
+      "h": 0,
+      "cls": "h-full w-auto object-contain"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 4",
+      "w": 0,
+      "h": 0,
+      "cls": "h-full w-auto object-contain"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 5",
+      "w": 0,
+      "h": 0,
+      "cls": "h-full w-auto object-contain"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 6",
+      "w": 0,
+      "h": 0,
+      "cls": "h-full w-auto object-contain"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 7",
+      "w": 0,
+      "h": 0,
+      "cls": "h-full w-auto object-contain"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 8",
+      "w": 0,
+      "h": 0,
+      "cls": "h-full w-auto object-contain"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 9",
+      "w": 0,
+      "h": 0,
+      "cls": "h-full w-auto object-contain"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 10",
+      "w": 0,
+      "h": 0,
+      "cls": "h-full w-auto object-contain"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdm.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 11",
+      "w": 0,
+      "h": 0,
+      "cls": "h-full w-auto object-contain"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fdr.oetker.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 12",
+      "w": 0,
+      "h": 0,
+      "cls": "h-full w-auto object-contain"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Feronet_new.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 13",
+      "w": 0,
+      "h": 0,
+      "cls": "h-full w-auto object-contain"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Flactalis.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 14",
+      "w": 0,
+      "h": 0,
+      "cls": "h-full w-auto object-contain"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fwiener.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 15",
+      "w": 0,
+      "h": 0,
+      "cls": "h-full w-auto object-contain"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fmepas.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 16",
+      "w": 0,
+      "h": 0,
+      "cls": "h-full w-auto object-contain"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhp%2520mostar.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 17",
+      "w": 0,
+      "h": 0,
+      "cls": "h-full w-auto object-contain"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Felektro%2520milas.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 18",
+      "w": 0,
+      "h": 0,
+      "cls": "h-full w-auto object-contain"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fheineken.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 19",
+      "w": 0,
+      "h": 0,
+      "cls": "h-full w-auto object-contain"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fholdina.webp&w=3840&q=75 3840w",
+      "alt": "Client Logo 20",
+      "w": 0,
+      "h": 0,
+      "cls": "h-full w-auto object-contain"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-edina.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-edina.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-edina.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-edina.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-edina.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-edina.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-edina.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-edina.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-edina.webp&w=3840&q=75 3840w",
+      "alt": "Decoration Image 1",
+      "w": 0,
+      "h": 0,
+      "cls": "size-full object-cover object-center"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-iva.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-iva.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-iva.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-iva.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-iva.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-iva.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-iva.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-iva.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-iva.webp&w=3840&q=75 3840w",
+      "alt": "Decoration Image 2",
+      "w": 0,
+      "h": 0,
+      "cls": "size-full object-cover object-center"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-katja.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-katja.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-katja.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-katja.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-katja.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-katja.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-katja.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-katja.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2Fhomepage-katja.webp&w=3840&q=75 3840w",
+      "alt": "Decoration Image 3",
+      "w": 0,
+      "h": 0,
+      "cls": "size-full object-cover object-center"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FBLOG-A%2520century%2520of%2520change.webp&w=3840&q=75 3840w",
+      "alt": "A century of change: the evolution of marketing and what comes next",
+      "w": 0,
+      "h": 0,
+      "cls": "absolute top-0 left-0 size-full object-cover object-center"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FINTRODUCING%2520COPULA%2520-%2520The%2520Bond%2520Behind%2520Brand%2520Success.webp&w=3840&q=75 3840w",
+      "alt": "INTRODUCING COPULA - The Bond Behind Brand Success",
+      "w": 0,
+      "h": 0,
+      "cls": "absolute top-0 left-0 size-full object-cover object-center"
+    },
+    {
+      "src": "https://copula.agency/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=3840&q=75",
+      "srcset": "/_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fcopula.fra1.digitaloceanspaces.com%2Fmedia%2FReciprocity%2520in%2520marketing%2520-%2520what%2520is%2520it.webp&w=3840&q=75 3840w",
+      "alt": "Reciprocity in marketing - what is it",
+      "w": 0,
+      "h": 0,
+      "cls": "absolute top-0 left-0 size-full object-cover object-center"
+    }
+  ],
+  "videos": [],
+  "bgImages": [],
+  "scripts": [
+    "https://capi-automation.s3.us-east-2.amazonaws.com/public/client_js/capiParamBuilder/clientParamBuilder.bundle.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-K92WP6SL&gtg_health=1",
+    "https://connect.facebook.net/signals/config/3074552806268459?v=2.9.338&r=stable&domain=copula.agency&hme=ed806287581422089c496fd485507306546b2937977788da80b80247d3e2e94b&ex_m=105%2C208%2C156%2C22%2C73%2C74%2C147%2C69%2C68%2C11%2C165%2C91%2C16%2C139%2C128%2C39%2C76%2C79%2C135%2C161%2C167%2C8%2C4%2C5%2C7%2C6%2C3%2C92%2C102%2C168%2C173%2C222%2C30%2C75%2C234%2C233%2C232%2C23%2C33%2C55%2C104%2C61%2C10%2C64%2C98%2C99%2C100%2C106%2C131%2C31%2C29%2C133%2C134%2C130%2C129%2C157%2C77%2C160%2C158%2C159%2C50%2C60%2C124%2C15%2C164%2C45%2C267%2C268%2C266%2C26%2C27%2C28%2C48%2C148%2C78%2C113%2C18%2C20%2C44%2C40%2C42%2C41%2C84%2C93%2C97%2C111%2C146%2C149%2C46%2C112%2C24%2C21%2C120%2C70%2C36%2C151%2C150%2C152%2C143%2C141%2C25%2C35%2C59%2C110%2C163%2C71%2C17%2C154%2C115%2C82%2C67%2C19%2C86%2C87%2C117%2C85%2C137%2C136%2C140%2C162%2C34%2C281%2C297%2C215%2C204%2C62%2C205%2C203%2C300%2C291%2C52%2C216%2C108%2C132%2C81%2C122%2C54%2C47%2C49%2C114%2C121%2C127%2C126%2C58%2C65%2C63%2C153%2C116%2C37%2C32%2C53%2C56%2C101%2C166%2C1%2C125%2C14%2C123%2C12%2C2%2C57%2C94%2C66%2C119%2C90%2C89%2C169%2C170%2C95%2C96%2C9%2C103%2C51%2C144%2C88%2C80%2C72%2C118%2C107%2C43%2C145%2C0%2C83%2C138%2C142%2C155%2C38%2C109%2C13%2C171",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://copula.agency/z7sn/zA47igllVCVhAAccpvjGVr5uHSGkAvmsjDxvrwS_SdjS0WzSf-4",
+    "https://copula.agency/z7sn/",
+    "https://copula.agency/_next/static/chunks/4bd1b696-c564c759c08c2d39.js",
+    "https://copula.agency/_next/static/chunks/1684-e883fea66e67bf3a.js",
+    "https://copula.agency/_next/static/chunks/main-app-5518523dddf30468.js",
+    "https://copula.agency/_next/static/chunks/9698-7c563b905edf6121.js",
+    "https://copula.agency/_next/static/chunks/6825-94003fcd2c58c35b.js",
+    "https://copula.agency/_next/static/chunks/app/(frontend)/%5Blocale%5D/layout-1b9662e5c4597d92.js",
+    "https://copula.agency/_next/static/chunks/polyfills-42372ed130431b0a.js",
+    "https://copula.agency/_next/static/chunks/webpack-6f308ab616e24f41.js",
+    "https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447"
+  ],
+  "topology": [
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "",
+      "text": "",
+      "rect": {
+        "w": 0,
+        "h": 0,
+        "t": 0
+      }
+    },
+    {
+      "tag": "HEADER",
+      "id": "",
+      "cls": "",
+      "text": "About BlogWorkContactNew name, same\nDegordian DNA",
+      "rect": {
+        "w": 1440,
+        "h": 0,
+        "t": 0
+      }
+    },
+    {
+      "tag": "MAIN",
+      "id": "",
+      "cls": "",
+      "text": "Your all-in-one agencyLet's bondLet's bondOur manifestoThe bond behind brand successWe bring strategy, creativity, and agile approach together to help brands connect with people, and turn that connect",
+      "rect": {
+        "w": 1440,
+        "h": 14457.671875,
+        "t": 0
+      }
+    },
+    {
+      "tag": "FOOTER",
+      "id": "",
+      "cls": "text-copula-white bg-almost-black w-full overflow-hidden px-5 py-10 md:px-(--padding-x) md:pb-6",
+      "text": "[koh-poo-la] noun ● latinThe word copula derives from the Latin word  copulare meaning a \"link\", \"bond\", \"connection\" or \"tie\" that connects two different things. AboutBlogWorkContactLet's bondLet's b",
+      "rect": {
+        "w": 1440,
+        "h": 719.9375,
+        "t": 14457.671875
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "cookie-consent",
+      "cls": "bg-copula-white border-dark-grey fixed bottom-0 isolate z-50 w-full border p-6 py-8 backdrop-blur-xl sm:right-4 sm:bottom-4 sm:left-auto sm:w-132 sm:p-9 sm:py-10",
+      "text": "We Care About Your PrivacyWe store and/or access information on a device, such as unique IDs in cookies to process personal data. You may accept or manage your choices by clicking below, including you",
+      "rect": {
+        "w": 528,
+        "h": 500,
+        "t": 384
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "",
+      "cls": "",
+      "text": "",
+      "rect": {
+        "w": 0,
+        "h": 0,
+        "t": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "",
+      "cls": "",
+      "text": "(self.__next_f=self.__next_f||[]).push([0])",
+      "rect": {
+        "w": 0,
+        "h": 0,
+        "t": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "",
+      "cls": "",
+      "text": "self.__next_f.push([1,\"1:\\\"$Sreact.fragment\\\"\\n2:I[87555,[],\\\"\\\"]\\n3:I[31295,[],\\\"\\\"]\\n6:I[59665,[],\\\"OutletBoundary\\\"]\\n9:I[74911,[],\\\"AsyncMetadataOutlet\\\"]\\nb:I[59665,[],\\\"ViewportBoundary\\\"]\\nd:I[",
+      "rect": {
+        "w": 0,
+        "h": 0,
+        "t": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "",
+      "cls": "",
+      "text": "self.__next_f.push([1,\"\\\"8986\\\",\\\"static/chunks/8986-0f90d398aaf8ddba.js\\\",\\\"9698\\\",\\\"static/chunks/9698-7c563b905edf6121.js\\\",\\\"5805\\\",\\\"static/chunks/5805-9e6ca933aa4c98fb.js\\\",\\\"8775\\\",\\\"static/chu",
+      "rect": {
+        "w": 0,
+        "h": 0,
+        "t": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "",
+      "cls": "",
+      "text": "self.__next_f.push([1,\"628b5.js\\\",\\\"8986\\\",\\\"static/chunks/8986-0f90d398aaf8ddba.js\\\",\\\"9698\\\",\\\"static/chunks/9698-7c563b905edf6121.js\\\",\\\"5805\\\",\\\"static/chunks/5805-9e6ca933aa4c98fb.js\\\",\\\"8775\\\",\\",
+      "rect": {
+        "w": 0,
+        "h": 0,
+        "t": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "",
+      "cls": "",
+      "text": "self.__next_f.push([1,\"03d391b9d7628b5.js\\\",\\\"8986\\\",\\\"static/chunks/8986-0f90d398aaf8ddba.js\\\",\\\"9698\\\",\\\"static/chunks/9698-7c563b905edf6121.js\\\",\\\"5805\\\",\\\"static/chunks/5805-9e6ca933aa4c98fb.js\\\",",
+      "rect": {
+        "w": 0,
+        "h": 0,
+        "t": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "",
+      "cls": "",
+      "text": "self.__next_f.push([1,\"479ba886-603d391b9d7628b5.js\\\",\\\"8986\\\",\\\"static/chunks/8986-0f90d398aaf8ddba.js\\\",\\\"9698\\\",\\\"static/chunks/9698-7c563b905edf6121.js\\\",\\\"5805\\\",\\\"static/chunks/5805-9e6ca933aa4c",
+      "rect": {
+        "w": 0,
+        "h": 0,
+        "t": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "",
+      "cls": "",
+      "text": "self.__next_f.push([1,\"0:{\\\"P\\\":null,\\\"b\\\":\\\"7gnTVTQ7Xy1NFTRmkGtgT\\\",\\\"p\\\":\\\"\\\",\\\"c\\\":[\\\"\\\",\\\"\\\"],\\\"i\\\":false,\\\"f\\\":[[[\\\"\\\",{\\\"children\\\":[\\\"(frontend)\\\",{\\\"children\\\":[[\\\"locale\\\",\\\"en\\\",\\\"d\\\"],{\\\"ch",
+      "rect": {
+        "w": 0,
+        "h": 0,
+        "t": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "",
+      "cls": "",
+      "text": "self.__next_f.push([1,\"e:[\\\"$\\\",\\\"div\\\",null,{\\\"hidden\\\":true,\\\"children\\\":[\\\"$\\\",\\\"$10\\\",null,{\\\"fallback\\\":null,\\\"children\\\":[\\\"$\\\",\\\"$L11\\\",null,{\\\"promise\\\":\\\"$@12\\\"}]}]}]\\n8:null\\n4:[\\\"$\\\",\\\"html",
+      "rect": {
+        "w": 0,
+        "h": 0,
+        "t": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "",
+      "cls": "",
+      "text": "self.__next_f.push([1,\"5:[[\\\"$\\\",\\\"$L15\\\",null,{}],[\\\"$\\\",\\\"header\\\",null,{\\\"children\\\":[[\\\"$\\\",\\\"$L16\\\",null,{\\\"theme\\\":\\\"light\\\",\\\"items\\\":[{\\\"blockType\\\":\\\"nav_link\\\",\\\"link_type\\\":\\\"internal\\\",\\\"l",
+      "rect": {
+        "w": 0,
+        "h": 0,
+        "t": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "",
+      "cls": "",
+      "text": "self.__next_f.push([1,\"c:[[\\\"$\\\",\\\"meta\\\",\\\"0\\\",{\\\"charSet\\\":\\\"utf-8\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"viewport\\\",\\\"content\\\":\\\"width=device-width, initial-scale=1\\\"}]]\\n14:[\\\"$\\\",\\\"$L22\\\",null,{\\",
+      "rect": {
+        "w": 0,
+        "h": 0,
+        "t": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "",
+      "cls": "",
+      "text": "self.__next_f.push([1,\"a:{\\\"metadata\\\":[[\\\"$\\\",\\\"title\\\",\\\"0\\\",{\\\"children\\\":\\\"Copula Agency powered by Degordian\\\"}],[\\\"$\\\",\\\"meta\\\",\\\"1\\\",{\\\"name\\\":\\\"description\\\",\\\"content\\\":\\\"We bring strategy, c",
+      "rect": {
+        "w": 0,
+        "h": 0,
+        "t": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "",
+      "cls": "",
+      "text": "self.__next_f.push([1,\"12:{\\\"metadata\\\":\\\"$a:metadata\\\",\\\"error\\\":null,\\\"digest\\\":\\\"$undefined\\\"}\\n\"])",
+      "rect": {
+        "w": 0,
+        "h": 0,
+        "t": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "",
+      "cls": "",
+      "text": "self.__next_f.push([1,\"26:I[33407,[\\\"6446\\\",\\\"static/chunks/53c13509-072d2e39c527533c.js\\\",\\\"6711\\\",\\\"static/chunks/8e1d74a4-71ac03f0367086a4.js\\\",\\\"3380\\\",\\\"static/chunks/479ba886-603d391b9d7628b5.js",
+      "rect": {
+        "w": 0,
+        "h": 0,
+        "t": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "",
+      "cls": "",
+      "text": "self.__next_f.push([1,\"1f:[\\\"$\\\",\\\"$L26\\\",\\\"7\\\",{\\\"sectionTitle\\\":\\\"LATEST NEWS\\\",\\\"title\\\":\\\"We create, but we also reflect. Explore what we’ve been thinking about lately.\\\",\\\"buttonLabel\\\":\\\"See mor",
+      "rect": {
+        "w": 0,
+        "h": 0,
+        "t": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "",
+      "cls": "",
+      "text": "self.__next_f.push([1,\"27:I[44766,[\\\"6446\\\",\\\"static/chunks/53c13509-072d2e39c527533c.js\\\",\\\"6711\\\",\\\"static/chunks/8e1d74a4-71ac03f0367086a4.js\\\",\\\"3380\\\",\\\"static/chunks/479ba886-603d391b9d7628b5.js",
+      "rect": {
+        "w": 0,
+        "h": 0,
+        "t": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "",
+      "cls": "",
+      "text": "self.__next_f.push([1,\"1c:[\\\"$\\\",\\\"$L27\\\",\\\"4\\\",{\\\"sectionTitle\\\":\\\"Featured Work\\\",\\\"works\\\":[{\\\"createdAt\\\":\\\"2026-04-14T08:50:38.873Z\\\",\\\"updatedAt\\\":\\\"2026-05-11T10:20:05.882Z\\\",\\\"slugLock\\\":true,",
+      "rect": {
+        "w": 0,
+        "h": 0,
+        "t": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "",
+      "cls": "",
+      "text": "",
+      "rect": {
+        "w": 0,
+        "h": 0,
+        "t": 0
+      }
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "cls": "customCursor",
+      "text": "",
+      "rect": {
+        "w": 15,
+        "h": 15,
+        "t": -7.5
+      }
+    },
+    {
+      "tag": "NEXT-ROUTE-ANNOUNCER",
+      "id": "",
+      "cls": "",
+      "text": "",
+      "rect": {
+        "w": 0,
+        "h": 0,
+        "t": 15177.609375
+      }
+    }
+  ],
+  "sections": [
+    {
+      "tag": "HEADER",
+      "id": "",
+      "cls": "",
+      "top": 0,
+      "h": 0,
+      "text": "About BlogWorkContactNew name, same\nDegordian DNA"
+    },
+    {
+      "tag": "NAV",
+      "id": "",
+      "cls": "group text-text-black w-full bg-transparent [--color:text-black] has-[.glass]:bg-white has-[.glass]:[--color:var(--color-black)] absolute inset-x-0 top-0 z-40 h-[var(--nav-height)] md:border-transpare",
+      "top": 0,
+      "h": 67.203125,
+      "text": "About BlogWorkContactNew name, same\nDegordian DNA"
+    },
+    {
+      "tag": "MAIN",
+      "id": "",
+      "cls": "",
+      "top": 0,
+      "h": 14457.671875,
+      "text": "Your all-in-one agencyLet's bondLet's bondOur manifestoThe bond behind brand successWe bring strategy, creativity, and agile approach together to help brands connect with people, and turn that connection into real results.SERVICESPerformance & GrowthWe track, measure, and optimize to ensure lasting "
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "cls": "bg-copula-orange text-copula-white flex h-svh min-h-163 w-full items-end px-(--padding-x) py-(--padding-x)",
+      "top": 0,
+      "h": 900,
+      "text": "Your all-in-one agencyLet's bondLet's bond"
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "cls": "relative h-[400vh] md:h-[500vh]",
+      "top": 900,
+      "h": 4500,
+      "text": "Our manifestoThe bond behind brand successWe bring strategy, creativity, and agile approach together to help brands connect with people, and turn that connection into real results."
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "cls": "relative px-(--padding-x) py-5",
+      "top": 5400,
+      "h": 651.0625,
+      "text": "SERVICESPerformance & GrowthWe track, measure, and optimize to ensure lasting results. Digital advertising strategyAnalytics & reportingCampaign tracking & optimizationConversion rate optimization (CRO)SEOEmail marketingWeb design & developmentCREATIVE SOLUTIONSDigital Presence"
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "cls": "flex w-full flex-col items-center justify-center gap-6 px-(--padding-x) py-14",
+      "top": 6051.0625,
+      "h": 310,
+      "text": "Ready when you are. Reach out and see what happens when the right minds connectLet's bondContact us"
+    },
+    {
+      "tag": "SECTION",
+      "id": "work",
+      "cls": "relative p-(--padding-x)",
+      "top": 6361.0625,
+      "h": 819.203125,
+      "text": "Featured WorkLeerdammerMinoresDM BIHHoldina"
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "cls": "relative overflow-hidden py-5",
+      "top": 7180.265625,
+      "h": 941.203125,
+      "text": "Our clientsWhen the \nCnnection \nis real, it shows"
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "cls": "relative",
+      "top": 8121.46875,
+      "h": 5400,
+      "text": "About usNice to \nbond \nwith youWe'rethinkers,makers,anddoers,coffeelovers(mostlyall),foodobssessed,curiousbynature,strategicbychoice.Weexplore,question,andconnectuntiltheanswerfits.Everyprojectisajourney,andwe'reherefortheride.BOND MORE WITH US"
+    },
+    {
+      "tag": "SECTION",
+      "id": "",
+      "cls": "bg-copula-blue relative pt-4 pb-6 md:py-10",
+      "top": 13521.46875,
+      "h": 936.203125,
+      "text": "LATEST NEWSWe create, but we also reflect. Explore what we’ve been thinking about lately.READ BLOGBlogMarketingA century of change: the evolution of marketing and what comes nextREAD BLOGBlogMarketingINTRODUCING COPULA: The Bond Behind Brand SuccessREAD BLOGBlogMarketingReciprocity in marketing: wha"
+    },
+    {
+      "tag": "FOOTER",
+      "id": "",
+      "cls": "text-copula-white bg-almost-black w-full overflow-hidden px-5 py-10 md:px-(--padding-x) md:pb-6",
+      "top": 14457.671875,
+      "h": 719.9375,
+      "text": "[koh-poo-la] noun ● latinThe word copula derives from the Latin word  copulare meaning a \"link\", \"bond\", \"connection\" or \"tie\" that connects two different things. AboutBlogWorkContactLet's bondLet's bondDeveloped and designed by Builtt, 2026. All rights reserved by Copula.Terms and ConditionsPrivacy"
+    }
+  ],
+  "bodyClass": "__className_9738f2 __variable_d758cf bg-copula-white antialiased [--padding-x:--spacing(4)] md:[--padding-x:--spacing(5)]",
+  "htmlClass": "size-full scroll-smooth",
+  "rootStyles": {
+    "fontFamily": "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "fontSize": "16px",
+    "color": "rgb(0, 0, 0)",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box"
+  },
+  "bodyStyles": {
+    "fontFamily": "Mulish, \"Mulish Fallback\"",
+    "fontSize": "16px",
+    "color": "rgb(0, 0, 0)",
+    "backgroundColor": "rgb(244, 239, 233)",
+    "background": "rgb(244, 239, 233) none repeat scroll 0% 0% / auto padding-box border-box"
+  }
+}
