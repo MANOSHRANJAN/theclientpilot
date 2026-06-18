@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Bebas_Neue, Mulish } from "next/font/google";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const bebas = Bebas_Neue({
@@ -347,6 +348,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
         />
         {children}
+        <Analytics />
       </body>
     </html>
   );
