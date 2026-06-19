@@ -1,11 +1,9 @@
 import Link from "next/link";
 import { BondButton } from "./BondButton";
 
-const NAV = [
-  { text: "About", href: "/about" },
-  { text: "Blog", href: "/blog" },
-  { text: "Work", href: "/#work" },
-  { text: "Contact", href: "/contact" },
+const CONTACT = [
+  { text: "theclientpilot@outlook.com", href: "mailto:theclientpilot@outlook.com" },
+  { text: "@theclientpilot", href: "https://instagram.com/theclientpilot" },
 ];
 
 export function SiteFooter() {
@@ -22,11 +20,13 @@ export function SiteFooter() {
         <div className="contents items-start justify-between gap-6 lg:flex">
           <div className="flex shrink-0">
             <ul className="flex flex-col gap-2.5">
-              {NAV.map((n) => (
+              {CONTACT.map((n) => (
                 <li key={n.href}>
                   <Link
                     href={n.href}
-                    className="h3 uppercase transition-opacity duration-300 hover:opacity-55"
+                    target={n.href.startsWith("http") ? "_blank" : undefined}
+                    rel={n.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                    className="h3 uppercase transition-opacity duration-300 hover:opacity-55 break-all"
                   >
                     {n.text}
                   </Link>
@@ -36,7 +36,7 @@ export function SiteFooter() {
           </div>
           <div className="flex shrink-0 justify-end">
             <BondButton
-              href="/contact"
+              href="mailto:theclientpilot@outlook.com"
               label="Let's bond"
               blobClass="text-copula-orange"
               textClass="text-copula-white"

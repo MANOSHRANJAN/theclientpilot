@@ -53,6 +53,11 @@
     max-width: 1920px;
     margin-inline: auto;
     background: var(--color-copula-white);
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
   }
   html, body {
     background: var(--color-copula-white);
