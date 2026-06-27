@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { StarBurst } from "./icons";
 
@@ -127,14 +126,6 @@ export function About() {
                   </span>
                 ))}
               </p>
-              <Link
-                href="/about"
-                className="group flex w-max items-center gap-2 transition-opacity hover:opacity-70"
-              >
-                <span className="h3 text-copula-white relative pb-2 uppercase underline underline-offset-8">
-                  Bond more with us
-                </span>
-              </Link>
             </div>
           </div>
         </div>

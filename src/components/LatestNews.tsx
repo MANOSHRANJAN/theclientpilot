@@ -70,17 +70,6 @@ export function LatestNews() {
           </article>
         ))}
       </div>
-
-      <div className="mt-10 flex justify-center pb-5 md:mt-16">
-        <Link
-          href="/blog"
-          className="group flex w-max items-center gap-2 transition-opacity hover:opacity-80"
-        >
-          <span className="btn h3 text-copula-white relative overflow-hidden pb-2 uppercase underline underline-offset-8">
-            See more
-          </span>
-        </Link>
-      </div>
     </section>
   );
 }

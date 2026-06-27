@@ -1,6 +1,7 @@
 import { About } from "@/components/About";
 import { Clients } from "@/components/Clients";
 import { CtaBanner } from "@/components/CtaBanner";
+import { FAQ } from "@/components/FAQ";
 import { FeaturedWork } from "@/components/FeaturedWork";
 import { Hero } from "@/components/Hero";
 import { LatestNews } from "@/components/LatestNews";
@@ -52,6 +53,7 @@ export default function Home() {
         <Clients />
         <About />
         <LatestNews />
+        <FAQ />
       </main>
       <SiteFooter />
     </>
