@@ -74,14 +74,9 @@ export function SiteHeader() {
             <button
               type="button"
               onClick={() => setFormOpen(true)}
-              className={cn(
-                "inline-flex items-center justify-center rounded-full border-2 px-5 py-2 text-sm font-semibold uppercase tracking-wider transition-all duration-300 hover:scale-110 hover:bg-almost-black hover:text-copula-white hover:border-almost-black",
-                scrolled || open
-                  ? "border-almost-black text-almost-black"
-                  : "border-copula-white text-copula-white"
-              )}
+              className="inline-flex items-center justify-center rounded-full border-2 border-almost-black bg-almost-black px-5 py-2 text-sm font-semibold uppercase tracking-wider text-copula-white transition-all duration-300 hover:scale-110 hover:bg-copula-white hover:text-almost-black"
             >
-              Get Started
+              Book Now
             </button>
 
             <button
