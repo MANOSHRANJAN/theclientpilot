@@ -10,12 +10,17 @@ export function SmoothScroll() {
     if (prefersReduced.matches) return;
 
     const lenis = new Lenis({
-      // Inertial smoothing. Higher = more "glide", lower = snappier.
-      lerp: 0.1,
-      // Wheel multiplier — keep close to native so jumps still feel responsive
-      wheelMultiplier: 1,
-      touchMultiplier: 1.2,
-      // Allow native scroll on touch devices (mobile users expect OS feel)
+      // Wheel/continuous smoothing. Lower lerp = more inertia carried between
+      // frames, so scrolling glides more (was 0.1; 0.075 feels more fluid).
+      lerp: 0.075,
+      // Anchor / programmatic scrollTo animation: a longer duration with an
+      // exponential ease-out gives a smooth, gliding settle to the target.
+      duration: 1.4,
+      easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      // A touch more momentum so a single wheel flick travels further.
+      wheelMultiplier: 1.1,
+      touchMultiplier: 1.5,
+      // Smooth the wheel; let touch devices keep native OS feel.
       smoothWheel: true,
     });
 

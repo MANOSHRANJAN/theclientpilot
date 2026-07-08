@@ -60,7 +60,7 @@ export function LatestNews() {
             >
               <Image
                 src={p.image}
-                alt=""
+                alt={p.title}
                 fill
                 sizes="(min-width: 768px) 320px, 80vw"
                 style={{ objectPosition: p.imagePosition ?? "center" }}

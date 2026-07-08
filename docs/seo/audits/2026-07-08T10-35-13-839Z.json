@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-07-08T10:35:13.839Z",
+  "isBaseline": true,
+  "pages": [
+    {
+      "url": "http://localhost:3000",
+      "seoScore": 100,
+      "coreWebVitals": {
+        "lcpMs": 2124,
+        "cls": 0,
+        "inpMs": 17
+      },
+      "structuredDataValid": true,
+      "structuredDataErrors": []
+    }
+  ]
+}

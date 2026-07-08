@@ -2,16 +2,16 @@ import Image from "next/image";
 import { StarBurst } from "./icons";
 
 const LOGOS = [
-  { src: "/images/dm.webp", alt: "dm" },
-  { src: "/images/dr.oetker.webp", alt: "Dr. Oetker" },
-  { src: "/images/eronet_new.webp", alt: "Eronet" },
-  { src: "/images/lactalis.webp", alt: "Lactalis" },
-  { src: "/images/wiener.webp", alt: "Wiener" },
-  { src: "/images/mepas.webp", alt: "Mepas" },
-  { src: "/images/hp-mostar.webp", alt: "HP Mostar" },
-  { src: "/images/elektro-milas.webp", alt: "Elektro Milas" },
-  { src: "/images/heineken.webp", alt: "Heineken" },
-  { src: "/images/holdina.webp", alt: "Holdina" },
+  { src: "/images/dm.webp", alt: "dm client logo" },
+  { src: "/images/dr.oetker.webp", alt: "Dr. Oetker client logo" },
+  { src: "/images/eronet_new.webp", alt: "Eronet client logo" },
+  { src: "/images/lactalis.webp", alt: "Lactalis client logo" },
+  { src: "/images/wiener.webp", alt: "Wiener client logo" },
+  { src: "/images/mepas.webp", alt: "Mepas client logo" },
+  { src: "/images/hp-mostar.webp", alt: "HP Mostar client logo" },
+  { src: "/images/elektro-milas.webp", alt: "Elektro Milas client logo" },
+  { src: "/images/heineken.webp", alt: "Heineken client logo" },
+  { src: "/images/holdina.webp", alt: "Holdina client logo" },
 ];
 
 function ConnectionSquiggle({ className }: { className?: string }) {
