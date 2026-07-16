@@ -58,7 +58,11 @@ export interface SeoConfig {
   areaServed: string[];
 }
 
-const SITE_URL = "https://theclientpilot.store";
+// Canonical host MUST match the host the site actually serves on. The apex
+// domain 308-redirects to the www subdomain, so www is the canonical host;
+// pointing canonical/sitemap/structured-data URLs at the non-www apex would
+// declare a canonical that immediately redirects, confusing crawlers.
+const SITE_URL = "https://www.theclientpilot.store";
 
 export const seoConfig: SeoConfig = {
   siteUrl: SITE_URL,
