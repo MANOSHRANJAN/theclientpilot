@@ -66,7 +66,7 @@ export function Services() {
   const [open, setOpen] = useState(0);
 
   return (
-    <section className="relative px-(--padding-x) py-5">
+    <section id="services" className="relative px-(--padding-x) py-5">
       <div className="text-text-black flex items-center gap-2">
         <StarBurst className="size-6 animate-spin-slow text-text-black" />
         <p className="display uppercase text-[40px] leading-none">Services</p>

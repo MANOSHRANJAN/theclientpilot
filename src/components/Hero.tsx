@@ -2,12 +2,16 @@
 
 import { useEffect, useState } from "react";
 import { BondButton } from "./BondButton";
+import { GetStartedDialog } from "./GetStartedDialog";
 import { StarBurstLarge } from "./icons";
 
 const ROTATING = ["automation", "ai", "website", "marketing", "growth", "all-in-1"];
 
 export function Hero() {
   const [idx, setIdx] = useState(0);
+  // The CTA opens the Get Started form instead of navigating to a route that
+  // does not exist (the previous default "/contact" href returned a 404).
+  const [formOpen, setFormOpen] = useState(false);
 
   useEffect(() => {
     const t = setInterval(() => {
@@ -40,10 +44,15 @@ export function Hero() {
           <div className="display leading-[0.85]">agency</div>
           <div className="mt-8 flex items-center gap-x-10 md:mt-0 md:gap-x-14">
             <StarBurstLarge className="text-copula-blue size-29.5 animate-spin-slow" />
-            <BondButton blobClass="text-copula-blue" textClass="text-copula-white" />
+            <BondButton
+              onClick={() => setFormOpen(true)}
+              blobClass="text-copula-blue"
+              textClass="text-copula-white"
+            />
           </div>
         </div>
       </div>
+      <GetStartedDialog open={formOpen} onClose={() => setFormOpen(false)} />
     </section>
   );
 }

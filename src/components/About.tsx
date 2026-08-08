@@ -50,7 +50,7 @@ export function About() {
   const reveal = Math.floor(cascadeEased * (WORDS.length + 4));
 
   return (
-    <section ref={ref} className="relative">
+    <section ref={ref} id="about" className="relative">
       <div className="relative h-[320vh]">
         <div className="sticky top-0 h-svh w-full overflow-hidden bg-copula-white">
           {/* Eyebrow */}

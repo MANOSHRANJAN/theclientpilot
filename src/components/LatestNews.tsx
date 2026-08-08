@@ -1,9 +1,7 @@
 import Image from "next/image";
-import Link from "next/link";
 import { StarBurst } from "./icons";
 
 interface Post {
-  href: string;
   title: string;
   image: string;
   imagePosition?: string;
@@ -11,19 +9,16 @@ interface Post {
 
 const POSTS: Post[] = [
   {
-    href: "/blog/a-century-of-change-the-evolution-of-marketing-and-what-comes-next",
     title: "A century of change: the evolution of marketing and what comes next",
     image: "/images/news-freedom.png",
     imagePosition: "50% 35%",
   },
   {
-    href: "/blog/introducing-copula-the-bond-behind-brand-success",
     title: "INTRODUCING COPULA: The Bond Behind Brand Success",
     image: "/images/news-automation.png",
     imagePosition: "50% 35%",
   },
   {
-    href: "/blog/reciprocity-in-marketing-what-is-it",
     title: "Reciprocity in marketing: what is it",
     image: "/images/news-growth.png",
     imagePosition: "50% 35%",
@@ -51,13 +46,10 @@ export function LatestNews() {
       <div className="no-scrollbar mt-10 flex gap-x-8 overflow-x-auto px-(--padding-x) pb-2 md:mt-16 md:grid md:grid-cols-3 md:overflow-visible md:gap-x-10">
         {POSTS.map((p) => (
           <article
-            key={p.href}
+            key={p.image}
             className="text-copula-white flex w-[78%] min-w-72 flex-col snap-start md:w-full md:min-w-0"
           >
-            <Link
-              href={p.href}
-              className="wavy-box group relative block aspect-square w-full max-w-84 self-center overflow-hidden"
-            >
+            <div className="wavy-box group relative block aspect-square w-full max-w-84 self-center overflow-hidden">
               <Image
                 src={p.image}
                 alt={p.title}
@@ -66,7 +58,7 @@ export function LatestNews() {
                 style={{ objectPosition: p.imagePosition ?? "center" }}
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
               />
-            </Link>
+            </div>
           </article>
         ))}
       </div>
