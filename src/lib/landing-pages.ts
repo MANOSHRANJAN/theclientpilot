@@ -365,6 +365,376 @@ export const LANDING_PAGES: readonly LandingPage[] = [
       },
     ],
   },
+  // ---------------------------------------------------------------------------
+  // National AI agency intent. The hardest target in this set — competing
+  // against agencies with years of accumulated authority — so the page argues a
+  // specific position rather than trying to out-generic them.
+  // ---------------------------------------------------------------------------
+  {
+    slug: "ai-agency-in-india",
+    title: "Best AI Agency in India | TheClientPilot",
+    description:
+      "TheClientPilot is an AI agency in India building AI receptionists, follow-up automation and ad campaigns measured on booked appointments.",
+    h1: "AI agency in India",
+    intro:
+      "Most agencies in India that describe themselves as AI-powered mean they use AI to write ad copy faster. We mean something narrower and more useful: the systems that speak to your customers, qualify them and book them are themselves AI, running continuously without anyone supervising them.",
+    serviceName: "AI Marketing and Automation Services in India",
+    areaServed: ["India", "Assam", "Guwahati", "Delhi NCR"],
+    breadcrumbLabel: "AI agency in India",
+    linkLabel: "AI agency in India",
+    sections: [
+      {
+        heading: "What AI-first actually means here",
+        paragraphs: [
+          "There is a meaningful difference between using AI as a production shortcut and putting AI in the path of the customer. Generating fifty ad variations faster does not change your business. Answering every call at 2am does.",
+        ],
+        bullets: [
+          "AI voice agents that hold a real conversation with a caller, qualify them and write to your calendar.",
+          "Automated follow-up that continues working a lead across WhatsApp and SMS without anyone remembering to.",
+          "Campaign optimisation aimed at booked appointments rather than clicks or impressions.",
+          "Websites built so the traffic you pay for actually converts.",
+        ],
+      },
+      {
+        heading: "Why we work remote-first across India",
+        paragraphs: [
+          "We are based in Guwahati, Assam, and every system we build is cloud-based. That is not a limitation to apologise for — it is why a clinic in Kochi and a practice in Ludhiana can run the same stack with the same setup time.",
+          "It also means we are not restricted to whichever businesses happen to be within driving distance, so we can specialise deeply in a few categories rather than taking any local work that appears.",
+        ],
+      },
+      {
+        heading: "The categories we go deep on",
+        paragraphs: [
+          "We deliberately do not serve every industry. Repeating the same category means we already know the objections, the seasonality and the offers that convert.",
+        ],
+        bullets: [
+          "Dental clinics and dentists",
+          "Medical spas and aesthetic clinics",
+          "Doctors, healthcare practices and diagnostic centres",
+          "Gyms, salons and appointment-driven local services",
+        ],
+      },
+      {
+        heading: "How to evaluate us against a larger agency",
+        paragraphs: [
+          "Ask any agency you are considering one question: of the enquiries you generated last month, how many became attended appointments? Most cannot answer, because they stop measuring at the click and the handover.",
+          "That is the number we build around. Engagements start with a free consultation, pricing is quoted before work begins, and there are no long-term contracts.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "Which is the best AI agency in India?",
+        answer:
+          "That depends on what you need. If you want brand campaigns at national scale, a large traditional agency is a better fit. If you are an appointment-driven business losing enquiries to missed calls and slow follow-up, TheClientPilot is built specifically for that problem.",
+      },
+      {
+        question: "Do you work with businesses outside Assam?",
+        answer:
+          "Yes. Delivery is remote-first and cloud-based, so we work with businesses across India, including Delhi NCR, as well as internationally.",
+      },
+      {
+        question: "Is an AI agency more expensive than a normal agency?",
+        answer:
+          "Not necessarily. Automation replaces recurring manual work, so ongoing cost is often lower than staffing the same coverage. Exact pricing depends on scope and is quoted in the free consultation.",
+      },
+      {
+        question: "What do you need from me to start?",
+        answer:
+          "A conversation about how enquiries reach you today, access to your existing ad accounts and website if they exist, and a decision on which service to start with. Most AI receptionist setups are live within one to two weeks.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------------------------
+  // AI automation cluster.
+  // ---------------------------------------------------------------------------
+  {
+    slug: "ai-automation-agency",
+    title: "AI Automation Agency in India | TheClientPilot",
+    description:
+      "AI automation agency building call answering, WhatsApp follow-up, CRM workflows and lead routing for clinics and service businesses across India.",
+    h1: "AI automation agency",
+    intro:
+      "Automation is worth doing where a task is repetitive, time-sensitive and currently depends on someone remembering. In an appointment-driven business that describes almost everything between an enquiry arriving and a customer turning up.",
+    serviceName: "AI Automation and Workflow Services",
+    areaServed: ["India", "Assam", "Guwahati", "Delhi NCR"],
+    breadcrumbLabel: "AI automation agency",
+    linkLabel: "AI automation agency",
+    sections: [
+      {
+        heading: "What we automate",
+        bullets: [
+          "Call answering — an AI voice agent picks up every call, including outside working hours, and books qualified callers in.",
+          "Lead follow-up — automated WhatsApp and SMS sequences that continue until the person replies or opts out.",
+          "Appointment reminders — reducing no-shows, which is usually the cheapest revenue in the building.",
+          "Lead routing — enquiries sorted and assigned by service, location or urgency instead of sitting in one shared inbox.",
+          "CRM updates — records created and updated automatically so your pipeline reflects reality without manual entry.",
+        ],
+      },
+      {
+        heading: "Where automation pays for itself fastest",
+        paragraphs: [
+          "The highest-return automation is almost always the first response. A lead contacted within a minute converts dramatically better than the same lead contacted hours later, and no human team can hold a one-minute response time across evenings and weekends.",
+          "The second is no-show reduction. If a meaningful share of booked appointments do not arrive, automated reminders recover revenue you have already paid to acquire.",
+        ],
+      },
+      {
+        heading: "What we deliberately do not automate",
+        paragraphs: [
+          "Automation applied to the wrong step damages the business. Consultations, clinical judgement and anything requiring genuine discretion stay with your team.",
+          "We also do not automate a broken process. If your intake is confusing, automating it produces confusion at higher speed. We fix the sequence first, then automate it.",
+        ],
+      },
+      {
+        heading: "How a build runs",
+        paragraphs: [
+          "We map how an enquiry currently travels through your business and find where it stalls. We build and configure the automations around your actual services and language, test them with you, then run them live with monitoring.",
+          "Most automation builds go live within one to two weeks. Engagements are month to month.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "What does an AI automation agency do?",
+        answer:
+          "It builds and runs the systems that handle repetitive, time-sensitive work automatically — answering calls, following up leads, sending reminders, routing enquiries and updating your CRM — so results stop depending on who is free at the time.",
+      },
+      {
+        question: "Will automation make my business feel impersonal?",
+        answer:
+          "Done badly, yes. We automate speed and consistency, not judgement. The AI answers immediately and handles booking; anything requiring real discretion still reaches a person. You approve the voice, tone and scripts before launch.",
+      },
+      {
+        question: "Does this integrate with the tools I already use?",
+        answer:
+          "That is the intent. Automations are built around your existing calendar, CRM and WhatsApp rather than requiring you to migrate. We confirm what is possible with your specific stack during the consultation.",
+      },
+      {
+        question: "What is the fastest automation to start with?",
+        answer:
+          "Usually call answering and instant follow-up, because missed calls and slow first responses are where most appointment-driven businesses lose the most revenue with the least visibility.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------------------------
+  // AI receptionist — the most winnable target in this set: specific,
+  // high-intent, and far less contested than "AI agency".
+  // ---------------------------------------------------------------------------
+  {
+    slug: "ai-receptionist",
+    title: "AI Receptionist for Clinics | TheClientPilot",
+    description:
+      "An AI receptionist that answers every call 24/7, qualifies the caller and books the appointment. Built for dental clinics, medical spas and doctors.",
+    h1: "AI receptionist for clinics and practices",
+    intro:
+      "An AI receptionist is a voice agent that answers your phone, works out what the caller needs, and books them into your calendar. It answers on the first ring at any hour — including while your front desk is with a patient, and at times no human is rostered.",
+    serviceName: "AI Receptionist and Voice Agent Setup",
+    areaServed: ["India", "Assam", "Guwahati", "Delhi NCR"],
+    breadcrumbLabel: "AI receptionist",
+    linkLabel: "AI receptionist for clinics",
+    sections: [
+      {
+        heading: "The cost of a missed call",
+        paragraphs: [
+          "Missed calls are the most expensive problem in an appointment business because they are invisible. A lost enquiry leaves no record — there is nothing in your inbox to review and no line in a report.",
+          "Work out the average value of one new patient or client, then estimate how many calls go unanswered in a week. That figure is usually larger than the entire cost of fixing it.",
+        ],
+      },
+      {
+        heading: "What the AI receptionist handles",
+        bullets: [
+          "Answers every incoming call, 24 hours a day, including weekends and public holidays.",
+          "Qualifies the caller — what they need, whether you offer it, how urgent it is.",
+          "Books the appointment directly into your calendar against real availability.",
+          "Answers routine repeat questions about services, timings and location.",
+          "Captures caller details and passes anything it should not handle to your team.",
+        ],
+      },
+      {
+        heading: "Will it sound like a robot?",
+        paragraphs: [
+          "This is the first question almost everyone asks, and it is the right one. Modern AI voices are close to indistinguishable from a human in normal conversation.",
+          "The voice, tone and script are configured around your practice so it sounds like part of your team rather than a generic phone menu, including the language your callers actually use. You listen to samples and approve them before anything goes live.",
+        ],
+      },
+      {
+        heading: "Setup and what it replaces",
+        paragraphs: [
+          "Setup typically completes within one to two weeks: we configure the voice and script, connect your calendar, test against real call scenarios, then go live.",
+          "It is not a replacement for your front desk. It covers the calls your team physically cannot reach — during procedures, at lunch, after closing, and when several calls arrive at once. Engagements run month to month.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "What is an AI receptionist?",
+        answer:
+          "A voice agent that answers your phone automatically, holds a real conversation with the caller, qualifies what they need and books them into your calendar. It works 24/7 and handles several calls at the same time.",
+      },
+      {
+        question: "Will my patients realise they are talking to AI?",
+        answer:
+          "Modern AI voices are nearly indistinguishable from human speech in a normal booking conversation, and the voice and script are trained around your practice. You can listen to live samples before launch and decide for yourself.",
+      },
+      {
+        question: "What happens if the AI cannot handle a call?",
+        answer:
+          "It captures the caller's details and hands the enquiry to your team rather than guessing. Anything requiring clinical judgement or genuine discretion is routed to a person by design.",
+      },
+      {
+        question: "How quickly can it go live?",
+        answer:
+          "Usually one to two weeks, covering voice and script configuration, calendar connection and testing against real call scenarios before launch.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------------------------
+  // Website / web design cluster.
+  // ---------------------------------------------------------------------------
+  {
+    slug: "website-design-agency",
+    title: "Website Design Agency in India | TheClientPilot",
+    description:
+      "Website design agency building fast, mobile-first sites that convert enquiries into bookings, for clinics and service businesses across India.",
+    h1: "Website design agency",
+    intro:
+      "A website for an appointment business has one job: turn a visitor into a booking. Most fall short not because they look bad, but because they load slowly on mobile data, bury the phone number, and ask the visitor to work out what to do next.",
+    serviceName: "Website Design and Development",
+    areaServed: ["India", "Assam", "Guwahati", "Delhi NCR"],
+    breadcrumbLabel: "Website design agency",
+    linkLabel: "Website design agency",
+    sections: [
+      {
+        heading: "What we build for",
+        bullets: [
+          "Mobile first — most local service traffic in India is mobile, so that is the primary design target rather than an afterthought.",
+          "Fast on real connections, not just on office wifi. Every additional second of load time costs conversions.",
+          "One obvious action per page — call, WhatsApp or book — instead of several competing options.",
+          "Built to be indexed, with correct headings, metadata, structured data and a sitemap from day one.",
+          "Connected to your automation so an enquiry from the site enters follow-up immediately.",
+        ],
+      },
+      {
+        heading: "We audit before we rebuild",
+        paragraphs: [
+          "If your current site converts, rebuilding it is a waste of your money. We check what the existing traffic actually does first.",
+          "Often the problem is narrow and cheap to fix — a slow hero image, a form nobody completes on mobile, a phone number that is not tappable. We would rather fix that and put the remaining budget into traffic and follow-up than sell you a rebuild you do not need.",
+        ],
+      },
+      {
+        heading: "Why conversion and SEO get built together",
+        paragraphs: [
+          "A fast, well-structured, genuinely useful page serves both goals at once. Search engines reward the same things users do: quick loading, clear structure, content that answers the question.",
+          "Retrofitting SEO onto a site built purely as a brochure is more expensive than building it in from the start, which is why we do not treat them as separate projects.",
+        ],
+      },
+      {
+        heading: "Who this is for",
+        paragraphs: [
+          "Dental clinics, medical spas, aesthetic clinics, doctors, healthcare practices, gyms and salons — businesses where the site exists to produce booked appointments rather than to win a design award. Free consultation first, exact pricing before work starts, month-to-month terms.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "How long does a website take to build?",
+        answer:
+          "It depends on scope, and we quote the timeline in the consultation rather than giving a generic figure. A focused conversion-oriented site is considerably faster than a large multi-service build.",
+      },
+      {
+        question: "I already have a website. Do I need a new one?",
+        answer:
+          "Possibly not. We audit it first. If it converts, we leave it and focus on traffic and automation instead. If it is leaking enquiries, we either fix the specific bottlenecks or rebuild, depending on which is genuinely better value.",
+      },
+      {
+        question: "Will the site be built for SEO?",
+        answer:
+          "Yes. Correct heading structure, metadata, structured data, a sitemap and fast mobile performance are part of the build, not an upsell afterwards.",
+      },
+      {
+        question: "Can the website connect to the AI receptionist?",
+        answer:
+          "Yes, and we recommend it. Enquiries from the site can enter the same automated follow-up as phone callers, so nothing depends on someone checking a form inbox.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------------------------
+  // SEO cluster, scoped to Guwahati where it is genuinely winnable.
+  // ---------------------------------------------------------------------------
+  {
+    slug: "seo-agency-in-guwahati",
+    title: "SEO Agency in Guwahati, Assam | TheClientPilot",
+    description:
+      "SEO agency in Guwahati doing local and national SEO for clinics and service businesses: Google Business Profile, on-page fixes and content.",
+    h1: "SEO agency in Guwahati",
+    intro:
+      "SEO is the slowest thing we do and the only one that keeps producing enquiries after you stop paying per click. For a Guwahati business the winnable target is not a national keyword — it is being the obvious result when someone nearby searches for your service right now.",
+    serviceName: "Search Engine Optimisation Services",
+    areaServed: ["Guwahati", "Assam", "Northeast India", "India"],
+    breadcrumbLabel: "SEO agency in Guwahati",
+    linkLabel: "SEO agency in Guwahati",
+    sections: [
+      {
+        heading: "Local SEO and the map results",
+        paragraphs: [
+          "For local searches, the map results usually sit above the standard results and take most of the clicks. They are influenced by different factors than your website, so they need separate work.",
+        ],
+        bullets: [
+          "Google Business Profile setup, category selection and ongoing optimisation.",
+          "A repeatable process for generating reviews, since volume and recency both count.",
+          "Consistent business name, address and phone across the directories Google cross-references.",
+          "Location and service pages on your site that match how people actually search.",
+        ],
+      },
+      {
+        heading: "The technical foundation",
+        paragraphs: [
+          "Before content work, the site has to be crawlable and fast. That means a correct robots file that does not accidentally block your own resources, an accurate sitemap, self-referencing canonicals, valid structured data in the server HTML, and mobile performance that holds up on a real connection.",
+          "These are unglamorous and frequently broken. They are also the reason a site with good content sometimes fails to rank at all.",
+        ],
+      },
+      {
+        heading: "Content that matches search intent",
+        paragraphs: [
+          "One page cannot rank for many different intents. Someone searching for a specific treatment, someone comparing providers and someone looking for a clinic near them want different pages, and each needs its own.",
+          "We build out the pages that match the searches your customers actually make, rather than repeating keywords on a single page and hoping it covers everything.",
+        ],
+      },
+      {
+        heading: "Honest timelines",
+        paragraphs: [
+          "SEO generally takes two to six months to move meaningfully, and competitive terms take longer. Local map visibility often responds faster than organic rankings, which is why we usually start there for Guwahati businesses.",
+          "Anyone offering guaranteed rankings or first-page results in thirty days is either misleading you or planning to use tactics that put your domain at risk.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "How long does SEO take to show results in Guwahati?",
+        answer:
+          "Typically two to six months for meaningful organic movement, and longer for competitive terms. Local map visibility often improves sooner, since Google Business Profile and review activity respond faster than organic rankings.",
+      },
+      {
+        question: "Can you guarantee a first-page ranking?",
+        answer:
+          "No, and neither can anyone else. Google controls rankings and they depend on competition, your site's authority and factors outside any agency's control. We can guarantee the work, not the position.",
+      },
+      {
+        question: "What matters most for local SEO?",
+        answer:
+          "For local searches, your Google Business Profile, review volume and recency, and consistent business details across directories usually matter most, alongside a fast crawlable site with pages matching what people search for.",
+      },
+      {
+        question: "Do you do SEO alongside ads?",
+        answer:
+          "Often, yes. Ads produce enquiries within days while SEO compounds over months, so running both means you are not waiting on SEO before seeing any return.",
+      },
+    ],
+  },
 ];
 
 /** Returns the landing page for `slug`, or `undefined` when there is none. */
