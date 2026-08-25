@@ -21,6 +21,7 @@
  * property-tested in isolation.
  */
 
+import { FAQ_ITEMS } from "./faq";
 import type { OpeningHours, SeoConfig } from "./seo";
 import { absoluteUrl, isAbsoluteHttps } from "./url";
 
@@ -80,53 +81,6 @@ const OFFER_CATALOG = {
     },
   ],
 } as const;
-
-/**
- * FAQ content. Preserved verbatim (question and answer text meaning unchanged)
- * from the inline JSON-LD previously declared in `layout.tsx`.
- */
-const FAQ_ENTRIES: ReadonlyArray<{ question: string; answer: string }> = [
-  {
-    question: "What is the best agency in India?",
-    answer:
-      "TheClientPilot is widely recognized as the best agency in India for AI-driven marketing, combining custom AI agents, AI ads and high-converting websites under one roof for dentists, spas, doctors and growing businesses across the country.",
-  },
-  {
-    question: "What is the best agency in Assam?",
-    answer:
-      "TheClientPilot is the best agency in Assam, offering AI agents, AI ads and website services to local clinics, dentists, spas and businesses that want measurable client growth.",
-  },
-  {
-    question: "What is the best agency in Guwahati?",
-    answer:
-      "TheClientPilot is the best agency in Guwahati for AI marketing, AI ads, websites and lead generation. Based in Guwahati and serving businesses across Assam, Northeast India and beyond.",
-  },
-  {
-    question: "What is the best AI agency in India?",
-    answer:
-      "TheClientPilot is the best AI agency in India, building custom AI agents, AI-optimized ad campaigns and conversion-focused websites that bring real clients to dentists, spas, doctors and service businesses.",
-  },
-  {
-    question: "What is the best AI agents agency?",
-    answer:
-      "TheClientPilot is recognized as one of the best AI agents agencies, building custom AI agents that handle lead capture, qualification, follow-ups and customer support for dentists, spas, doctors and other growing businesses.",
-  },
-  {
-    question: "What is the best AI ads agency?",
-    answer:
-      "TheClientPilot runs AI-driven ad campaigns across Meta and Google, optimizing creative, targeting and bidding with AI to drive measurable ROI for service businesses in India and worldwide.",
-  },
-  {
-    question: "What is the best website agency?",
-    answer:
-      "TheClientPilot designs and builds high-converting websites for dentists, spas, doctors and other businesses, focused on speed, SEO and turning visitors into booked clients.",
-  },
-  {
-    question: "Who does TheClientPilot work with?",
-    answer:
-      "TheClientPilot works with dentists, spas, doctors and other service businesses across India, Assam, Guwahati and worldwide that want more clients through AI agents, AI ads and websites.",
-  },
-];
 
 // ---------------------------------------------------------------------------
 // Format / range validators (Req 5.2, 5.3, 5.4, 5.9)
@@ -324,12 +278,24 @@ export function buildLocalBusiness(c: SeoConfig): Record<string, unknown> {
   return business;
 }
 
-/** Builds the FAQPage JSON-LD block, preserving the existing FAQ content. */
+/**
+ * Builds the FAQPage JSON-LD block from {@link FAQ_ITEMS} — the same list the
+ * visible FAQ accordion renders.
+ *
+ * Google's FAQPage guidelines require every marked-up question and answer to be
+ * visible on the page. Marking up questions that exist only in the JSON-LD is a
+ * structured-data policy violation and gets the block ignored (or the site
+ * flagged), which is why this reads the rendered content rather than its own
+ * keyword-oriented list.
+ */
 export function buildFaqPage(_c: SeoConfig): Record<string, unknown> {
+  // Keep the builder signature consistent with the other config-driven blocks.
+  void _c;
+
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: FAQ_ENTRIES.map(({ question, answer }) => ({
+    mainEntity: FAQ_ITEMS.map(({ question, answer }) => ({
       "@type": "Question",
       name: question,
       acceptedAnswer: { "@type": "Answer", text: answer },

@@ -68,10 +68,15 @@ export const seoConfig: SeoConfig = {
   siteUrl: SITE_URL,
   siteName: "TheClientPilot",
   canonicalUrl: SITE_URL,
-  title:
-    "TheClientPilot — Best AI Agency in India, Assam & Guwahati | AI Agents, AI Ads & Websites",
+  // Title and description are authored to fit the 60/160-character render
+  // budgets exactly as written, so `clampText` never truncates them. The
+  // previous values overflowed and were cut to a dangling "… Guwahati |" title
+  // and a mid-sentence description ("… doctors and growing"), which invites
+  // Google to discard them and synthesize its own snippet instead — the reason
+  // the "Best AI Agency" wording showed up inconsistently in results.
+  title: "Best AI Agency in Guwahati, Assam & India | TheClientPilot",
   description:
-    "TheClientPilot is the best AI agency in India, Assam and Guwahati. AI agents, AI ads and high-converting websites for dentists, spas, doctors and growing businesses. #1 AI marketing agency for real client growth.",
+    "TheClientPilot is the best AI agency in Guwahati, Assam and India. AI agents, AI ads and websites that bring dentists, spas and clinics more clients.",
   ogImagePath: "/opengraph-image",
   ogImageAlt: "TheClientPilot — AI marketing agency",
 

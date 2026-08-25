@@ -15,7 +15,11 @@ import { absoluteUrl, canonicalHome } from "@/lib/url";
  * (Req 2.6).
  *
  * - Wildcard rule allows crawling of all resources except the disallowed
- *   non-public paths (build artifacts and internal API routes) (Req 2.2, 2.5).
+ *   non-public paths (internal API routes) (Req 2.2, 2.5).
+ * - `/_next/` is deliberately NOT disallowed. Google requires access to a
+ *   page's CSS and JavaScript to render and evaluate it; blocking `/_next/`
+ *   blocks every static chunk and every optimized image, which degrades
+ *   rendering, Core Web Vitals assessment and image indexing.
  * - Declares the sitemap absolute URL (Req 2.3, 12.6).
  * - Declares the canonical host absolute URL (Req 2.4).
  */
@@ -27,7 +31,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/api/", "/_next/"],
+      disallow: ["/api/"],
     },
     sitemap,
     host,

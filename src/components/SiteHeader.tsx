@@ -64,27 +64,32 @@ export function SiteHeader() {
         )}
       >
         <div className="flex items-center justify-between border-b border-current/20 px-(--padding-x) py-[0.18rem] md:py-[0.24rem]">
-          <Link href="/" aria-label="theclientpilot" className="shrink-0">
-            <span className="display block text-[40px] uppercase leading-none md:text-[52px]">
+          <Link
+            href="/"
+            aria-label="theclientpilot"
+            className="flex min-h-11 shrink-0 items-center md:min-h-0"
+          >
+            <span className="display block text-[clamp(25px,8vw,40px)] uppercase leading-none md:text-[52px]">
               theclientpilot
             </span>
           </Link>
 
-          <div className="flex items-center gap-3">
+          <div className="flex shrink-0 items-center gap-2 md:gap-3">
             <button
               type="button"
               onClick={() => setFormOpen(true)}
-              className="inline-flex items-center justify-center rounded-full border-2 border-almost-black bg-almost-black px-5 py-2 text-sm font-semibold uppercase tracking-wider text-copula-white transition-all duration-300 hover:scale-110 hover:bg-copula-white hover:text-almost-black"
+              className="inline-flex h-11 shrink-0 items-center justify-center whitespace-nowrap rounded-full border-2 border-almost-black bg-almost-black px-3 py-0 text-xs font-semibold uppercase tracking-wide text-copula-white transition-all duration-300 hover:scale-110 hover:bg-copula-white hover:text-almost-black md:h-auto md:px-5 md:py-2 md:text-sm md:tracking-wider"
             >
               Book Now
             </button>
 
             <button
+              type="button"
               aria-label={open ? "Close menu" : "Open menu"}
               aria-expanded={open}
               onClick={() => setOpen((v) => !v)}
               className={cn(
-                "flex size-9 items-center justify-center rounded-full transition-colors",
+                "flex size-11 shrink-0 items-center justify-center rounded-full transition-colors md:size-9",
                 scrolled || open
                   ? "bg-almost-black text-copula-white"
                   : "bg-copula-white text-copula-orange"
@@ -115,14 +120,14 @@ export function SiteHeader() {
                     transitionDelay: open ? `${i * 60 + 60}ms` : "0ms",
                   }}
                   className={cn(
-                    "transition-all duration-500",
+                    "max-w-full transition-all duration-500",
                     open ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
                   )}
                 >
                   <Link
                     href={n.href}
                     onClick={() => setOpen(false)}
-                    className="display text-text-black block text-[80px] uppercase leading-[0.95] transition-colors hover:text-copula-orange"
+                    className="display text-text-black block max-w-full text-[clamp(44px,15vw,64px)] uppercase leading-[0.95] transition-colors hover:text-copula-orange md:text-[80px]"
                   >
                     {n.text}
                   </Link>
