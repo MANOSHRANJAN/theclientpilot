@@ -22,6 +22,7 @@
  */
 
 import { FAQ_ITEMS } from "./faq";
+import type { LandingPage } from "./landing-pages";
 import type { OpeningHours, SeoConfig } from "./seo";
 import { absoluteUrl, isAbsoluteHttps } from "./url";
 
@@ -304,14 +305,124 @@ export function buildFaqPage(_c: SeoConfig): Record<string, unknown> {
 }
 
 /**
- * Builds all four structured-data blocks in the order they are injected into
- * the document: Organization, WebSite, LocalBusiness, FAQPage.
+ * Builds the site-wide structured-data blocks emitted from the root layout on
+ * every page: Organization, WebSite, LocalBusiness.
+ *
+ * FAQPage is deliberately excluded. It describes the question/answer content of
+ * one specific page, so emitting it from the shared layout would put the home
+ * page's FAQ on every URL — and on the landing pages, which carry their own
+ * FAQPage, that produced two conflicting FAQPage entities on a single URL.
+ * Google resolves such conflicts by picking one arbitrarily or ignoring both.
+ * Each page therefore emits its own FAQPage alongside these.
  */
-export function buildAllStructuredData(c: SeoConfig): Record<string, unknown>[] {
+export function buildSiteStructuredData(
+  c: SeoConfig,
+): Record<string, unknown>[] {
+  return [buildOrganization(c), buildWebSite(c), buildLocalBusiness(c)];
+}
+
+/**
+ * Builds a `BreadcrumbList` for a landing page: Home > {label}.
+ *
+ * Breadcrumb markup lets Google render the site hierarchy in the result snippet
+ * instead of a bare URL, and reinforces that these pages belong to the same
+ * site rather than being unrelated one-offs.
+ */
+export function buildBreadcrumbList(
+  c: SeoConfig,
+  page: LandingPage,
+): Record<string, unknown> {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: absoluteUrl("", c.siteUrl),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: page.breadcrumbLabel,
+        item: absoluteUrl(page.slug, c.siteUrl),
+      },
+    ],
+  };
+}
+
+/**
+ * Builds the `Service` block for a landing page.
+ *
+ * `provider` reuses the same organisation name and postal address as
+ * {@link buildOrganization} and {@link buildLocalBusiness}, so NAP stays
+ * consistent across every entity on the site (Req 6.5). `areaServed` is the
+ * page's own service area, which is what differentiates these blocks from one
+ * another.
+ */
+export function buildService(
+  c: SeoConfig,
+  page: LandingPage,
+): Record<string, unknown> {
+  const provider: Record<string, unknown> = {
+    "@type": "Organization",
+    name: c.siteName,
+    url: absoluteUrl("", c.siteUrl),
+    address: buildPostalAddress(c),
+  };
+
+  if (isValidTelephone(c.telephone)) {
+    provider.telephone = c.telephone;
+  }
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: page.serviceName,
+    serviceType: [...SERVICE_TYPES],
+    description: page.description,
+    url: absoluteUrl(page.slug, c.siteUrl),
+    provider,
+    areaServed: [...page.areaServed],
+  };
+}
+
+/**
+ * Builds the FAQPage block for a landing page from that page's own visible
+ * question/answer content.
+ *
+ * As with {@link buildFaqPage}, every pair marked up here renders visibly on the
+ * page, which is what Google's FAQPage guidelines require.
+ */
+export function buildLandingFaqPage(
+  page: LandingPage,
+): Record<string, unknown> {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: page.faqs.map(({ question, answer }) => ({
+      "@type": "Question",
+      name: question,
+      acceptedAnswer: { "@type": "Answer", text: answer },
+    })),
+  };
+}
+
+/**
+ * Builds every structured-data block for a landing page, in render order:
+ * Service, BreadcrumbList, FAQPage.
+ *
+ * Organization / WebSite / LocalBusiness are emitted once from the root layout
+ * and are deliberately not repeated here.
+ */
+export function buildLandingStructuredData(
+  c: SeoConfig,
+  page: LandingPage,
+): Record<string, unknown>[] {
   return [
-    buildOrganization(c),
-    buildWebSite(c),
-    buildLocalBusiness(c),
-    buildFaqPage(c),
+    buildService(c, page),
+    buildBreadcrumbList(c, page),
+    buildLandingFaqPage(page),
   ];
 }

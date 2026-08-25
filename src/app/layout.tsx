@@ -4,7 +4,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { SmoothScroll } from "@/components/SmoothScroll";
 import { seoConfig } from "@/lib/seo";
 import { buildMetadata } from "@/lib/metadata";
-import { buildAllStructuredData } from "@/lib/structured-data";
+import { buildSiteStructuredData } from "@/lib/structured-data";
 import "./globals.css";
 
 const bebas = Bebas_Neue({
@@ -38,7 +38,7 @@ export const metadata: Metadata = buildMetadata(seoConfig);
  * never break out of the script element (XSS hardening, per the Next.js JSON-LD
  * guide).
  */
-const structuredData = buildAllStructuredData(seoConfig).map((block) =>
+const structuredData = buildSiteStructuredData(seoConfig).map((block) =>
   JSON.stringify(block).replace(/</g, "\\u003c"),
 );
 

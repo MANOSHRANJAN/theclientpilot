@@ -11,6 +11,7 @@
  */
 
 import type { Metadata } from "next";
+import type { LandingPage } from "./landing-pages";
 import type { SeoConfig } from "./seo";
 import { absoluteUrl } from "./url";
 
@@ -229,4 +230,84 @@ export function buildMetadata(config: SeoConfig): Metadata {
   }
 
   return metadata;
+}
+
+/**
+ * Builds the `Metadata` for a location/service landing page.
+ *
+ * Mirrors {@link buildMetadata}'s invariants — clamped title and description,
+ * exactly one canonical, indexable robots directives, absolute https OG image —
+ * but the canonical points at the landing page's own URL rather than the site
+ * root. Getting this wrong is the classic multi-page SEO failure: if every page
+ * declares the home page as canonical, Google drops them all from the index.
+ *
+ * The site-wide `keywords` list is intentionally not repeated here. Each landing
+ * page targets one intent, so its title, headings and body copy carry the
+ * relevance; a duplicated 57-term keyword list adds nothing and dilutes it.
+ *
+ * @param config - The single-source SEO configuration.
+ * @param page - The landing page to build metadata for.
+ * @returns A Next.js `Metadata` object for that page.
+ */
+export function buildLandingMetadata(
+  config: SeoConfig,
+  page: LandingPage,
+): Metadata {
+  const title = clampText(page.title, TITLE_MAX);
+  const description = clampText(page.description, DESCRIPTION_MAX);
+  const canonical = absoluteUrl(page.slug, config.siteUrl);
+  const ogImageUrl = absoluteUrl(config.ogImagePath, config.siteUrl);
+  const ogImageAlt = clampText(config.ogImageAlt, OG_ALT_MAX);
+
+  return {
+    metadataBase: new URL(config.siteUrl),
+    title,
+    description,
+    applicationName: config.siteName,
+    authors: [{ name: config.siteName, url: config.siteUrl }],
+    creator: config.siteName,
+    publisher: config.siteName,
+    category: "Marketing & Advertising",
+    alternates: { canonical },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+        "max-video-preview": -1,
+      },
+    },
+    icons: ICONS,
+    openGraph: {
+      type: "website",
+      url: canonical,
+      siteName: config.siteName,
+      title,
+      description,
+      images: [
+        {
+          url: ogImageUrl,
+          width: OG_IMAGE_WIDTH,
+          height: OG_IMAGE_HEIGHT,
+          alt: ogImageAlt,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [
+        {
+          url: ogImageUrl,
+          width: OG_IMAGE_WIDTH,
+          height: OG_IMAGE_HEIGHT,
+          alt: ogImageAlt,
+        },
+      ],
+    },
+  };
 }
