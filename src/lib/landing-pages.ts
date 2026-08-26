@@ -37,9 +37,21 @@ export interface LandingFaq {
   answer: string;
 }
 
+/**
+ * Topic cluster a page belongs to.
+ *
+ * Used to link related pages to each other preferentially. Once the page set
+ * grows past a handful, linking every page to every other page spreads internal
+ * link signals evenly and tells search engines nothing about which pages are
+ * topically related. Clustering concentrates that signal instead.
+ */
+export type LandingCluster = "agency" | "automation" | "web" | "search";
+
 export interface LandingPage {
   /** URL path segment, e.g. "ai-agency-in-assam". */
   slug: string;
+  /** Topic cluster, used to drive contextual internal linking. */
+  cluster: LandingCluster;
   /** Rendered `<title>`, authored to fit within 60 characters. */
   title: string;
   /** Meta description, authored to fit within 160 characters. */
@@ -66,6 +78,7 @@ export const LANDING_PAGES: readonly LandingPage[] = [
   // ---------------------------------------------------------------------------
   {
     slug: "ai-agency-in-assam",
+    cluster: "agency",
     title: "Best AI Agency in Assam | TheClientPilot",
     description:
       "TheClientPilot is an AI agency in Assam building AI receptionists, lead automation and ad campaigns for clinics, dental practices and service businesses.",
@@ -146,6 +159,7 @@ export const LANDING_PAGES: readonly LandingPage[] = [
   // ---------------------------------------------------------------------------
   {
     slug: "ai-agency-in-guwahati",
+    cluster: "agency",
     title: "Best AI Agency in Guwahati | TheClientPilot",
     description:
       "TheClientPilot is an AI agency in Guwahati. We build AI receptionists, local SEO and ad campaigns that turn missed calls into booked appointments.",
@@ -220,6 +234,7 @@ export const LANDING_PAGES: readonly LandingPage[] = [
   // ---------------------------------------------------------------------------
   {
     slug: "marketing-agency-in-assam",
+    cluster: "agency",
     title: "Best Marketing Agency in Assam | TheClientPilot",
     description:
       "A marketing agency in Assam running Meta and Google ads, SEO and conversion-focused websites, measured on booked appointments instead of impressions.",
@@ -297,6 +312,7 @@ export const LANDING_PAGES: readonly LandingPage[] = [
   // ---------------------------------------------------------------------------
   {
     slug: "ai-agency-in-delhi-ncr",
+    cluster: "agency",
     title: "AI Marketing Agency in Delhi NCR | TheClientPilot",
     description:
       "AI agency serving Delhi NCR, Gurgaon, Noida and Sonipat. AI receptionists, lead automation and ad campaigns for clinics and service businesses.",
@@ -372,6 +388,7 @@ export const LANDING_PAGES: readonly LandingPage[] = [
   // ---------------------------------------------------------------------------
   {
     slug: "ai-agency-in-india",
+    cluster: "agency",
     title: "Best AI Agency in India | TheClientPilot",
     description:
       "TheClientPilot is an AI agency in India building AI receptionists, follow-up automation and ad campaigns measured on booked appointments.",
@@ -451,6 +468,7 @@ export const LANDING_PAGES: readonly LandingPage[] = [
   // ---------------------------------------------------------------------------
   {
     slug: "ai-automation-agency",
+    cluster: "automation",
     title: "AI Automation Agency in India | TheClientPilot",
     description:
       "AI automation agency building call answering, WhatsApp follow-up, CRM workflows and lead routing for clinics and service businesses across India.",
@@ -524,6 +542,7 @@ export const LANDING_PAGES: readonly LandingPage[] = [
   // ---------------------------------------------------------------------------
   {
     slug: "ai-receptionist",
+    cluster: "automation",
     title: "AI Receptionist for Clinics | TheClientPilot",
     description:
       "An AI receptionist that answers every call 24/7, qualifies the caller and books the appointment. Built for dental clinics, medical spas and doctors.",
@@ -596,6 +615,7 @@ export const LANDING_PAGES: readonly LandingPage[] = [
   // ---------------------------------------------------------------------------
   {
     slug: "website-design-agency",
+    cluster: "web",
     title: "Website Design Agency in India | TheClientPilot",
     description:
       "Website design agency building fast, mobile-first sites that convert enquiries into bookings, for clinics and service businesses across India.",
@@ -667,6 +687,7 @@ export const LANDING_PAGES: readonly LandingPage[] = [
   // ---------------------------------------------------------------------------
   {
     slug: "seo-agency-in-guwahati",
+    cluster: "search",
     title: "SEO Agency in Guwahati, Assam | TheClientPilot",
     description:
       "SEO agency in Guwahati doing local and national SEO for clinics and service businesses: Google Business Profile, on-page fixes and content.",
@@ -735,9 +756,324 @@ export const LANDING_PAGES: readonly LandingPage[] = [
       },
     ],
   },
+  // ---------------------------------------------------------------------------
+  // Automation spokes.
+  //
+  // These target specific, high-intent automation searches rather than more
+  // location variants of "automation agency". A location variant of a service
+  // already covered elsewhere overlaps heavily with existing pages, which is how
+  // a page set drifts into doorway territory. A distinct service has distinct
+  // search intent and therefore genuinely distinct content.
+  // ---------------------------------------------------------------------------
+  {
+    slug: "missed-call-automation",
+    cluster: "automation",
+    title: "Missed Call Automation for Clinics | TheClientPilot",
+    description:
+      "Recover missed calls automatically. Every unanswered call triggers an instant WhatsApp or SMS reply so the enquiry does not go to a competitor.",
+    h1: "Missed call automation",
+    intro:
+      "A missed call is the only kind of lost revenue that leaves no evidence. There is no voicemail to return, no form in your inbox, no line in a report — the person simply calls the next business on the list. Missed call automation makes sure that call still gets a response.",
+    serviceName: "Missed Call Recovery Automation",
+    areaServed: ["India", "Assam", "Guwahati", "Delhi NCR"],
+    breadcrumbLabel: "Missed call automation",
+    linkLabel: "Missed call automation",
+    sections: [
+      {
+        heading: "How it works",
+        paragraphs: [
+          "The moment a call goes unanswered — engaged, out of hours, or ringing out while your team is with a customer — an automated message goes to that number within seconds.",
+        ],
+        bullets: [
+          "The caller receives an instant WhatsApp or SMS acknowledging the missed call.",
+          "The message offers a way forward: reply here, pick a slot, or request a callback.",
+          "Replies flow into an automated conversation that can qualify and book without anyone stepping in.",
+          "Your team sees a record of every missed call and how each one was recovered.",
+        ],
+      },
+      {
+        heading: "Why this is usually the first thing to fix",
+        paragraphs: [
+          "Most businesses respond to weak results by increasing ad spend. But if calls are already going unanswered, more spend means more missed calls — you are paying to generate enquiries you cannot receive.",
+          "Recovery costs a fraction of acquisition. The traffic is already there and already paid for; the only thing missing is a response.",
+        ],
+      },
+      {
+        heading: "Missed call automation versus an AI receptionist",
+        paragraphs: [
+          "They solve the same problem at different depths. Missed call automation is the safety net: the call was not answered, so the caller gets a message. An AI receptionist means the call is answered in the first place, with a real conversation and a booking at the end of it.",
+          "Automation is faster and cheaper to put live. The receptionist recovers more, because a caller who wanted to speak to someone gets to speak to something that can actually help. Many businesses run both, with automation covering anything the receptionist hands off.",
+        ],
+      },
+      {
+        heading: "Working out what it is worth",
+        paragraphs: [
+          "Take the average value of one new customer and multiply by the number of calls you estimate go unanswered in a month. Recovering even a modest share of those is usually the clearest return of anything on this site.",
+          "We can review your call handling in a free consultation and tell you where the leak actually is before you commit to anything.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "What is missed call automation?",
+        answer:
+          "A system that detects when an incoming call goes unanswered and immediately sends that caller a WhatsApp or SMS message, so the enquiry gets a response within seconds instead of being lost entirely.",
+      },
+      {
+        question: "How fast does the message go out?",
+        answer:
+          "Within seconds of the call ending. Speed is the point — the caller is usually still looking at their phone, and often still deciding who to contact next.",
+      },
+      {
+        question: "Do I still need someone answering the phone?",
+        answer:
+          "Missed call automation is a safety net, not a replacement. If you want calls actually answered rather than followed up afterwards, an AI receptionist handles the conversation and books the appointment directly.",
+      },
+      {
+        question: "Will it message people who called by mistake?",
+        answer:
+          "Rules control which numbers trigger a message, and every message includes a way to opt out. Wrong numbers simply do not reply, which costs nothing.",
+      },
+    ],
+  },
+
+  {
+    slug: "whatsapp-automation",
+    cluster: "automation",
+    title: "WhatsApp Automation for Businesses | TheClientPilot",
+    description:
+      "WhatsApp automation for clinics and service businesses: instant replies, qualification, booking links and follow-up sequences that run themselves.",
+    h1: "WhatsApp automation",
+    intro:
+      "In India, WhatsApp is where enquiries actually happen. People will message a business before they will call it and long before they will fill in a form. The problem is that WhatsApp enquiries land in a personal inbox, get seen hours later, and get answered whenever someone has a free moment.",
+    serviceName: "WhatsApp Automation and Follow-up Sequences",
+    areaServed: ["India", "Assam", "Guwahati", "Delhi NCR"],
+    breadcrumbLabel: "WhatsApp automation",
+    linkLabel: "WhatsApp automation",
+    sections: [
+      {
+        heading: "What we automate on WhatsApp",
+        bullets: [
+          "Instant first reply, so nobody waits — even at midnight.",
+          "Qualification questions that establish what the person needs before your team spends time on it.",
+          "Booking links or slot selection inside the conversation, rather than moving them to another channel.",
+          "Follow-up sequences that continue over days until the person replies or opts out.",
+          "Handover to a human the moment the conversation needs judgement.",
+        ],
+      },
+      {
+        heading: "Why the first reply decides the outcome",
+        paragraphs: [
+          "Someone messaging about a treatment is usually messaging two or three providers at once. The first useful reply frames the whole decision, and by the time a slower business responds the person has often already booked.",
+          "Automation wins that race by default. It is not that automated replies are better than your team's replies — it is that they arrive while the person is still deciding.",
+        ],
+      },
+      {
+        heading: "Keeping it compliant and not annoying",
+        paragraphs: [
+          "WhatsApp is a personal channel and businesses that abuse it get blocked and reported, which does lasting damage. So sequences are built to stop on reply, respect opt-outs immediately, and cap how many messages anyone receives.",
+          "We also keep the tone recognisably human. A message that reads like a mass broadcast gets ignored regardless of how quickly it arrived.",
+        ],
+      },
+      {
+        heading: "How it connects to everything else",
+        paragraphs: [
+          "WhatsApp automation works best as one part of the path rather than an isolated tool. Missed calls can trigger a WhatsApp message, website enquiries can enter the same sequence, and confirmed bookings can flow into reminder automation.",
+          "Setup is typically one to two weeks and engagements run month to month.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "What can WhatsApp automation do for my business?",
+        answer:
+          "It replies to enquiries instantly, asks the qualifying questions you would ask, offers booking, and follows up over days without anyone remembering to. It also hands over to a person as soon as the conversation needs real judgement.",
+      },
+      {
+        question: "Will customers know it is automated?",
+        answer:
+          "The tone is written to sound like your business rather than a broadcast, and the aim is usefulness rather than disguise. Most people care far more that they got a fast, helpful answer than about who typed it.",
+      },
+      {
+        question: "Is automated WhatsApp messaging allowed?",
+        answer:
+          "Business messaging on WhatsApp is legitimate when it follows the platform's rules. We build sequences that stop on reply, honour opt-outs immediately and cap message volume, because abuse gets a number blocked and that damage is hard to undo.",
+      },
+      {
+        question: "Can it book appointments directly?",
+        answer:
+          "Yes. The conversation can offer real availability and confirm a slot without moving the person to another channel, which is where most drop-off happens.",
+      },
+    ],
+  },
+
+  {
+    slug: "appointment-reminder-automation",
+    cluster: "automation",
+    title: "Appointment Reminder Automation | TheClientPilot",
+    description:
+      "Automated appointment reminders that reduce no-shows for clinics and practices, with confirmations and easy rescheduling over WhatsApp and SMS.",
+    h1: "Appointment reminder automation",
+    intro:
+      "A no-show is worse than a lost enquiry. You already paid to acquire that person, your team already scheduled around them, and the slot cannot be resold after the fact. Reminder automation is the cheapest revenue recovery available to most appointment businesses.",
+    serviceName: "Appointment Reminder and No-show Reduction Automation",
+    areaServed: ["India", "Assam", "Guwahati", "Delhi NCR"],
+    breadcrumbLabel: "Appointment reminder automation",
+    linkLabel: "Appointment reminder automation",
+    sections: [
+      {
+        heading: "The reminder sequence",
+        paragraphs: [
+          "One reminder is better than none, but a short sequence performs considerably better because it catches people at different moments.",
+        ],
+        bullets: [
+          "Immediate confirmation when the appointment is booked, so it feels real.",
+          "A reminder a day or two ahead, early enough that the person can still reschedule rather than simply not turn up.",
+          "A short reminder on the day, close enough to matter.",
+          "A one-tap way to confirm, reschedule or cancel in every message.",
+        ],
+      },
+      {
+        heading: "Why rescheduling beats a reminder alone",
+        paragraphs: [
+          "Most no-shows are not people who forgot. They are people whose plans changed and who did not want the awkwardness of calling to say so.",
+          "Making rescheduling effortless converts a silent no-show into a moved appointment. You keep the customer and you free the slot early enough to fill it, which is the difference between recovering revenue and simply being told about the loss sooner.",
+        ],
+      },
+      {
+        heading: "Filling slots that do free up",
+        paragraphs: [
+          "When someone cancels with notice, that slot becomes available at short notice — and there is usually a waiting list or a recent enquiry who would take it.",
+          "Automation can offer the freed slot to those people immediately, rather than leaving your team to notice the gap and start calling around.",
+        ],
+      },
+      {
+        heading: "Getting the volume right",
+        paragraphs: [
+          "Too many reminders and people stop reading them, or start associating your business with nagging. The cadence is set to be useful rather than maximal, and every message offers an opt-out.",
+          "Reminder automation typically goes live within one to two weeks once it is connected to your calendar.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "How much do automated reminders reduce no-shows?",
+        answer:
+          "It varies by business and audience, so we will not quote you a number we cannot stand behind. What is consistent is that a short sequence with easy rescheduling outperforms a single reminder, because most no-shows are changed plans rather than forgetfulness.",
+      },
+      {
+        question: "Which channel works best for reminders?",
+        answer:
+          "In India, WhatsApp usually sees the highest engagement, with SMS as a fallback for people who do not use it. We generally set up both rather than depending on one.",
+      },
+      {
+        question: "Can people reschedule from the reminder?",
+        answer:
+          "Yes, and this matters more than the reminder itself. One tap to reschedule turns a silent no-show into a moved appointment and frees the slot early enough to fill it.",
+      },
+      {
+        question: "Will this work with my existing calendar?",
+        answer:
+          "That is the intent. Reminders are driven by your existing calendar or booking system rather than requiring a migration. We confirm compatibility with your specific setup during the consultation.",
+      },
+    ],
+  },
+
+  {
+    slug: "crm-automation",
+    cluster: "automation",
+    title: "CRM Automation and Lead Routing | TheClientPilot",
+    description:
+      "CRM automation that captures every enquiry, routes it by service and urgency, and keeps your pipeline accurate without manual data entry.",
+    h1: "CRM automation and lead routing",
+    intro:
+      "Most small businesses do not lose leads because nobody cares. They lose them because enquiries arrive across four channels into one shared inbox, nobody owns any particular one, and the record of what happened lives in someone's memory.",
+    serviceName: "CRM Automation and Lead Routing",
+    areaServed: ["India", "Assam", "Guwahati", "Delhi NCR"],
+    breadcrumbLabel: "CRM automation",
+    linkLabel: "CRM automation and lead routing",
+    sections: [
+      {
+        heading: "What gets automated",
+        bullets: [
+          "Every enquiry captured as a record, regardless of whether it came from a call, WhatsApp, the website or an ad.",
+          "Routing by service, location or urgency, so enquiries reach the right person instead of a shared inbox.",
+          "Ownership assigned automatically, so every lead has someone accountable for it.",
+          "Stage updates driven by what actually happened, rather than by someone remembering to update a field.",
+          "Escalation when a lead has gone untouched too long.",
+        ],
+      },
+      {
+        heading: "Why manual CRM hygiene always decays",
+        paragraphs: [
+          "Asking a busy team to maintain a CRM by hand works for a fortnight. Then a rush week arrives, updates get skipped, and the data becomes unreliable — at which point people stop trusting it and stop using it, and it becomes worse than having nothing.",
+          "Automating the updates removes the discipline requirement. The record reflects reality because it is written by the system that handled the interaction.",
+        ],
+      },
+      {
+        heading: "Reporting you can actually act on",
+        paragraphs: [
+          "Once the data is trustworthy, you can finally see which channel produces customers rather than merely enquiries, where in the sequence people drop out, and how long your real response time is as opposed to your intended one.",
+          "That is what makes budget decisions obvious. Without it, spend allocation is guesswork dressed up as strategy.",
+        ],
+      },
+      {
+        heading: "Working with your existing tools",
+        paragraphs: [
+          "We build around the CRM and calendar you already use where possible. Migrations are disruptive and rarely the actual problem — the problem is usually that nothing writes to the CRM automatically.",
+          "If you have no CRM yet, we will recommend something proportionate to your size rather than something you will spend months configuring.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "What is CRM automation?",
+        answer:
+          "Automatically capturing every enquiry as a record, routing it to the right person, and updating its stage based on what actually happened — so your pipeline stays accurate without anyone doing manual data entry.",
+      },
+      {
+        question: "Do I need to change CRM?",
+        answer:
+          "Usually not. We build around what you already use, since the common problem is that nothing writes to the CRM automatically rather than the CRM itself being wrong.",
+      },
+      {
+        question: "What if I do not have a CRM at all?",
+        answer:
+          "We will recommend something proportionate to your size and set it up. The goal is a system your team actually uses, not the most powerful tool available.",
+      },
+      {
+        question: "How does lead routing decide who gets what?",
+        answer:
+          "By rules you define — service type, location, urgency or availability. The point is that every enquiry has a clear owner instead of sitting in a shared inbox that everyone assumes someone else is watching.",
+      },
+    ],
+  },
 ];
 
 /** Returns the landing page for `slug`, or `undefined` when there is none. */
 export function findLandingPage(slug: string): LandingPage | undefined {
   return LANDING_PAGES.find((page) => page.slug === slug);
+}
+
+/** Human-readable heading for each cluster, used in navigation. */
+export const CLUSTER_LABELS: Record<LandingCluster, string> = {
+  agency: "AI agency",
+  automation: "AI automation",
+  web: "Websites",
+  search: "Search",
+};
+
+/**
+ * Returns the pages related to `page`, most-related first: same-cluster pages
+ * before everything else. Keeps internal linking topically meaningful as the
+ * page set grows.
+ */
+export function relatedPages(page: LandingPage): LandingPage[] {
+  const sameCluster = LANDING_PAGES.filter(
+    (other) => other.slug !== page.slug && other.cluster === page.cluster,
+  );
+  const otherClusters = LANDING_PAGES.filter(
+    (other) => other.slug !== page.slug && other.cluster !== page.cluster,
+  );
+  return [...sameCluster, ...otherClusters];
 }

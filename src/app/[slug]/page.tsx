@@ -5,7 +5,12 @@ import { notFound } from "next/navigation";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { StarBurst } from "@/components/icons";
-import { LANDING_PAGES, findLandingPage } from "@/lib/landing-pages";
+import {
+  CLUSTER_LABELS,
+  LANDING_PAGES,
+  findLandingPage,
+  relatedPages,
+} from "@/lib/landing-pages";
 import { buildLandingMetadata } from "@/lib/metadata";
 import { seoConfig } from "@/lib/seo";
 import { buildLandingStructuredData } from "@/lib/structured-data";
@@ -62,7 +67,11 @@ export default async function LandingPageRoute({
     (block) => JSON.stringify(block).replace(/</g, "\\u003c"),
   );
 
-  const otherPages = LANDING_PAGES.filter((other) => other.slug !== page.slug);
+  // Same-cluster pages first, so the strongest internal links point at
+  // topically related pages rather than being spread evenly across the site.
+  const related = relatedPages(page);
+  const sameCluster = related.filter((other) => other.cluster === page.cluster);
+  const otherCluster = related.filter((other) => other.cluster !== page.cluster);
 
   return (
     <>
@@ -174,13 +183,31 @@ export default async function LandingPageRoute({
         {/* Internal links: distribute crawl paths and link equity between pages. */}
         <section className="bg-copula-white text-text-black w-full px-(--padding-x) py-16 md:py-24">
           <div className="mx-auto flex max-w-292.5 flex-col gap-8">
+            {sameCluster.length > 0 && (
+              <>
+                <h2 className="h2">More on {CLUSTER_LABELS[page.cluster]}</h2>
+                <ul className="flex flex-col gap-4">
+                  {sameCluster.map((other) => (
+                    <li key={other.slug}>
+                      <Link
+                        href={`/${other.slug}`}
+                        className="h3 hover:text-copula-orange inline-block uppercase underline transition-colors"
+                      >
+                        {other.linkLabel}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
+
             <h2 className="h2">Explore more</h2>
             <ul className="flex flex-col gap-4">
-              {otherPages.map((other) => (
+              {otherCluster.map((other) => (
                 <li key={other.slug}>
                   <Link
                     href={`/${other.slug}`}
-                    className="h3 hover:text-copula-orange inline-block uppercase underline transition-colors"
+                    className="smallBody hover:text-copula-orange inline-block uppercase underline transition-colors"
                   >
                     {other.linkLabel}
                   </Link>
@@ -189,7 +216,7 @@ export default async function LandingPageRoute({
               <li>
                 <Link
                   href="/"
-                  className="h3 hover:text-copula-orange inline-block uppercase underline transition-colors"
+                  className="smallBody hover:text-copula-orange inline-block uppercase underline transition-colors"
                 >
                   TheClientPilot home
                 </Link>
