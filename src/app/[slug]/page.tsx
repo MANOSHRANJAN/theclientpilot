@@ -5,12 +5,7 @@ import { notFound } from "next/navigation";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { StarBurst } from "@/components/icons";
-import {
-  CLUSTER_LABELS,
-  LANDING_PAGES,
-  findLandingPage,
-  relatedPages,
-} from "@/lib/landing-pages";
+import { LANDING_PAGES, findLandingPage } from "@/lib/landing-pages";
 import { buildLandingMetadata } from "@/lib/metadata";
 import { seoConfig } from "@/lib/seo";
 import { buildLandingStructuredData } from "@/lib/structured-data";
@@ -67,11 +62,7 @@ export default async function LandingPageRoute({
     (block) => JSON.stringify(block).replace(/</g, "\\u003c"),
   );
 
-  // Same-cluster pages first, so the strongest internal links point at
-  // topically related pages rather than being spread evenly across the site.
-  const related = relatedPages(page);
-  const sameCluster = related.filter((other) => other.cluster === page.cluster);
-  const otherCluster = related.filter((other) => other.cluster !== page.cluster);
+
 
   return (
     <>
@@ -180,50 +171,19 @@ export default async function LandingPageRoute({
           </div>
         </section>
 
-        {/* Internal links: distribute crawl paths and link equity between pages. */}
-        <section className="bg-copula-white text-text-black w-full px-(--padding-x) py-16 md:py-24">
-          <div className="mx-auto flex max-w-292.5 flex-col gap-8">
-            {sameCluster.length > 0 && (
-              <>
-                <h2 className="h2">More on {CLUSTER_LABELS[page.cluster]}</h2>
-                <ul className="flex flex-col gap-4">
-                  {sameCluster.map((other) => (
-                    <li key={other.slug}>
-                      <Link
-                        href={`/${other.slug}`}
-                        className="h3 hover:text-copula-orange inline-block uppercase underline transition-colors"
-                      >
-                        {other.linkLabel}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </>
-            )}
+        {/*
+          No cross-links between landing pages.
 
-            <h2 className="h2">Explore more</h2>
-            <ul className="flex flex-col gap-4">
-              {otherCluster.map((other) => (
-                <li key={other.slug}>
-                  <Link
-                    href={`/${other.slug}`}
-                    className="smallBody hover:text-copula-orange inline-block uppercase underline transition-colors"
-                  >
-                    {other.linkLabel}
-                  </Link>
-                </li>
-              ))}
-              <li>
-                <Link
-                  href="/"
-                  className="smallBody hover:text-copula-orange inline-block uppercase underline transition-colors"
-                >
-                  TheClientPilot home
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </section>
+          These pages are reachable only via sitemap.xml and search results —
+          they are intentionally orphaned so no visitor ever sees a list of
+          location/service page names.
+
+          Do NOT reinstate these links behind `sr-only`, `display: none`, zero
+          opacity or an off-screen wrapper in order to regain the internal-link
+          value while keeping them out of sight. Serving links to crawlers that
+          are concealed from visitors is cloaking, and carries a far heavier
+          penalty than the ranking benefit is worth.
+        */}
       </main>
 
       <SiteFooter />

@@ -26,11 +26,15 @@ const OG_IMAGE_WIDTH = 1200;
 const OG_IMAGE_HEIGHT = 630;
 
 /**
- * Auxiliary metadata fields preserved from the current `layout.tsx` metadata.
- * These are not part of {@link SeoConfig} but must be retained verbatim so the
- * layout refactor (task 11.1) produces identical output.
+ * Retained for reference only — deliberately NOT emitted as a `<meta keywords>`
+ * tag.
+ *
+ * Google has ignored the keywords meta tag for well over a decade, so it
+ * contributes nothing to ranking. It does, however, publish the site's entire
+ * target keyword list to anyone who views the page source, including
+ * competitors. Relevance comes from titles, headings and body copy instead.
  */
-const KEYWORDS = [
+const KEYWORDS_REFERENCE_ONLY = [
   "best agency in India",
   "best agency in Assam",
   "best agency in Guwahati",
@@ -89,6 +93,8 @@ const KEYWORDS = [
   "TheClientPilot Assam",
   "TheClientPilot India",
 ] as const;
+
+void KEYWORDS_REFERENCE_ONLY;
 
 const ICONS: Metadata["icons"] = {
   icon: [
@@ -174,7 +180,6 @@ export function buildMetadata(config: SeoConfig): Metadata {
     metadataBase: new URL(config.siteUrl),
     title,
     description,
-    keywords: [...KEYWORDS],
     applicationName: config.siteName,
     authors: [{ name: config.siteName, url: config.siteUrl }],
     creator: config.siteName,
