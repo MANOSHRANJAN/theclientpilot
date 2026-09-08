@@ -27,11 +27,23 @@ export function Hero() {
       <div className="flex w-full flex-col">
         <div className="display flex flex-col leading-[0.85]">
           <span className="block">Your</span>
+          {/*
+            Each letter needs its own element to stagger the animation delay,
+            but a bare pile of single-character spans is announced letter by
+            letter ("a… u… t…") by several screen readers. `aria-label` on the
+            wrapper supplies the whole word as the accessible name, and the
+            letter spans are hidden from the accessibility tree.
+          */}
           <span className="relative block min-h-[1em] overflow-hidden">
-            <span key={word} className="hero-word block whitespace-nowrap">
+            <span
+              key={word}
+              aria-label={word}
+              className="hero-word block whitespace-nowrap"
+            >
               {word.split("").map((ch, i) => (
                 <span
                   key={`${word}-${i}`}
+                  aria-hidden
                   style={{ animationDelay: `${i * 45}ms` }}
                 >
                   {ch}

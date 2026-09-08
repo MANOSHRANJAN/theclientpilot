@@ -52,7 +52,17 @@ export function Clients() {
               <span className="block">When the</span>
               <span className="block">
                 C
-                <span className="relative inline-block align-middle">
+                {/*
+                  The squiggle is a stylised stand-in for the "o" in
+                  "connection". Without the letter below, the DOM text of this
+                  headline reads "When the C nnection is real, it shows" — that
+                  is the string Google indexes and the string a screen reader
+                  announces. The `sr-only` "o" restores the real word at zero
+                  visual cost: it is removed from layout, so the squiggle still
+                  occupies the glyph's place exactly as designed.
+                */}
+                <span className="sr-only">o</span>
+                <span aria-hidden className="relative inline-block align-middle">
                   <ConnectionSquiggle className="-mb-2 inline h-auto w-70 md:-mb-4 md:w-155" />
                 </span>
                 nnection
@@ -77,17 +87,30 @@ export function Clients() {
           className="flex w-max shrink-0 items-center gap-x-12 pl-(--padding-x) animate-marquee md:gap-x-20"
           style={{ ["--marquee-duration" as string]: "35s" }}
         >
-          {loop.map((logo, i) => (
-            <div key={i} className="relative h-20 w-32 shrink-0 md:h-30 md:w-44">
-              <Image
-                src={logo.src}
-                alt={logo.alt}
-                fill
-                sizes="200px"
-                className="object-contain object-center"
-              />
-            </div>
-          ))}
+          {loop.map((logo, i) => {
+            // `loop` is LOGOS concatenated with itself so the marquee can scroll
+            // seamlessly. Only the first pass carries the real alt text; the
+            // second is a pure visual repeat, so it is hidden from assistive
+            // technology and given an empty alt. Otherwise every client name is
+            // announced — and indexed — twice.
+            const isDuplicate = i >= LOGOS.length;
+
+            return (
+              <div
+                key={i}
+                aria-hidden={isDuplicate || undefined}
+                className="relative h-20 w-32 shrink-0 md:h-30 md:w-44"
+              >
+                <Image
+                  src={logo.src}
+                  alt={isDuplicate ? "" : logo.alt}
+                  fill
+                  sizes="200px"
+                  className="object-contain object-center"
+                />
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

@@ -757,6 +757,90 @@ export const LANDING_PAGES: readonly LandingPage[] = [
     ],
   },
   // ---------------------------------------------------------------------------
+  // Paid ads. Grouped with SEO in the `search` cluster because both are
+  // acquisition channels and the two pages answer each other's obvious follow-up
+  // question — ads produce enquiries in days, SEO compounds over months. The
+  // angle here is deliberately what happens after the click, since that is where
+  // most ad budgets are actually lost and it is the part other ad agencies leave
+  // to the client.
+  // ---------------------------------------------------------------------------
+  {
+    slug: "ai-ads-agency",
+    cluster: "search",
+    title: "AI Ads Agency in India | TheClientPilot",
+    description:
+      "AI ads agency running Meta and Google ad campaigns for clinics, dental practices and local service businesses, measured on booked appointments.",
+    h1: "AI ads agency for Meta and Google campaigns",
+    intro:
+      "Paid ads are the fastest way to create demand you did not have yesterday, and the fastest way to spend money on nothing. The difference is rarely the platform or the targeting. It is whether the campaign is pointed at booked appointments, and whether anything reliable happens in the minutes after an enquiry arrives.",
+    serviceName: "AI-Assisted Meta and Google Ad Campaign Management",
+    areaServed: ["India", "Assam", "Guwahati", "Delhi NCR"],
+    breadcrumbLabel: "AI ads agency",
+    linkLabel: "AI ads agency",
+    sections: [
+      {
+        heading: "What we run",
+        bullets: [
+          "Meta ads on Facebook and Instagram — the main demand channel for most clinics and local service businesses in India, built around lead quality rather than cheap clicks.",
+          "Google Search ads — capturing people already typing your service and their city, where intent is highest and so is the cost of a click.",
+          "Retargeting for the people who visited, read the offer and did not act, which is usually the cheapest audience you have access to.",
+          "Offer and creative testing, several angles at once, because the offer and the first three seconds of a video decide performance far more than bid settings do.",
+          "Geo-targeting matched to the area you can realistically serve, instead of a whole state you will never see a patient from.",
+          "Landing pages built around one action, so paid traffic is not dropped on a homepage and asked to work out what to do next.",
+        ],
+      },
+      {
+        heading: "Where the AI actually sits",
+        paragraphs: [
+          "Meta and Google already run their own machine learning inside the auction, and that is not what we mean by AI ads. Their systems optimise toward whichever event you report back to them. Report form fills and you will reliably get form fills, including from people who were never going to attend an appointment.",
+          "So we do two things. We report the event that matters — the qualified enquiry or the booked appointment, not the click or the raw lead — so the platform learns to find people like the ones who actually turn up. And we put AI in the path the lead travels after the click: the receptionist that answers a call from an ad at 9pm, and the WhatsApp follow-up that replies in seconds while the person is still comparing three providers.",
+        ],
+      },
+      {
+        heading: "Why ad budgets get wasted",
+        paragraphs: [
+          "When campaigns underperform, the instinct is to change the targeting or add budget. In the accounts we look at, the leak is usually further down the path: leads generated at 7pm and contacted at 11am the next day, ad calls ringing out during clinic hours, a landing page that takes eight seconds to appear on mobile data.",
+          "None of that is visible in the ad platform's reporting, which stops at the lead. That is why we audit capture and follow-up before recommending a larger budget. Making responses instant usually produces more bookings from the same spend than any change inside the ad account would.",
+        ],
+      },
+      {
+        heading: "How a campaign starts",
+        paragraphs: [
+          "We begin with a free consultation and, if you already advertise, a look at the existing account — what has been tried, what an enquiry actually cost, and which audiences and creative have enough history to be worth keeping. Where an account already exists we work inside it rather than starting from zero.",
+          "Campaigns typically start producing leads within roughly seven to fourteen days of launch, and the first few weeks are spent testing offers and creative rather than defending the original setup. Reporting is on enquiries, bookings and cost per booking. Pricing is quoted before work begins and engagements run month to month.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "What is an AI ads agency?",
+        answer:
+          "For us it means two things: campaigns optimised toward booked appointments rather than clicks or raw leads, and AI systems handling what happens after the click — answering the call, replying on WhatsApp within seconds and booking the person in. Running ads without that second half is where most budgets leak.",
+      },
+      {
+        question: "Should I start with Meta ads or Google ads?",
+        answer:
+          "Google captures people already searching for your service, so intent is high but clicks cost more and volume is capped by how many people search. Meta creates demand among people who were not looking yet, which suits treatments people do not think to search for. Most businesses start with one, prove the numbers, then add the other.",
+      },
+      {
+        question: "How soon do ads produce leads?",
+        answer:
+          "Typically within seven to fourteen days of launch. The early weeks are testing offers and creative, so cost per enquiry usually moves around before it settles. Ads are the fast channel — SEO is the one that compounds over months.",
+      },
+      {
+        question: "My last agency generated cheap leads that never booked. What changes?",
+        answer:
+          "Cheap leads are easy to produce and usually mean the campaign was optimised for the wrong event. We report qualified enquiries and bookings back to the platform so it optimises toward people who attend, and we make sure every lead is contacted within seconds rather than whenever someone is free.",
+      },
+      {
+        question: "Do you work inside my existing ad account?",
+        answer:
+          "Where you already have one, yes. The spend history, audiences and conversion data in an established account are worth keeping, and starting a fresh account throws that away. If you are not advertising yet, we set the account and tracking up with you.",
+      },
+    ],
+  },
+
+  // ---------------------------------------------------------------------------
   // Automation spokes.
   //
   // These target specific, high-intent automation searches rather than more
@@ -1062,6 +1146,23 @@ export const CLUSTER_LABELS: Record<LandingCluster, string> = {
   web: "Websites",
   search: "Search",
 };
+
+/**
+ * The order clusters are presented in wherever the full page set is listed
+ * (the HTML sitemap, `llms.txt`).
+ *
+ * Declared explicitly rather than derived from `LANDING_PAGES` so the ordering
+ * is a deliberate editorial choice — broad entity pages first, then the
+ * services — instead of an accident of array order. Typed as
+ * `readonly LandingCluster[]`, so adding a cluster to the union without listing
+ * it here is caught by `CLUSTER_LABELS`'s exhaustive `Record`.
+ */
+export const CLUSTER_ORDER: readonly LandingCluster[] = [
+  "agency",
+  "automation",
+  "web",
+  "search",
+];
 
 /**
  * Returns the pages related to `page`, most-related first: same-cluster pages

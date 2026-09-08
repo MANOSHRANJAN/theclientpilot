@@ -46,7 +46,8 @@ export default function Home() {
         legitimately.
       */}
       <h1 className="sr-only">
-        TheClientPilot — AI marketing agency in Guwahati, Assam
+        TheClientPilot — AI agents, AI ads and websites for businesses across
+        India
       </h1>
       <SiteHeader />
       <main>

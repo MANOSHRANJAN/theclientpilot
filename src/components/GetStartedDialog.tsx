@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useId, useRef, useState } from "react";
 import { cn } from "@/lib/utils";
 import { supabase } from "@/lib/supabase";
 
@@ -75,6 +75,16 @@ const STEPS: Step[] = [
 ];
 
 export function GetStartedDialog({ open, onClose }: Props) {
+  /**
+   * This dialog is mounted three times on the home page (SiteHeader, Hero and
+   * CtaBanner), and every instance previously hardcoded the same literal
+   * heading ID. Three identical IDs is invalid HTML, and all three
+   * `aria-labelledby` references resolved to whichever copy came first in the
+   * DOM — so two of the dialogs were labelled by a different dialog's heading.
+   * `useId` gives each instance its own stable, SSR-safe ID.
+   */
+  const titleId = useId();
+  const errorId = useId();
   const [step, setStep] = useState(0);
   const [answers, setAnswers] = useState<Record<StepKey, string>>({
     name: "",
@@ -112,6 +122,10 @@ export function GetStartedDialog({ open, onClose }: Props) {
   }, [open]);
 
   useEffect(() => {
+    // Only move focus while the dialog is actually open. Without this guard the
+    // effect also ran on initial page load and after close, pulling focus into
+    // a hidden dialog.
+    if (!open) return;
     const t = setTimeout(() => inputRef.current?.focus(), 220);
     return () => clearTimeout(t);
   }, [step, open]);
@@ -181,6 +195,12 @@ export function GetStartedDialog({ open, onClose }: Props) {
         open ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0"
       )}
       aria-hidden={!open}
+      // `inert` removes the subtree from the tab order and from assistive
+      // technology while closed. Without it, the close buttons and form inputs
+      // stayed keyboard-focusable inside an aria-hidden container — a keyboard
+      // user could tab into an invisible form, which Lighthouse flags as
+      // "[aria-hidden] elements contain focusable descendents".
+      inert={!open}
     >
       <button
         aria-label="Close"
@@ -191,7 +211,7 @@ export function GetStartedDialog({ open, onClose }: Props) {
       <div
         role="dialog"
         aria-modal="true"
-        aria-labelledby="get-started-title"
+        aria-labelledby={titleId}
         className={cn(
           "relative w-full max-w-lg rounded-3xl border border-white/30 bg-white/15 p-6 shadow-2xl backdrop-blur-2xl transition-all duration-300 md:p-10",
           "ring-1 ring-white/10",
@@ -212,7 +232,7 @@ export function GetStartedDialog({ open, onClose }: Props) {
 
         {done ? (
           <div className="py-6 text-center">
-            <h2 id="get-started-title" className="display text-copula-white mb-3 text-4xl uppercase">
+            <h2 id={titleId} className="display text-copula-white mb-3 text-4xl uppercase">
               Thanks!
             </h2>
             <p className="smallBody text-copula-white/80">
@@ -252,19 +272,31 @@ export function GetStartedDialog({ open, onClose }: Props) {
                   Question {step + 1} of {STEPS.length}
                 </p>
                 <h2
-                  id="get-started-title"
+                  id={titleId}
                   className="display text-copula-white text-3xl uppercase leading-[1] md:text-4xl"
                 >
                   {current.label}
                 </h2>
               </div>
 
+              {/*
+                Both controls take their accessible name from the step heading
+                above, which literally is the question ("What's your name?").
+                They previously had no label of any kind — only a placeholder,
+                which is not a label: it disappears on input and is skipped by
+                several screen readers. `aria-describedby` wires up the
+                validation message so an error is announced with the field
+                rather than in isolation.
+              */}
               {current.type === "select" ? (
                 <select
                   ref={(el) => {
                     inputRef.current = el;
                   }}
                   value={value}
+                  aria-labelledby={titleId}
+                  aria-invalid={error ? true : undefined}
+                  aria-describedby={error ? errorId : undefined}
                   onChange={(e) => handleChange(e.target.value)}
                   onKeyDown={handleKeyDown}
                   className="w-full rounded-2xl border-2 border-white/30 bg-white/10 px-5 py-4 text-lg text-copula-white outline-none backdrop-blur-md transition-colors focus:border-copula-white focus:bg-white/20"
@@ -283,6 +315,9 @@ export function GetStartedDialog({ open, onClose }: Props) {
                   value={value}
                   placeholder={current.placeholder}
                   autoComplete={current.autoComplete}
+                  aria-labelledby={titleId}
+                  aria-invalid={error ? true : undefined}
+                  aria-describedby={error ? errorId : undefined}
                   onChange={(e) => handleChange(e.target.value)}
                   onKeyDown={handleKeyDown}
                   className="w-full rounded-2xl border-2 border-white/30 bg-white/10 px-5 py-4 text-lg text-copula-white placeholder:text-copula-white/40 outline-none backdrop-blur-md transition-colors focus:border-copula-white focus:bg-white/20"
@@ -290,7 +325,7 @@ export function GetStartedDialog({ open, onClose }: Props) {
               )}
 
               {error && (
-                <p className="smallBody text-copula-orange mt-3" role="alert">
+                <p id={errorId} className="smallBody text-copula-orange mt-3" role="alert">
                   {error}
                 </p>
               )}

@@ -92,6 +92,75 @@ function isNonEmptyString(value: string | undefined): value is string {
   return typeof value === "string" && value.trim().length > 0;
 }
 
+// ---------------------------------------------------------------------------
+// Stable node identifiers
+// ---------------------------------------------------------------------------
+
+/**
+ * Stable `@id` fragments for the site-wide entities.
+ *
+ * Without an explicit `@id`, each JSON-LD block is an anonymous node, so a
+ * consumer sees three unrelated things that happen to share a name. Giving each
+ * a stable IRI and referencing it by `{"@id": …}` elsewhere turns them into one
+ * connected graph — which is precisely what a knowledge-graph or an AI
+ * assistant needs in order to state that TheClientPilot the website, the
+ * organisation, and the Guwahati business are the same entity.
+ *
+ * The fragments are appended to the canonical origin so the IRIs are globally
+ * unique and stable across every page that emits them.
+ */
+export const NODE_IDS = {
+  organization: "#organization",
+  website: "#website",
+  localBusiness: "#localbusiness",
+  founder: "#founder",
+} as const;
+
+/** Builds the absolute IRI for a node fragment, e.g. `https://host/#organization`. */
+function nodeId(c: SeoConfig, fragment: string): string {
+  return `${absoluteUrl("", c.siteUrl)}/${fragment}`;
+}
+
+/** A `{"@id": …}` reference to another node in the graph. */
+function ref(c: SeoConfig, fragment: string): { "@id": string } {
+  return { "@id": nodeId(c, fragment) };
+}
+
+/**
+ * Builds the `Person` node for the founder, or `undefined` when no founder is
+ * configured.
+ *
+ * Only `sameAs` entries that are absolute https URLs survive, matching the
+ * organisation-level sanitisation.
+ */
+function buildFounder(c: SeoConfig): Record<string, unknown> | undefined {
+  const founder = c.founder;
+  if (!founder || !isNonEmptyString(founder.name)) {
+    return undefined;
+  }
+
+  const person: Record<string, unknown> = {
+    "@type": "Person",
+    "@id": nodeId(c, NODE_IDS.founder),
+    name: founder.name,
+  };
+
+  if (isNonEmptyString(founder.jobTitle)) {
+    person.jobTitle = founder.jobTitle;
+  }
+
+  const profiles = Array.isArray(founder.sameAs)
+    ? founder.sameAs.filter(
+        (url) => isNonEmptyString(url) && isAbsoluteHttps(url),
+      )
+    : [];
+  if (profiles.length > 0) {
+    person.sameAs = profiles;
+  }
+
+  return person;
+}
+
 /** Returns `true` when `telephone` is a valid E.164 number. */
 function isValidTelephone(telephone: string | undefined): telephone is string {
   return typeof telephone === "string" && E164_PATTERN.test(telephone);
@@ -184,6 +253,7 @@ export function buildOrganization(c: SeoConfig): Record<string, unknown> {
   const org: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": nodeId(c, NODE_IDS.organization),
     name: c.siteName,
     url: absoluteUrl("", c.siteUrl),
     logo: image,
@@ -197,6 +267,15 @@ export function buildOrganization(c: SeoConfig): Record<string, unknown> {
     org.telephone = c.telephone;
   }
 
+  if (isNonEmptyString(c.email)) {
+    org.email = c.email;
+  }
+
+  const founder = buildFounder(c);
+  if (founder) {
+    org.founder = founder;
+  }
+
   const sameAs = sanitizeSameAs(c);
   if (sameAs) {
     org.sameAs = sameAs;
@@ -205,21 +284,29 @@ export function buildOrganization(c: SeoConfig): Record<string, unknown> {
   return org;
 }
 
-/** Builds the WebSite JSON-LD block. */
+/**
+ * Builds the WebSite JSON-LD block.
+ *
+ * `publisher` is a `{"@id"}` reference to the Organization node rather than an
+ * inline copy of it, so the site and the organisation are one connected graph
+ * instead of two nodes that merely share a name.
+ *
+ * No `potentialAction`/`SearchAction` is declared. The previous version pointed
+ * at `/?q={search_term_string}`, but the site has no search feature and that
+ * query parameter does nothing — it was markup describing a capability that
+ * does not exist. Google only renders a sitelinks search box for a working
+ * endpoint, so the block earned nothing while asserting something untrue.
+ * Reinstate it only if a real search results page is built.
+ */
 export function buildWebSite(c: SeoConfig): Record<string, unknown> {
-  const url = absoluteUrl("", c.siteUrl);
-
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": nodeId(c, NODE_IDS.website),
     name: c.siteName,
-    url,
-    publisher: { "@type": "Organization", name: c.siteName },
-    potentialAction: {
-      "@type": "SearchAction",
-      target: `${url}/?q={search_term_string}`,
-      "query-input": "required name=search_term_string",
-    },
+    url: absoluteUrl("", c.siteUrl),
+    publisher: ref(c, NODE_IDS.organization),
+    inLanguage: "en",
   };
 }
 
@@ -236,6 +323,7 @@ export function buildLocalBusiness(c: SeoConfig): Record<string, unknown> {
   const business: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": ["ProfessionalService", "LocalBusiness"],
+    "@id": nodeId(c, NODE_IDS.localBusiness),
     name: c.siteName,
     url: absoluteUrl("", c.siteUrl),
     image: ogImageUrl(c),
@@ -245,10 +333,18 @@ export function buildLocalBusiness(c: SeoConfig): Record<string, unknown> {
     areaServed: c.areaServed,
     serviceType: [...SERVICE_TYPES],
     hasOfferCatalog: OFFER_CATALOG,
+    // Ties the trading location back to the brand node. Without it, the
+    // Organization and this block read as two separate businesses that happen
+    // to share a name and address.
+    parentOrganization: ref(c, NODE_IDS.organization),
   };
 
   if (isValidTelephone(c.telephone)) {
     business.telephone = c.telephone;
+  }
+
+  if (isNonEmptyString(c.email)) {
+    business.email = c.email;
   }
 
   if (isValidGeo(c.geo)) {
@@ -365,17 +461,6 @@ export function buildService(
   c: SeoConfig,
   page: LandingPage,
 ): Record<string, unknown> {
-  const provider: Record<string, unknown> = {
-    "@type": "Organization",
-    name: c.siteName,
-    url: absoluteUrl("", c.siteUrl),
-    address: buildPostalAddress(c),
-  };
-
-  if (isValidTelephone(c.telephone)) {
-    provider.telephone = c.telephone;
-  }
-
   return {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -383,7 +468,11 @@ export function buildService(
     serviceType: [...SERVICE_TYPES],
     description: page.description,
     url: absoluteUrl(page.slug, c.siteUrl),
-    provider,
+    // A reference to the Organization node emitted by the root layout on this
+    // same page, rather than an inline duplicate of the NAP. One node, one set
+    // of facts — the duplicate could previously drift out of sync with the
+    // Organization block sitting a few hundred bytes above it in the HTML.
+    provider: ref(c, NODE_IDS.organization),
     areaServed: [...page.areaServed],
   };
 }

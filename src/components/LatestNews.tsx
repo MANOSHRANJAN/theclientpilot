@@ -50,15 +50,31 @@ export function LatestNews() {
             className="text-copula-white flex w-[78%] min-w-72 flex-col snap-start md:w-full md:min-w-0"
           >
             <div className="wavy-box group relative block aspect-square w-full max-w-84 self-center overflow-hidden">
+              {/*
+                Decorative: the article title now renders as real text directly
+                below, so repeating it in `alt` would make a screen reader
+                announce the same sentence twice in a row.
+              */}
               <Image
                 src={p.image}
-                alt={p.title}
+                alt=""
                 fill
                 sizes="(min-width: 768px) 320px, 80vw"
                 style={{ objectPosition: p.imagePosition ?? "center" }}
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
               />
             </div>
+
+            {/*
+              The titles previously existed only as `alt` attributes, so this
+              whole section contributed no indexable copy — three images and
+              nothing else. Alt text carries very little ranking weight, and
+              these are the only topical keywords ("marketing", "automation",
+              "growth") the section has to offer.
+            */}
+            <h3 className="mt-5 max-w-84 self-center text-base leading-snug font-semibold md:text-lg">
+              {p.title}
+            </h3>
           </article>
         ))}
       </div>
