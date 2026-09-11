@@ -5,7 +5,11 @@ import { notFound } from "next/navigation";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 import { StarBurst } from "@/components/icons";
-import { LANDING_PAGES, findLandingPage } from "@/lib/landing-pages";
+import {
+  LANDING_PAGES,
+  findLandingPage,
+  relatedPages,
+} from "@/lib/landing-pages";
 import { buildLandingMetadata } from "@/lib/metadata";
 import { seoConfig } from "@/lib/seo";
 import { buildLandingStructuredData } from "@/lib/structured-data";
@@ -24,6 +28,9 @@ import { buildLandingStructuredData } from "@/lib/structured-data";
  */
 
 export const dynamicParams = false;
+
+/** How many related pages each landing page links to. */
+const RELATED_LINK_COUNT = 4;
 
 export function generateStaticParams(): { slug: string }[] {
   return LANDING_PAGES.map((page) => ({ slug: page.slug }));
@@ -61,6 +68,14 @@ export default async function LandingPageRoute({
   const structuredData = buildLandingStructuredData(seoConfig, page).map(
     (block) => JSON.stringify(block).replace(/</g, "\\u003c"),
   );
+
+  // Capped deliberately. `relatedPages` returns same-cluster pages first, then
+  // the rest, so the first few are the topically closest. Rendering all
+  // thirteen would link every page to every other page — which spreads the
+  // internal-link signal evenly and tells search engines nothing about which
+  // pages belong together, the exact failure the cluster field exists to avoid.
+  // Full coverage is the /sitemap hub's job; this section's job is relevance.
+  const related = relatedPages(page).slice(0, RELATED_LINK_COUNT);
 
 
 
@@ -172,18 +187,53 @@ export default async function LandingPageRoute({
         </section>
 
         {/*
-          No cross-links between landing pages.
+          Contextual links to the other pages in this page's topic cluster.
 
-          These pages are reachable only via sitemap.xml and search results —
-          they are intentionally orphaned so no visitor ever sees a list of
-          location/service page names.
+          These pages used to have no internal links at all, which cost them
+          real ranking: a page nothing links to reads as unimportant and gets
+          crawled rarely. Linking within a cluster — AI receptionist to missed
+          call automation, say — concentrates that signal on genuinely related
+          pages instead of spraying it across all fourteen.
 
-          Do NOT reinstate these links behind `sr-only`, `display: none`, zero
-          opacity or an off-screen wrapper in order to regain the internal-link
-          value while keeping them out of sight. Serving links to crawlers that
-          are concealed from visitors is cloaking, and carries a far heavier
-          penalty than the ranking benefit is worth.
+          The rule the previous version of this comment protected still holds
+          absolutely: every link below is plain, visible body content. Do NOT
+          hide these behind `sr-only`, `display: none`, zero opacity or an
+          off-screen wrapper to regain link value while keeping them out of
+          sight. Serving links to crawlers that are concealed from visitors is
+          cloaking, and carries a far heavier penalty than the benefit is worth.
         */}
+        {related.length > 0 && (
+          <section className="bg-copula-white text-text-black w-full px-(--padding-x) pb-16 md:pb-24">
+            <div className="mx-auto flex max-w-292.5 flex-col gap-6">
+              <h2 className="h2 max-w-4xl">Related</h2>
+
+              <ul className="flex max-w-3xl flex-col gap-4">
+                {related.map((item) => (
+                  <li key={item.slug} className="flex flex-col gap-1">
+                    <Link
+                      href={`/${item.slug}`}
+                      className="text-copula-orange text-lg font-semibold underline underline-offset-4 transition-opacity hover:opacity-70 md:text-xl"
+                    >
+                      {item.linkLabel}
+                    </Link>
+                    <p className="text-dark-grey text-base leading-relaxed">
+                      {item.description}
+                    </p>
+                  </li>
+                ))}
+              </ul>
+
+              <p className="text-dark-grey text-base">
+                <Link
+                  href="/sitemap"
+                  className="underline underline-offset-4 transition-opacity hover:opacity-70"
+                >
+                  See everything we do
+                </Link>
+              </p>
+            </div>
+          </section>
+        )}
       </main>
 
       <SiteFooter />

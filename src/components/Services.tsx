@@ -86,6 +86,12 @@ export function Services() {
                   <button
                     type="button"
                     onClick={() => setOpen(isOpen ? -1 : i)}
+                    // The FAQ and FeaturedWork accordions already announce their
+                    // state; this one did not, so a screen-reader user had no
+                    // way to tell an expanded service from a collapsed one.
+                    aria-expanded={isOpen}
+                    aria-controls={`service-panel-${i}`}
+                    id={`service-trigger-${i}`}
                     className={cn(
                       "group flex w-full items-center justify-between gap-4 py-6 text-left transition-colors md:py-8",
                       isOpen ? "text-text-black" : "text-text-black/85 hover:text-text-black"
@@ -107,6 +113,9 @@ export function Services() {
                     />
                   </button>
                   <div
+                    id={`service-panel-${i}`}
+                    role="region"
+                    aria-labelledby={`service-trigger-${i}`}
                     className={cn(
                       "grid overflow-hidden transition-[grid-template-rows,opacity] duration-500",
                       isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
@@ -139,14 +148,19 @@ export function Services() {
           </div>
         </div>
 
-        <div className="relative hidden aspect-square h-auto w-full max-w-94 lg:block">
+        {/*
+          Purely decorative illustration. `alt=""` keeps it out of the
+          accessibility tree — the previous "Performance & Growth" alt described
+          nothing a user needs, since the surrounding headings already carry the
+          section's meaning.
+        */}
+        <div aria-hidden className="relative hidden aspect-square h-auto w-full max-w-94 lg:block">
           <Image
             src="/images/Performance-_-growth-icon.webp"
-            alt="Performance & Growth"
+            alt=""
             fill
             sizes="(min-width: 1024px) 376px, 100vw"
             className="object-cover object-center"
-            priority={false}
           />
         </div>
       </div>

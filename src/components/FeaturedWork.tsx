@@ -13,6 +13,17 @@ interface Work {
   tagline: string;
   blurb: string;
   image?: string;
+  /**
+   * Intrinsic pixel dimensions of {@link Work.image}.
+   *
+   * These must match the file on disk. Every entry previously rendered with a
+   * hardcoded `width={1600} height={1600}`, but none of the four images is
+   * square — the browser reserved a 1:1 box, `object-cover` cropped the artwork
+   * to fit it, and the box then snapped to the true ratio once the image
+   * decoded, shifting layout.
+   */
+  width?: number;
+  height?: number;
 }
 
 const WORKS: Work[] = [
@@ -22,6 +33,8 @@ const WORKS: Work[] = [
     blurb:
       "Always-on AI voice agents that answer every call, qualify leads, and book appointments — so no opportunity slips through.",
     image: "/images/ai-receptionist.png",
+    width: 1672,
+    height: 941,
   },
   {
     title: "Business Automations",
@@ -29,6 +42,8 @@ const WORKS: Work[] = [
     blurb:
       "Custom workflows that wire your tools together and run the busywork in the background, freeing your team for what actually moves the business.",
     image: "/images/business-automation.png",
+    width: 1672,
+    height: 941,
   },
   {
     title: "High-Converting Websites",
@@ -36,6 +51,8 @@ const WORKS: Work[] = [
     blurb:
       "Fast, beautifully designed sites engineered around conversion — clear messaging, strong CTAs, and analytics baked in from day one.",
     image: "/images/high-converting-websites.png",
+    width: 1535,
+    height: 1024,
   },
   {
     title: "AI Ad Creatives",
@@ -43,6 +60,8 @@ const WORKS: Work[] = [
     blurb:
       "Scroll-stopping ad creatives produced and iterated with AI — testing variations at the speed your campaigns demand.",
     image: "/images/ai-ad-creatives.png",
+    width: 1536,
+    height: 1024,
   },
 ];
 
@@ -178,12 +197,15 @@ export function FeaturedWork() {
                       )}
                     >
                       <div className="relative w-full overflow-hidden rounded-3xl md:rounded-[2rem]">
-                        {w.image && (
+                        {w.image && w.width && w.height && (
+                          // `alt=""`: the adjacent <h2> already states the
+                          // title, so repeating it here made screen readers
+                          // announce the same phrase twice per panel.
                           <Image
                             src={w.image}
-                            alt={w.title}
-                            width={1600}
-                            height={1600}
+                            alt=""
+                            width={w.width}
+                            height={w.height}
                             sizes="(min-width: 768px) 56vw, 95vw"
                             className="h-auto w-full scale-105 object-cover transition-transform duration-[1200ms] ease-[cubic-bezier(0.22,1,0.36,1)]"
                           />

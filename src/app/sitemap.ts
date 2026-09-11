@@ -38,5 +38,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       priority: 0.8,
     })),
+    {
+      // The HTML sitemap at `/sitemap` — a navigational page, not a
+      // conversion target, so it sits below the landing pages.
+      url: absoluteUrl("/sitemap", seoConfig.siteUrl),
+      lastModified,
+      priority: 0.3,
+    },
   ];
 }
