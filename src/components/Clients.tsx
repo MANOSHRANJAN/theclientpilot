@@ -1,18 +1,21 @@
 import Image from "next/image";
 import { StarBurst } from "./icons";
 
-const LOGOS = [
-  { src: "/images/dm.webp", alt: "dm client logo" },
-  { src: "/images/dr.oetker.webp", alt: "Dr. Oetker client logo" },
-  { src: "/images/eronet_new.webp", alt: "Eronet client logo" },
-  { src: "/images/lactalis.webp", alt: "Lactalis client logo" },
-  { src: "/images/wiener.webp", alt: "Wiener client logo" },
-  { src: "/images/mepas.webp", alt: "Mepas client logo" },
-  { src: "/images/hp-mostar.webp", alt: "HP Mostar client logo" },
-  { src: "/images/elektro-milas.webp", alt: "Elektro Milas client logo" },
-  { src: "/images/heineken.webp", alt: "Heineken client logo" },
-  { src: "/images/holdina.webp", alt: "Holdina client logo" },
-];
+/*
+  The scrolling client-logo marquee that used to sit at the bottom of this
+  section has been removed.
+
+  It carried ten logos — dm, Dr. Oetker, Eronet, Lactalis, Wiener, Mepas,
+  HP Mostar, Elektro Milas, Heineken and Holdina — every one of them inherited
+  from the site this codebase was originally cloned from. None was ever a
+  TheClientPilot client, so the strip presented other agencies' customers as
+  our own.
+
+  Do not reinstate it with placeholder or aspirational logos. Displaying a
+  company's mark as a client without their agreement is a trademark problem as
+  well as a credibility one, and it is the kind of claim a prospect can check in
+  seconds. Add logos back only for real clients who have agreed to be named.
+*/
 
 function ConnectionSquiggle({ className }: { className?: string }) {
   return (
@@ -36,10 +39,11 @@ function ConnectionSquiggle({ className }: { className?: string }) {
 }
 
 export function Clients() {
-  const loop = [...LOGOS, ...LOGOS];
-
   return (
-    <section id="clients" className="relative overflow-hidden py-5">
+    // `pb-13 md:pb-20` moved up from the removed logo strip, which was what
+    // gave this section its bottom spacing. Without it the section would butt
+    // straight into the next one.
+    <section id="clients" className="relative overflow-hidden py-5 pb-13 md:pb-20">
       <div className="px-(--padding-x)">
         <div className="text-text-black flex items-center gap-2">
           <StarBurst className="size-6 animate-spin-slow text-text-black" />
@@ -79,38 +83,6 @@ export function Clients() {
               />
             </div>
           </div>
-        </div>
-      </div>
-
-      <div className="relative flex w-full overflow-hidden pb-13 md:pb-20">
-        <div
-          className="flex w-max shrink-0 items-center gap-x-12 pl-(--padding-x) animate-marquee md:gap-x-20"
-          style={{ ["--marquee-duration" as string]: "35s" }}
-        >
-          {loop.map((logo, i) => {
-            // `loop` is LOGOS concatenated with itself so the marquee can scroll
-            // seamlessly. Only the first pass carries the real alt text; the
-            // second is a pure visual repeat, so it is hidden from assistive
-            // technology and given an empty alt. Otherwise every client name is
-            // announced — and indexed — twice.
-            const isDuplicate = i >= LOGOS.length;
-
-            return (
-              <div
-                key={i}
-                aria-hidden={isDuplicate || undefined}
-                className="relative h-20 w-32 shrink-0 md:h-30 md:w-44"
-              >
-                <Image
-                  src={logo.src}
-                  alt={isDuplicate ? "" : logo.alt}
-                  fill
-                  sizes="200px"
-                  className="object-contain object-center"
-                />
-              </div>
-            );
-          })}
         </div>
       </div>
     </section>
