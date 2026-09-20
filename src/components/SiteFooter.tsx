@@ -91,7 +91,7 @@ export function SiteFooter() {
               <span>
                 {seoConfig.addressLocality}, {seoConfig.addressRegion}
               </span>
-              <span>Serving {seoConfig.areaServed.join(" · ")}</span>
+              <span>Serving {seoConfig.areaServedLabel}</span>
               <span>We reply 9am &ndash; 9pm, every day</span>
             </address>
 

@@ -81,6 +81,17 @@ export interface SeoConfig {
 
   /** Guwahati, Assam, Northeast India, India */
   areaServed: string[];
+  /**
+   * Human-readable service area, written as a sentence fragment for display.
+   *
+   * Deliberately NOT derived from {@link SeoConfig.areaServed}. That array is
+   * written for search engines: it names Assam and Northeast India explicitly
+   * because landing pages target those exact phrases, and schema.org is happy
+   * to receive overlapping regions. Joining it for display produced
+   * "Serving India · Guwahati · Assam · Northeast India · Delhi NCR", which
+   * reads as five separate places when India already contains the other four.
+   */
+  areaServedLabel: string;
 }
 
 // Canonical host MUST match the host the site actually serves on. The apex
@@ -180,4 +191,9 @@ export const seoConfig: SeoConfig = {
     "Northeast India",
     "Delhi NCR",
   ],
+
+  // Names the two places the business can actually show up in person, then the
+  // country it works across remotely — rather than listing every region in
+  // `areaServed`, which overlap and read as redundant to a visitor.
+  areaServedLabel: "Guwahati, Delhi NCR & across India",
 };
