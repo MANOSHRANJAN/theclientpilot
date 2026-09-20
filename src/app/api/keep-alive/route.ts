@@ -7,8 +7,24 @@ export const dynamic = "force-dynamic";
 
 /**
  * Keep-alive endpoint.
- * Hit by Vercel cron every 5 days to prevent Supabase free-tier auto-pause
- * (which kicks in after 7 days of zero API activity).
+ *
+ * Hit by Vercel cron once a day to prevent Supabase free-tier auto-pause, which
+ * kicks in after 7 days of zero API activity.
+ *
+ * SCHEDULING — do not "optimise" this back to a longer interval.
+ *
+ * The schedule in `vercel.json` previously used a step value of 5 in the
+ * day-of-month field, intending "every 5 days". A step in that field does not
+ * mean that: it expands to days 1, 6, 11, 16, 21 and 26, so the run on the 26th
+ * is followed by a jump straight to the 1st — a six-day gap in a 31-day month,
+ * against a seven-day pause deadline. That leaves about one day of headroom,
+ * and a SINGLE skipped run (deploy in flight, cold-start timeout, transient
+ * Supabase error) stretches the gap to eleven or twelve days, at which point
+ * the project is already paused.
+ *
+ * Daily costs nothing — one invocation a day is within the Vercel Hobby cron
+ * allowance — and it means seven consecutive failures would have to occur
+ * before the database is at risk.
  *
  * What it does:
  *   - SELECTs one row from `leads` to register API activity on the project.
