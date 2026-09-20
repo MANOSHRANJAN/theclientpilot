@@ -27,6 +27,14 @@ const nextConfig: NextConfig = {
         source: "/card",
         destination: "https://tapcard-three-livid.vercel.app/card",
       },
+      // The page loads `/card/contact.vcf` beside itself — a real file rather
+      // than a generated blob, because that is what makes iOS Safari offer
+      // "Add to Contacts" instead of dropping a download into Files. Without
+      // this second rule the page proxies but its vCard 404s.
+      {
+        source: "/card/:path*",
+        destination: "https://tapcard-three-livid.vercel.app/card/:path*",
+      },
     ];
   },
 };
